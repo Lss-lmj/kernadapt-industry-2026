@@ -1,0 +1,28 @@
+name: Improvement / 改进建议
+description: Propose a concrete use case, interface improvement, or documentation change.
+title: '[Proposal] '
+body:
+- type: textarea
+  id: use_case
+  attributes:
+    label: Use case / 使用场景
+    description: What are you trying to do, and what gets in the way? 你希望完成什么，目前遇到什么问题？
+  validations:
+    required: true
+- type: textarea
+  id: proposal
+  attributes:
+    label: Proposed change / 建议修改
+    description: Describe the behavior or documentation that would help. 描述期望的行为或说明。
+  validations:
+    required: true
+- type: textarea
+  id: evaluation
+  attributes:
+    label: Success criteria / 评价方式
+    description: How would a user or experiment show that the change helps? 如何判断改动有效？
+- type: textarea
+  id: alternatives
+  attributes:
+    label: Alternatives / 其他尝试
+    description: Mention related workarounds or tradeoffs. 可补充已经尝试的方法。

@@ -1,95 +1,53 @@
-# KernAdapt Agent 运行时
+# KernAdapt 控制面与运行时
 
-本目录包含 KernAdapt 的在线专家与控制平面实现。
+[项目首页](../../README.md) · [Architecture in English](../../docs/architecture.md) · [开始使用](../../docs/构建与运行.md)
 
-KernAdapt 根据运行指标和用户目标选择资源配置，检查权限与参数后执行，再测量效果并处理异常恢复。每一步的输入、决策和结果都会保存，可供后续检查与重放。调度器通过适配接口接入控制面。
+本模块根据运行状态与应用目标选择资源配置，检查参数、权限和作用范围后执行，并保存结果与恢复记录。调度器通过执行接口接入；逐任务调度由内核机制完成。
 
-## 运行入口
+## 从哪里开始
+
+体验控制流程：
+
+```bash
+python3 demo/run_demo.py --out results/demo
+```
+
+该命令在仓库根目录运行，使用合成输入，不需要加载调度器或配置模型 API。[输出说明](../../demo/README.md)
+
+查看在线控制器参数：
 
 ```bash
 python3 src/agent/run_kernadapt_online.py --help
 ```
 
-`run_lockagent_online.py` 提供兼容入口。运行结果与执行记录保存在根目录 `results/`，策略配置位于 `src/skills/`。
+`run_lockagent_online.py` 为兼容入口。策略配置见 [scheduler_skill_cards.json](../skills/scheduler_skill_cards.json)，示例输入见 [examples](examples/)。
 
-## 当前架构
+## 按功能找代码
 
-```text
-native KernAdapt runtime     -> 主运行时
-optional framework backend   -> 校准 / 兼容后端
-mechanism adapters           -> LockCoop、FlowCausal、未来调度器
-policy contracts             -> 适用性、动作、指标、回退
-provenance ledger            -> 状态 -> 决策 -> 动作 -> 结果
-```
+| 功能 | 入口 | 主要职责 |
+| --- | --- | --- |
+| 运行状态 | [agent_runtime.py](agent_runtime.py) | 持久化状态、事件、能力权限、任务队列和重放 |
+| 本地操作 | [agent_services.py](agent_services.py) | 记忆记录、人工确认、任务与 worker 操作 |
+| 服务接口 | [runtime_service.py](runtime_service.py)、[remote_worker.py](remote_worker.py) | HTTP 服务和远程任务客户端 |
+| 工作负载描述 | [profile_builder.py](profile_builder.py)、[state_ledger.py](state_ledger.py) | 组织负载信号、主机与内核状态 |
+| 模型策略 | [llm_policy_agent.py](llm_policy_agent.py) | 请求结构化决策并检查返回字段 |
+| 执行管理 | [runtime_guard.py](runtime_guard.py)、[scx_executor.py](scx_executor.py) | 适用条件、允许的动作、前后置检查与执行 |
+| 结果分析 | [critic.py](critic.py)、[provenance.py](provenance.py) | 效果评价及输入、动作、输出的关联记录 |
+| 经验管理 | [global_memory.py](global_memory.py)、[skill_curator.py](skill_curator.py) | 查询案例、记录结果和更新策略经验 |
+| 框架适配 | [framework_adapters.py](framework_adapters.py)、[native_langgraph_backend.py](native_langgraph_backend.py) | 外部接口适配与可选执行后端 |
+| 数据库对照 | [run_mariadb_comparison.py](run_mariadb_comparison.py) | 按配置组织 MariaDB 对照实验 |
 
-## 文件地图
+## 状态与输出
 
-核心运行时：
+运行时以单主机和本地持久化为基础，主要记录包括：
 
-```text
-agent_runtime.py        持久化运行状态、typed events、能力、任务队列、HITL、重放
-agent_services.py       memory、HITL、任务租约和 worker 执行的 CLI/服务操作
-runtime_service.py      memory、HITL、resume、任务和 worker API 的 HTTP 服务
-remote_worker.py        租约命令任务的远程 worker 客户端
-```
+- `agent_run.json`：运行检查点；
+- `durable_runtime.db`：SQLite 中的步骤、事件、任务和 worker 状态；
+- `typed_event_bus.jsonl`：结构化运行事件；
+- `artifact_store.json`：输出文件索引。
 
-策略、检查和执行：
+执行前按角色检查所需能力，部分高影响动作支持人工确认。`RuntimeReplayExecutor` 使用记录重放运行过程。服务和远程 worker 复用该状态模型。
 
-```text
-llm_policy_agent.py     兼容 OpenAI 的策略决策 agent
-runtime_guard.py        RuntimeGuard 上下文构建和 PolicyEngine 入口
-scx_executor.py         带前后置检查的 allowlist sched_ext 执行器
-```
+## 研究与贡献
 
-工作负载运行器：
-
-```text
-run_kernadapt_online.py 当前 KernAdapt 在线控制器入口
-run_lockagent_online.py 兼容入口
-run_mariadb_sysbench.py MariaDB/Sysbench 实验工具
-run_mariadb_comparison.py MariaDB 同批次对照实验
-```
-
-状态与结果记录：
-
-```text
-state_ledger.py             主机、内核和工作负载状态记录
-profile_builder.py          工作负载 profile 构建
-critic.py                   critic 报告、轨迹状态和失败类别
-provenance.py               证据、动作、结果和依赖图构建
-causal_attribution.py       失败/依赖归因图报告
-environment_compatibility.py 状态记录兼容性检查
-same_batch_validator.py     证据提升的同批次验证
-```
-
-策略案例管理：
-
-```text
-skill_curator.py        技能证据和 candidate -> validated/rejected 转换
-self_evolution.py       系统覆盖和 meta-template 规划器
-global_memory.py        跨运行 memory 记录、检索和汇总
-counterfactual_planner.py
-counterfactual_executor.py
-```
-
-框架对齐和校准：
-
-```text
-framework_adapters.py        OpenAI/LangGraph/AutoGen/CrewAI 兼容 trace 包
-runtime_api_adapter.py       映射到原生运行时的框架形状调用 API
-native_langgraph_backend.py  可选的真实 LangGraph StateGraph 后端
-runtime_parity.py             原生运行时与框架能力对齐审计
-```
-
-## 运行时模型
-
-原生运行时按单主机和文件持久化设计，提供：
-
-- `agent_run.json` 中的持久化 checkpoint；
-- `durable_runtime.db` 中基于 SQLite 的步骤、事件、任务和 worker 状态；
-- `typed_event_bus.jsonl` 中的 typed handoff 和运行时事件；
-- `artifact_store.json` 中的输出文件索引；
-- 特权动作前的角色能力检查；
-- 高风险内核动作的人审批 gate；
-- 通过 `RuntimeReplayExecutor` 进行重放；
-- 面向框架比较的进程级 trace 导出。
+[控制面测试](tests/) · [配置预测与决策结果](../../docs/benchmarks.md#kernadapt) · [专题报告](../../papers/E2-KernAdapt.pdf) · [贡献指南](../../CONTRIBUTING.md)

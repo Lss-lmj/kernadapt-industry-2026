@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use KernAdapt, cite this software and record the commit used in your experiments."
+type: software
+title: "KernAdapt: Adaptive Linux Resource Control for Mixed Workloads"
+authors:
+  - name: "OSKernel"
+repository-code: "https://github.com/Lss-lmj/kernadapt-industry-2026"
+url: "https://github.com/Lss-lmj/kernadapt-industry-2026"
+abstract: >-
+  KernAdapt connects workload dependencies and service objectives to Linux
+  resource decisions. Its control plane manages configuration selection,
+  execution, and recovery, with LockCoop and FlowCausal sched_ext mechanisms
+  for lock coordination and tool-workflow scheduling.
+keywords:
+  - Linux
+  - sched_ext
+  - eBPF
+  - CPU scheduling
+  - resource management
+  - mixed workloads
+  - lock contention
+  - workflow scheduling

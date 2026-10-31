@@ -1,6 +1,6 @@
-# 测试及验证材料
+# 测试、实验与数据
 
-## 一键入口
+## 工程检查入口
 
 ```bash
 make test-all
@@ -38,6 +38,8 @@ CSV 来自主报告第 7.1 节中 7 个调度器 × 4 个线程档 × 5 轮样�
 本目录的 `results/` 保存测试、构建、演示输出和源码许可证清单。运行时数据默认写入项目根目录 `results/`。
 
 ## 论文实验数据
+
+首页数字的文件来源、统计口径与批次差异见[结果说明](../docs/benchmarks.md)。
 
 LockCoop 的 `lockcoop/paper-data/` 保存论文使用的资源域、跨平台、跨层及 mutex 范围实验 CSV。来源批次见文件名和 data_source 字段；机制设计、图表和实验设置见 [LockCoop 论文](../papers/E1-LockCoop.pdf)。
 

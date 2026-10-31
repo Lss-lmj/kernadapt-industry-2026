@@ -1,0 +1,8 @@
+*.pdf binary
+*.pptx binary
+*.mp4 binary
+*.png binary
+*.jpg binary
+*.svg text
+*.md text
+*.cff text

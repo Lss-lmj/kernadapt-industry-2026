@@ -1,0 +1,31 @@
+name: Bug report / 构建与运行问题
+description: Report a reproducible build, runtime, or documentation problem.
+title: '[Bug] '
+body:
+- type: textarea
+  id: problem
+  attributes:
+    label: Problem / 现象
+    description: What did you expect, and what happened? 请描述预期和实际行为。
+  validations:
+    required: true
+- type: textarea
+  id: environment
+  attributes:
+    label: Environment / 环境
+    description: OS, kernel, CPU architecture, toolchain, and repository commit. 系统、内核、架构、工具链与提交版本。
+  validations:
+    required: true
+- type: textarea
+  id: reproduction
+  attributes:
+    label: Steps to reproduce / 操作步骤
+    description: Provide commands and relevant configuration. 请附命令与相关配置。
+  validations:
+    required: true
+- type: textarea
+  id: logs
+  attributes:
+    label: Logs / 日志
+    description: Include relevant output with credentials and private data removed. 请移除凭据和非公开数据。
+    render: text

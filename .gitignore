@@ -40,7 +40,7 @@ Thumbs.db
 build/
 src/flowcausal/experiments/flowbench/flowbench
 
-# Anonymous verification logs are deliberate finals evidence
+# Preserve archived experiment logs
 !tests/results/*.log
 
 .venv-*/

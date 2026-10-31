@@ -1,0 +1,38 @@
+name: Performance / 性能与复现
+description: Share a reproduction, performance difference, or platform result.
+title: '[Performance] '
+body:
+- type: textarea
+  id: question
+  attributes:
+    label: Observation / 结果与问题
+    description: Describe the workload and the difference you want to understand. 描述负载和结果差异。
+  validations:
+    required: true
+- type: textarea
+  id: environment
+  attributes:
+    label: Environment and revision / 环境与版本
+    description: Kernel, CPU/NUMA scope, frequency policy, tools, and repository commit. 内核、CPU/NUMA 范围、频率策略、工具与版本。
+  validations:
+    required: true
+- type: textarea
+  id: comparison
+  attributes:
+    label: Baseline and configuration / 基线与配置
+    description: Name the actual scheduler and baseline; include commands, warmup, duration, and repetitions. 写明实际调度器、基线、命令、预热、时长与轮数。
+  validations:
+    required: true
+- type: textarea
+  id: results
+  attributes:
+    label: Measurements / 测量结果
+    description: Provide per-run data or links and the calculation method. Include tail latency or colocated-service
+      changes when relevant. 附逐轮数据、计算方式及相关代价。
+  validations:
+    required: true
+- type: textarea
+  id: context
+  attributes:
+    label: Additional context / 补充说明
+    description: Describe differences from the documented protocol or failed runs. 说明与文档协议的差异或失败情况。

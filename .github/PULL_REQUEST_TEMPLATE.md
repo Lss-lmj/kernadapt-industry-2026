@@ -1,15 +1,23 @@
-## 问题与改动
+## Problem / 问题
 
-关联 Issue、具体行为变化：
+What concrete problem does this change address? Link a related issue if one exists.
+说明具体问题；如有关联 Issue，请提供链接。
 
-## 影响范围
+## Change / 修改
 
-接口、机制、状态失效、预算与恢复：
+Describe the resulting behavior and affected interfaces or documents.
+说明改动后的行为及受影响的接口或文档。
 
-## 验证材料
+## Checks / 检查
 
-配置、对照、记录与结果：
+List checks actually run and their results. State what was not run.
+列出实际执行的检查与结果，说明未运行的项目。
 
-## 文档与来源
+For performance changes, include the environment, baseline, workload configuration,
+per-run measurements, and effects on colocated work.
+性能改动请附环境、基线、负载配置、逐轮数据与共存任务影响。
 
-文档更新、第三方依赖与许可证：
+## Documentation and attribution / 文档与来源
+
+Identify documentation updates and any new dependencies or reused code.
+说明文档更新、新增依赖或复用代码的来源。

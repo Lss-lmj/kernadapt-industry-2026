@@ -1,5 +1,14 @@
-# 版本说明
+# 版本记录
 
-## 行业赛提交版
+## 项目文档与协作入口
 
-包含 KernAdapt 控制面、LockCoop 与 FlowCausal 实现、构建脚本、实验资料、作品介绍、答辩演示及使用说明。
+- 增加中英文项目首页、离线体验、架构与环境说明。
+- 将性能结果连接到具体实验文件，说明不同批次与统计口径。
+- 增加软件引用、研究资料导航和问题反馈表单。
+- 完善贡献指南及维护方式，将比赛信息集中到归档页面。
+
+## oa2026-submission — 2026-10-31
+
+首个公开提交版本，包含 KernAdapt 控制面、LockCoop 与 FlowCausal 实现、构建脚本、实验数据、项目报告、演示文稿和视频。
+
+[固定版本与附件](https://github.com/Lss-lmj/kernadapt-industry-2026/releases/tag/oa2026-submission)
