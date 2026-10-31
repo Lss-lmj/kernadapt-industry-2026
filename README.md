@@ -15,6 +15,16 @@
 
 KernAdapt 将应用依赖、服务目标和资源配置联系起来：控制面比较配置、管理执行与恢复；基于 `sched_ext` 的调度机制在内核中处理逐任务调度。可以从离线控制流程入手，也可以单独研究和使用 LockCoop、FlowCausal。
 
+
+## 项目材料
+
+| 材料 | 内容 | 阅读与下载 |
+| --- | --- | --- |
+| 项目演示 | 57 页 PPT，含逐页讲稿及对应视频 | [PPTX](presentation/答辩演示.pptx) · [PDF](presentation/答辩演示.pdf) · [视频](https://github.com/Lss-lmj/kernadapt-industry-2026/releases/download/oa2026-submission/KernAdapt-industry-demo.mp4) |
+| 作品说明书 | 90 页，应用场景、八章技术内容和实验分析 | [PDF](docs/作品说明书.pdf) |
+| 开发设计文档 | 14 页，总体设计、模块、流程、接口和系统接入 | [PDF](docs/开发设计文档.pdf) |
+
+
 ## 能解决什么问题
 
 | 你的场景 | 项目提供的机制 | 阅读入口 |
@@ -83,7 +93,7 @@ flowchart LR
 | 评估能否用于自己的系统 | [场景与环境](docs/compatibility.md) → [构建运行](docs/构建与运行.md) → [集成与测量](docs/integration.md) |
 | 理解实现或扩展调度机制 | [架构](docs/architecture.md) → [代码索引](docs/代码与脚本索引.md) → [贡献指南](CONTRIBUTING.md) |
 | 研究算法与复现实验 | [技术报告](papers/README.md) → [数据与统计方法](docs/benchmarks.md) → [实验入口](tests/README.md) |
-| 做技术交流或演示 | [58 页演示文稿与讲稿](presentation/) · [配音演示视频](videos/) |
+| 做技术交流或演示 | [57 页演示文稿与讲稿](presentation/) · [配音演示视频](videos/) |
 
 ## 仓库结构
 
@@ -96,7 +106,7 @@ src/skills/      调度策略的适用条件与参数约束
 demo/            离线控制流程演示
 scripts/         构建与工程检查入口
 tests/           逻辑测试、实验配置、逐轮数据和归档记录
-docs/            使用说明、架构和完整技术报告
+docs/            使用说明、架构、作品说明书和开发设计文档
 papers/          专题技术报告与补充材料
 presentation/    演示文稿、PDF 与讲稿
 videos/          配音演示视频
@@ -112,7 +122,7 @@ videos/          配音演示视频
 
 ## 团队与许可
 
-由 **OSKernel** 团队维护。单位：智梦云创（杭州）科技有限公司/中国科学院大学。
+由 **OSKernel** 团队维护。
 
 原创控制面及相应文档使用 [MIT](LICENSE)；内核调度器和同步观测库按各文件的 SPDX 标识保留 GPL、LGPL 等许可。具体范围见[依赖与许可](docs/第三方依赖与工具说明.md)。
 

@@ -15,4 +15,4 @@ The repository also contains detailed Chinese guides for [compatibility](compati
 
 [Presentation](../presentation/) · [Narrated video](../videos/) · [Changelog](../CHANGELOG.md) · [Software citation](../CITATION.cff)
 
-[OpenHarmony integration design (Chinese)](openharmony.md) · [OpenHarmony presentation materials](../competitions/openharmony-2026/README.md)
+[OpenHarmony integration design (Chinese)](openharmony.md) · [System design document](开发设计文档.pdf)

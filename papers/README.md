@@ -12,7 +12,7 @@ These technical reports describe the mechanisms and experiments included in this
 | KernAdapt：配置选择、执行与恢复 | [报告](E2-KernAdapt.pdf) | [src/agent](../src/agent/) | [配置预测与独立决策汇总](../tests/kernadapt/current_e1_public.v4.json) |
 | FlowCausal：工具返回依赖与会话调度 | [报告](E3-FlowCausal.pdf) | [src/flowcausal](../src/flowcausal/) | [配置与逐轮汇总](../tests/flowcausal/dependency-turn-20261003/) |
 
-[完整项目报告与章节导航](../docs/项目文档.md)连接项目背景、总体方法和各机制分析；[58 页演示文稿](../presentation/)适合技术交流。
+[完整项目报告与章节导航](../docs/项目文档.md)连接项目背景、总体方法和各机制分析；[57 页演示文稿](../presentation/)适合技术交流。
 
 ## 引用软件 / Cite the software
 

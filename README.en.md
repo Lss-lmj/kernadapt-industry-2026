@@ -15,6 +15,18 @@ More CPU time does not always mean faster application progress. A database trans
 
 KernAdapt connects application dependencies and service objectives to resource decisions. A user-space control plane compares configurations and manages execution and recovery. Kernel mechanisms built on `sched_ext` handle individual scheduling events. You can explore the offline control flow or work with LockCoop and FlowCausal independently.
 
+
+## Project materials
+
+| Material | Contents | Links |
+| --- | --- | --- |
+| Presentation | 57 slides, speaker notes, and narrated video | [PPTX](presentation/答辩演示.pptx) · [PDF](presentation/答辩演示.pdf) · [Video](https://github.com/Lss-lmj/kernadapt-industry-2026/releases/download/oa2026-submission/KernAdapt-industry-demo.mp4) |
+| Project description | 90 pages of application context, mechanisms, and experiments | [PDF](docs/作品说明书.pdf) |
+| System design | 14 pages of architecture, modules, interfaces, and integration | [PDF](docs/开发设计文档.pdf) |
+
+The documents and slides are primarily in Chinese.
+
+
 ## What it provides
 
 | Workload | Mechanism | Implementation |
@@ -79,7 +91,7 @@ Throughput ratios, selection regret, and workflow completion time answer differe
 | Evaluate the software on your machine | [Get started](docs/quickstart.en.md) → [architecture](docs/architecture.md) |
 | Extend a mechanism or fix an issue | [Source modules](src/) → [contribution guide](CONTRIBUTING.en.md) |
 | Study or reproduce the results | [Technical reports](papers/README.md) → [data and methodology](docs/benchmarks.md) |
-| Present the project | [58-slide deck and speaker notes](presentation/) · [narrated video](videos/) |
+| Present the project | [57-slide deck and speaker notes](presentation/) · [narrated video](videos/) |
 
 ```text
 src/agent/        Configuration policies, execution, and persistent runtime
@@ -104,7 +116,7 @@ Use [CITATION.cff](CITATION.cff) to cite the software and record the commit used
 
 ## Team and licensing
 
-Maintained by **OSKernel**. Affiliation: 智梦云创（杭州）科技有限公司/中国科学院大学.
+Maintained by **OSKernel**.
 
 The original control plane and corresponding documentation use [MIT](LICENSE). Scheduler and synchronization files retain their individual SPDX identifiers, including GPL and LGPL terms. See the [licensing notes](docs/第三方依赖与工具说明.md) and each source header.
 
