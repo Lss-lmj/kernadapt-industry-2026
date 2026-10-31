@@ -108,4 +108,4 @@ Maintained by **OSKernel**. Affiliation: 智梦云创（杭州）科技有限公
 
 The original control plane and corresponding documentation use [MIT](LICENSE). Scheduler and synchronization files retain their individual SPDX identifiers, including GPL and LGPL terms. See the [licensing notes](docs/第三方依赖与工具说明.md) and each source header.
 
-[2026 competition archive](docs/events/oa2026.md) · [Changelog](CHANGELOG.md)
+[Changelog](CHANGELOG.md)

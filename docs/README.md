@@ -30,4 +30,11 @@
 
 [离线演示](../demo/README.md) · [PPT、PDF 与讲稿](../presentation/) · [配音视频](../videos/) · [贡献指南](../CONTRIBUTING.md) · [维护方向](../ROADMAP.md)
 
-[2026 行业赛归档](events/oa2026.md)保留比赛所需的项目名称、单位和附件入口。
+## 专项材料
+
+| 方向 | 材料入口 |
+| --- | --- |
+| 开源行业解决方案 | [作品介绍、演示与提交材料](events/oa2026.md) |
+| OpenHarmony 系统与技术创新 | [项目简介、设计文档与答辩演示](events/openharmony2026.md) |
+
+[OpenHarmony 接入设计](openharmony.md) · [部署信息记录表](部署信息记录表.md) · [中文实验结果说明](实验结果说明.md)

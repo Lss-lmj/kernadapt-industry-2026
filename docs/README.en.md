@@ -14,3 +14,5 @@
 The repository also contains detailed Chinese guides for [compatibility](compatibility.md), [integration](integration.md), [source navigation](代码与脚本索引.md), and [licensing](第三方依赖与工具说明.md). Technical reports and the presentation are primarily in Chinese; the English guides above explain how to use the code and interpret the data.
 
 [Presentation](../presentation/) · [Narrated video](../videos/) · [Changelog](../CHANGELOG.md) · [Software citation](../CITATION.cff)
+
+[OpenHarmony integration design (Chinese)](openharmony.md) · [OpenHarmony presentation materials](../competitions/openharmony-2026/README.md)
