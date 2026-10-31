@@ -1,0 +1,21 @@
+[模式] 本机控制面运行；合成策略输入；不加载调度器、不调用模型 API
+[策略检查] valid_contract: allow
+[策略检查] unknown_scheduler: block
+[策略检查] oracle_leakage: block
+[策略检查] missing_rollback: block
+[权限隔离] ProfilerAgent 加载调度器的请求被拒绝
+[持久化] 已产生 SQLite 状态库、事件轨迹与产物索引
+Verified 140 samples / 28 cases against the archived openEuler report.
+{
+  "default": {
+    "throughput_ratio": 4.8723,
+    "p95_reduction_percent": 81.86
+  },
+  "scx_simple": {
+    "throughput_ratio": 4.8215,
+    "p95_reduction_percent": 82.25
+  }
+}
+[历史实验核算] 140 个记录样本；256 线程 vs default = 4.87x
+[验证边界] 以上倍数来自归档 openEuler 实验，本次演示未重新执行内核性能实验
+DEMO PASS

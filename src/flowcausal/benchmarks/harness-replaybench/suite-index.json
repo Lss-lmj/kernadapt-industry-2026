@@ -1,0 +1,88 @@
+{
+  "schema": "harness_replaybench.suite_index.v1",
+  "name": "HarnessReplayBench",
+  "version": "0.2.1",
+  "description": "Scheduler-agnostic benchmark suites for mixed code-agent / CI sandbox harness replay.",
+  "path_base": "benchmark_root",
+  "definition": {
+    "readme": "README.md",
+    "spec": "BENCHMARK_SPEC.md",
+    "dataset": "DATASET.md"
+  },
+  "schemas": {
+    "manifest": "schemas/manifest.schema.json",
+    "trace": "schemas/trace.schema.json",
+    "repo_stage_spec": "schemas/repo-stage-spec.schema.json",
+    "result": "schemas/result.schema.json"
+  },
+  "normalized_trace_roots": [
+    "traces/local",
+    "traces/upstream",
+    "traces/repo-stage"
+  ],
+  "source_artifacts": "source-artifacts",
+  "trace_pool": {
+    "real_trace_count": 25,
+    "repo_stage_seed_count": 3,
+    "real_command_count": 1581,
+    "source_format_counts": {
+      "mini-swe-agent": 3,
+      "openhands": 13,
+      "swe-agent": 9
+    },
+    "coverage": {
+      "codex_like_terminal_first": "3 local terminal-first sandbox captures; not private Codex logs",
+      "ci_like_execution_path": "real traces include install/build, test, edit/patch, and package-background commands; repo-stage seeds add deterministic build/test/package breadth",
+      "openhands": "13 upstream traces",
+      "swe_agent": "9 upstream/local demonstration traces"
+    },
+    "real_stage_counts": {
+      "BUILD": 20,
+      "EDIT": 377,
+      "INSPECT": 716,
+      "PACKAGE_BACKGROUND": 8,
+      "SHELL": 321,
+      "TEST": 139
+    }
+  },
+  "repo_stage_specs": "repo-stage-specs",
+  "repos": "repos",
+  "suites": [
+    {
+      "id": "HRB-2",
+      "manifest": "manifests/formal-mix-2harness.json",
+      "cases": 2,
+      "purpose": "small colocated harness sanity suite"
+    },
+    {
+      "id": "HRB-4",
+      "manifest": "manifests/formal-mix-4harness.json",
+      "cases": 4,
+      "purpose": "medium colocated harness suite"
+    },
+    {
+      "id": "HRB-8",
+      "manifest": "manifests/formal-mix-8harness.json",
+      "cases": 8,
+      "purpose": "full current colocated harness suite"
+    },
+    {
+      "id": "HRB-8-docker-local",
+      "manifest": "manifests/formal-mix-8harness-docker-local.json",
+      "cases": 8,
+      "purpose": "8-harness colocated suite variant with local SWE-bench traces replayed in their matching Docker images"
+    },
+    {
+      "id": "HRB-3-REPO-STAGE",
+      "manifest": "manifests/repo-stage-3harness.json",
+      "cases": 3,
+      "purpose": "fast repo-stage smoke suite for deterministic build/test/package breadth checks"
+    }
+  ],
+  "not_part_of_benchmark": [
+    "scheduler variants",
+    "system-specific policies",
+    "performance conclusions",
+    "paper speedup claims"
+  ]
+}

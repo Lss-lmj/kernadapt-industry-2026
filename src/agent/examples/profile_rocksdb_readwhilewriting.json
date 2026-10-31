@@ -1,0 +1,38 @@
+{
+  "profile_id": "rocksdb_readwhilewriting_128_profile_window",
+  "workload": {
+    "name": "RocksDB db_bench readwhilewriting",
+    "threads": 128,
+    "duration_s": 10,
+    "phase": "profiling_window"
+  },
+  "signals": {
+    "lock_event_rate": "high",
+    "hot_lock_ratio_top1": 0.18,
+    "hot_lock_ratio_top5": 0.43,
+    "lock_address_cardinality": "high",
+    "p95_wait_us": 380,
+    "owner_preempt_score": 0.41,
+    "handoff_distance": "mixed",
+    "wakeup_burstiness": "low",
+    "jain_fairness": 0.99,
+    "zero_progress_threads": 0,
+    "background_threads": "compaction_present"
+  },
+  "current_scheduler": "default",
+  "candidate_schedulers": [
+    "default",
+    "scx_simple",
+    "scx_lockboost",
+    "scx_lockcoop",
+    "scx_lockcoop",
+    "scx_hybrid",
+    "scx_toponest",
+    "scx_cfl",
+    "scx_lcas"
+  ],
+  "objective": {
+    "primary": "maximize throughput",
+    "secondary": ["avoid affinity regression", "preserve p999 latency"]
+  }
+}

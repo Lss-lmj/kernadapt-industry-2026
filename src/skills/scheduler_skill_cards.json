@@ -1,0 +1,208 @@
+{
+  "schema_version": "0.1",
+  "skills": [
+    {
+      "action": {
+        "scheduler": "scx_lockcoop",
+        "tunables": {}
+      },
+      "applicability": {
+        "required_signals": [
+          "lock_wait",
+          "wakeup_to_run",
+          "hot_lock_fanin"
+        ],
+        "workload_family": [
+          "oltp_database"
+        ]
+      },
+      "expected_effect": {
+        "p95_latency": "decrease",
+        "throughput": "increase"
+      },
+      "known_failures": [],
+      "name": "choose_locknest_for_hot_lock_oltp",
+      "rollback_conditions": [
+        "benchmark returncode != 0",
+        "final_sched_ext_state not disabled",
+        "TPS regresses beyond threshold",
+        "p95 latency regresses beyond threshold"
+      ],
+      "status": "candidate",
+      "validated_on": [],
+      "validation_plan": [
+        "same-batch default vs selected scheduler",
+        "parse TPS and p95 latency"
+      ],
+      "version": "0.1"
+    },
+    {
+      "action": {
+        "scheduler": "scx_lockcoop",
+        "tunables": {}
+      },
+      "applicability": {
+        "required_signals": [
+          "handoff_distance",
+          "hot_lock_fanin",
+          "owner_boost_risk"
+        ],
+        "workload_family": [
+          "lock_intensive",
+          "oltp_database"
+        ]
+      },
+      "expected_effect": {
+        "p95_latency": "decrease",
+        "throughput": "increase_or_isolate_handoff_effect"
+      },
+      "known_failures": [],
+      "name": "choose_affinity_for_handoff_locality_only",
+      "rollback_conditions": [
+        "benchmark returncode != 0",
+        "final_sched_ext_state not disabled",
+        "TPS regresses beyond threshold",
+        "p95 latency regresses beyond threshold"
+      ],
+      "status": "candidate",
+      "validated_on": [],
+      "validation_plan": [
+        "compare default, scx_lockboost, scx_lockcoop, and scx_lockcoop",
+        "attribute gains to handoff locality without owner boosting"
+      ],
+      "version": "0.1"
+    },
+    {
+      "action": {
+        "scheduler": "scx_lockboost",
+        "tunables": {}
+      },
+      "applicability": {
+        "required_signals": [
+          "owner_preempt_score",
+          "high_waiter_fanin"
+        ],
+        "workload_family": [
+          "lock_intensive"
+        ]
+      },
+      "expected_effect": {
+        "p95_latency": "decrease",
+        "throughput": "increase"
+      },
+      "known_failures": [],
+      "name": "choose_contention_for_high_waiter_fanin",
+      "rollback_conditions": [
+        "benchmark returncode != 0",
+        "fairness regresses beyond threshold",
+        "final_sched_ext_state not disabled"
+      ],
+      "status": "candidate",
+      "validated_on": [],
+      "validation_plan": [
+        "compare against default and scx_lockcoop in same batch",
+        "check p95 and fairness"
+      ],
+      "version": "0.1"
+    },
+    {
+      "action": {
+        "scheduler": "scx_toponest",
+        "tunables": {}
+      },
+      "applicability": {
+        "required_signals": [
+          "handoff_distance",
+          "cross_numa_handoff"
+        ],
+        "workload_family": [
+          "lock_intensive",
+          "numa_sensitive"
+        ]
+      },
+      "expected_effect": {
+        "p95_latency": "decrease",
+        "throughput": "increase"
+      },
+      "known_failures": [],
+      "name": "choose_toponest_for_cross_numa_handoff",
+      "rollback_conditions": [
+        "benchmark returncode != 0",
+        "TPS regresses beyond threshold",
+        "final_sched_ext_state not disabled"
+      ],
+      "status": "candidate",
+      "validated_on": [],
+      "validation_plan": [
+        "compare NUMA-sensitive workload against default",
+        "check TPS, p95, and max latency"
+      ],
+      "version": "0.1"
+    },
+    {
+      "action": {
+        "scheduler": "default",
+        "tunables": {}
+      },
+      "applicability": {
+        "required_signals": [
+          "low_lock_contention",
+          "high_default_progress"
+        ],
+        "workload_family": [
+          "non_lock_bound",
+          "oltp_database"
+        ]
+      },
+      "expected_effect": {
+        "p95_latency": "unchanged",
+        "throughput": "avoid_regression"
+      },
+      "known_failures": [],
+      "name": "fallback_default_for_non_lock_bound",
+      "rollback_conditions": [
+        "profiling command fails",
+        "comparison environment is incompatible"
+      ],
+      "status": "candidate",
+      "validated_on": [],
+      "validation_plan": [
+        "verify default profile has high progress and low p95",
+        "do not load scx"
+      ],
+      "version": "0.1"
+    },
+    {
+      "action": {
+        "scheduler": "default",
+        "tunables": {}
+      },
+      "applicability": {
+        "required_signals": [
+          "state_ledger",
+          "environment_compatibility"
+        ],
+        "workload_family": [
+          "all"
+        ]
+      },
+      "expected_effect": {
+        "p95_latency": "not_applicable",
+        "throughput": "not_applicable"
+      },
+      "known_failures": [],
+      "name": "reject_mismatched_environment",
+      "rollback_conditions": [
+        "environment comparison is invalid",
+        "database state is unknown"
+      ],
+      "status": "candidate",
+      "validated_on": [],
+      "validation_plan": [
+        "compare buffer pool, benchmark protocol, thread count, and restart protocol",
+        "mark comparison_invalid instead of reporting performance conclusion"
+      ],
+      "version": "0.1"
+    }
+  ]
+}

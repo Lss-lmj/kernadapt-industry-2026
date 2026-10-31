@@ -1,0 +1,45 @@
+{
+  "schema": "harness_replaybench.repo_stage_spec.v1",
+  "id": "cxx-rust-build-heavy",
+  "description": "C/C++/Rust build-heavy repo-backed HarnessReplayBench seed.",
+  "commands": [
+    {
+      "id": "cxx-rust-build-heavy.inspect",
+      "stage": "INSPECT",
+      "cmd": "python3 tools/workloads/harness_breadth_workloads.py inspect-tools --out \"$HRB_STAGE_OUT/cxx-rust-build-heavy\"",
+      "cwd": "."
+    },
+    {
+      "id": "cxx-rust-build-heavy.build",
+      "stage": "BUILD",
+      "cmd": "python3 tools/workloads/harness_breadth_workloads.py cxx-rust-build --out \"$HRB_STAGE_OUT/cxx-rust-build-heavy\" --c-units 28 --loop-iters 2200 --cpp-depth 56 --cpp-iters 1400 --rust-units 18 --rust-iters 2200",
+      "cwd": ".",
+      "metadata": {
+        "benchmark_role": "build-heavy",
+        "languages": [
+          "C",
+          "C++",
+          "Rust"
+        ]
+      }
+    },
+    {
+      "id": "cxx-rust-build-heavy.test",
+      "stage": "TEST",
+      "cmd": "python3 tools/workloads/harness_breadth_workloads.py cxx-rust-test --out \"$HRB_STAGE_OUT/cxx-rust-build-heavy\"",
+      "cwd": ".",
+      "critical": true,
+      "frontier_label": {
+        "source": "manual-benchmark-spec",
+        "role": "foreground-gate-candidate",
+        "reason": "compiled C/C++/Rust binaries must run successfully"
+      }
+    },
+    {
+      "id": "cxx-rust-build-heavy.package",
+      "stage": "PACKAGE_BACKGROUND",
+      "cmd": "python3 tools/workloads/harness_breadth_workloads.py package-run --out \"$HRB_STAGE_OUT/cxx-rust-build-heavy/package\" --files 80 --size-kb 4 --compresslevel 6",
+      "cwd": "."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+placement,scheduler,threads,tps_off_vs_on_delta_pct,p99_off_vs_on_delta_pct,data_source
+unbound,default,64,-0.075850,0.000000,unified_formal_20260808
+unbound,default,128,4.720548,-3.537233,unified_formal_20260808
+unbound,default,192,0.287003,0.000000,unified_formal_20260808
+unbound,default,256,-2.941963,1.805937,unified_formal_20260808
+unbound,scx_lockcoop,64,-0.560913,1.783384,unified_formal_20260808
+unbound,scx_lockcoop,128,0.295303,-0.591154,unified_formal_20260808
+unbound,scx_lockcoop,192,-0.938325,1.214709,unified_formal_20260808
+unbound,scx_lockcoop,256,-1.351169,3.046178,unified_formal_20260808
+node0,default,64,0.336891,0.645919,unified_formal_20260808
+node0,default,128,-0.236952,-1.221188,unified_formal_20260808
+node0,default,192,1.056108,-1.196852,unified_formal_20260808
+node0,default,256,-0.712291,-0.598542,unified_formal_20260808
+node0,scx_lockcoop,64,1.978728,-2.987187,unified_formal_20260808
+node0,scx_lockcoop,128,2.102332,-2.396682,unified_formal_20260808
+node0,scx_lockcoop,192,0.254650,-0.594906,unified_formal_20260808
+node0,scx_lockcoop,256,-0.668284,0.594780,unified_formal_20260808

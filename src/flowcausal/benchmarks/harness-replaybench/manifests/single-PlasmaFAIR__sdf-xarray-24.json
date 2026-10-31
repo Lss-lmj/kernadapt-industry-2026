@@ -1,0 +1,22 @@
+{
+  "schema": "harness_replaybench.manifest.v1",
+  "suite_id": "HRB-single-PlasmaFAIR__sdf-xarray-24",
+  "description": "Single-case HarnessReplayBench manifest split from formal-mix-8harness.json.",
+  "path_base": "benchmark_root",
+  "cases": [
+    {
+      "instance_id": "PlasmaFAIR__sdf-xarray-24",
+      "trace_file": "traces/upstream/PlasmaFAIR__sdf-xarray-24.openhands-upstream.hrb-trace.json",
+      "repo_dir": "repos/PlasmaFAIR__sdf-xarray-24",
+      "start_offset_ms": 0,
+      "container_image": "swerebench/sweb.eval.x86_64.plasmafair_1776_sdf-xarray-24",
+      "docker_user": "root",
+      "container_env": [
+        "PIP_FIND_LINKS=/flowcausal/experiments/wheelhouse/plasmafair",
+        "PIP_NO_INDEX=1",
+        "PIP_DISABLE_PIP_VERSION_CHECK=1",
+        "FLOWCAUSAL_REPLAY_PYTHON=/opt/miniconda3/envs/testbed/bin/python"
+      ]
+    }
+  ]
+}

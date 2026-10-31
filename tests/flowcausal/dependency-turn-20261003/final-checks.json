@@ -1,0 +1,54 @@
+{
+  "raw_mislabeled_result_files_preserved": true,
+  "count": 6,
+  "governors_restored": true,
+  "sched_ext": "disabled",
+  "main_scheduler_sources_match_start_snapshot": true,
+  "source_sha256": {
+    "src/bpf/scx_flowcausal_v2.bpf.c": "1d37b32028031ab4501c71427d38ac95605857e7749665d3a9adc983f9b61d17",
+    "src/user/scx_flowcausal_v2.c": "6e1df197e4acdae27939cf771b39b14e4aa21adf18b28c8d7af219073cd498a4",
+    "src/user/flowd_v2.c": "f60d0507522edc6e42bf4e46ce991ba00bb5c2455a6892c0ebc88f69415c2002"
+  },
+  "installed_binary_sha256": {
+    "/tmp/scx_flowcausal_v2": "21bed318a429f7ee39394efe5c3080561676d0a1a958158f65aaa20884745a76",
+    "/tmp/flowd_v2": "f91520d32334ebd3fd720f43ecf51eba792b64608a68fad0a542dc70cd38dc5a"
+  },
+  "formal_mechanism_runs": 66,
+  "formal_hrb_runs": 9,
+  "hrb_screen_runs": 19,
+  "functional": [
+    {
+      "test": "parallel_width",
+      "returncode": 0
+    },
+    {
+      "test": "automatic_weight",
+      "returncode": 0
+    },
+    {
+      "test": "quota_after_workers_ready",
+      "returncode": 0,
+      "worker_startup_sec": [
+        0.10096991097088903
+      ]
+    }
+  ],
+  "io_functional": [
+    {
+      "test": "parallel_width",
+      "returncode": 0
+    },
+    {
+      "test": "automatic_weight",
+      "returncode": 0
+    },
+    {
+      "test": "quota_after_workers_ready",
+      "returncode": 0,
+      "worker_startup_sec": [
+        0.10206654598005116
+      ]
+    }
+  ],
+  "summary_sha256": "09617e62184e0996f8f5bcc0879179d31bf6bb18fbc3b0b9ff012f9c52e83dba"
+}

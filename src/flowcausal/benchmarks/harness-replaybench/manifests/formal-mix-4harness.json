@@ -1,0 +1,33 @@
+{
+  "schema": "harness_replaybench.manifest.v1",
+  "suite_id": "HRB-4",
+  "description": "Formal 4-harness colocated benchmark: one real mini-swe-agent trace, one OpenHands/SWE-rebench trace, and two breadth seeds.",
+  "path_base": "benchmark_root",
+  "cases": [
+    {
+      "instance_id": "django__django-14608",
+      "trace_file": "traces/local/django__django-14608.mini-swe-agent.hrb-trace.json",
+      "repo_dir": "repos/django__django-14608",
+      "start_offset_ms": 0
+    },
+    {
+      "instance_id": "JeffLIrion__python-androidtv-351",
+      "trace_file": "traces/upstream/JeffLIrion__python-androidtv-351.openhands-upstream.hrb-trace.json",
+      "repo_dir": "repos/JeffLIrion__python-androidtv-351",
+      "start_offset_ms": 250,
+      "container_image": "swerebench/sweb.eval.x86_64.jefflirion_1776_python-androidtv-351"
+    },
+    {
+      "instance_id": "cxx-rust-build-heavy",
+      "trace_file": "traces/repo-stage/cxx-rust-build-heavy.repo-stage.hrb-trace.json",
+      "repo_dir": ".",
+      "start_offset_ms": 500
+    },
+    {
+      "instance_id": "python-test-straggler",
+      "trace_file": "traces/repo-stage/python-test-straggler.repo-stage.hrb-trace.json",
+      "repo_dir": ".",
+      "start_offset_ms": 750
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "schema": "harness_replaybench.repo_stage_spec.v1",
+  "id": "python-test-straggler",
+  "description": "pytest/tox/nox-like multi-worker test straggler seed using Python stdlib workers.",
+  "commands": [
+    {
+      "id": "python-test-straggler.inspect",
+      "stage": "INSPECT",
+      "cmd": "python3 tools/workloads/harness_breadth_workloads.py inspect-tools --out \"$HRB_STAGE_OUT/python-test-straggler\"",
+      "cwd": "."
+    },
+    {
+      "id": "python-test-straggler.build.prepare",
+      "stage": "BUILD",
+      "cmd": "python3 tools/workloads/harness_breadth_workloads.py test-straggler-prepare --out \"$HRB_STAGE_OUT/python-test-straggler\" --workers 8 --short-ms 80 --tail-ms 650",
+      "cwd": "."
+    },
+    {
+      "id": "python-test-straggler.test.tail",
+      "stage": "TEST",
+      "cmd": "python3 tools/workloads/harness_breadth_workloads.py test-straggler-run --out \"$HRB_STAGE_OUT/python-test-straggler\" --workers 8 --short-ms 80 --tail-ms 650",
+      "cwd": ".",
+      "critical": true,
+      "frontier_label": {
+        "source": "manual-benchmark-spec",
+        "role": "test-barrier-tail",
+        "reason": "one slow worker controls the user-visible test barrier"
+      },
+      "metadata": {
+        "benchmark_role": "TEST-straggler",
+        "style": "pytest/tox/nox-like"
+      }
+    },
+    {
+      "id": "python-test-straggler.package",
+      "stage": "PACKAGE_BACKGROUND",
+      "cmd": "python3 tools/workloads/harness_breadth_workloads.py package-run --out \"$HRB_STAGE_OUT/python-test-straggler/package\" --files 64 --size-kb 4 --compresslevel 5",
+      "cwd": "."
+    }
+  ]
+}

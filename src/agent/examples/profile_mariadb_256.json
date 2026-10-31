@@ -1,0 +1,37 @@
+{
+  "profile_id": "mariadb_sysbench_oltp_256_profile_window",
+  "workload": {
+    "name": "MariaDB Sysbench OLTP",
+    "threads": 256,
+    "duration_s": 10,
+    "phase": "profiling_window"
+  },
+  "signals": {
+    "lock_event_rate": "high",
+    "hot_lock_ratio_top1": 0.72,
+    "hot_lock_ratio_top5": 0.91,
+    "p95_wait_us": 4800,
+    "owner_preempt_score": 0.68,
+    "handoff_distance": "frequent_cross_numa",
+    "wakeup_burstiness": "medium",
+    "jain_fairness": 0.98,
+    "zero_progress_threads": 0,
+    "cpu_utilization_hint": "low_effective_progress_under_default"
+  },
+  "current_scheduler": "default",
+  "candidate_schedulers": [
+    "default",
+    "scx_simple",
+    "scx_lockboost",
+    "scx_lockcoop",
+    "scx_lockcoop",
+    "scx_hybrid",
+    "scx_toponest",
+    "scx_cfl",
+    "scx_lcas"
+  ],
+  "objective": {
+    "primary": "maximize throughput",
+    "secondary": ["reduce p95 latency", "avoid zero progress", "preserve fairness"]
+  }
+}

@@ -1,0 +1,46 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Runtime and benchmark artifacts
+results/**
+!results/README.md
+*.db
+*.sqlite
+*.sqlite3
+*.log
+*.tmp
+
+# LaTeX build products. Source is intentionally not part of this repository.
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.lot
+*.nav
+*.out
+*.snm
+*.synctex.gz
+*.toc
+*.xdv
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Rebuildable demo binaries and local outputs
+build/
+src/flowcausal/experiments/flowbench/flowbench
+
+# Anonymous verification logs are deliberate finals evidence
+!tests/results/*.log
+
+.venv-*/

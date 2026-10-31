@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://harness-replaybench.local/schemas/result.schema.json",
+  "title": "HarnessReplayBench result",
+  "type": "object",
+  "required": ["schema", "benchmark", "suite_id", "system_under_test", "summary"],
+  "properties": {
+    "schema": {
+      "const": "harness_replaybench.result.v1"
+    },
+    "benchmark": {
+      "const": "HarnessReplayBench"
+    },
+    "suite_id": {
+      "type": "string"
+    },
+    "system_under_test": {
+      "type": "object",
+      "required": ["name"],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        },
+        "configuration": {
+          "type": "object"
+        }
+      },
+      "additionalProperties": true
+    },
+    "summary": {
+      "type": "object",
+      "required": ["makespan_sec", "mean_critical_sec", "p95_critical_sec", "unexpected_failures"],
+      "properties": {
+        "makespan_sec": {
+          "type": "number"
+        },
+        "mean_critical_sec": {
+          "type": "number"
+        },
+        "p95_critical_sec": {
+          "type": "number"
+        },
+        "unexpected_failures": {
+          "type": "integer"
+        },
+        "allowed_failures": {
+          "type": "integer"
+        },
+        "elapsed_jain_fairness": {
+          "type": "number"
+        },
+        "critical_jain_fairness": {
+          "type": "number"
+        }
+      },
+      "additionalProperties": true
+    },
+    "cases": {
+      "type": "array"
+    },
+    "fidelity": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}

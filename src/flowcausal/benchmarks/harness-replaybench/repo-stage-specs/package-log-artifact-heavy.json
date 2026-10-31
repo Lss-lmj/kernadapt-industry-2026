@@ -1,0 +1,43 @@
+{
+  "schema": "harness_replaybench.repo_stage_spec.v1",
+  "id": "package-log-artifact-heavy",
+  "description": "PACKAGE/log/artifact-heavy repo-backed HarnessReplayBench seed.",
+  "commands": [
+    {
+      "id": "package-log-artifact-heavy.inspect",
+      "stage": "INSPECT",
+      "cmd": "python3 tools/workloads/harness_breadth_workloads.py inspect-tools --out \"$HRB_STAGE_OUT/package-log-artifact-heavy\"",
+      "cwd": "."
+    },
+    {
+      "id": "package-log-artifact-heavy.build.prepare",
+      "stage": "BUILD",
+      "cmd": "python3 tools/workloads/harness_breadth_workloads.py package-prepare --out \"$HRB_STAGE_OUT/package-log-artifact-heavy\" --files 240 --size-kb 10",
+      "cwd": ".",
+      "metadata": {
+        "benchmark_role": "artifact-preparation"
+      }
+    },
+    {
+      "id": "package-log-artifact-heavy.test.validate-inputs",
+      "stage": "TEST",
+      "cmd": "test -d \"$HRB_STAGE_OUT/package-log-artifact-heavy/package-input\" && test \"$(find \"$HRB_STAGE_OUT/package-log-artifact-heavy/package-input\" -type f | wc -l)\" -ge 200",
+      "cwd": ".",
+      "critical": true,
+      "frontier_label": {
+        "source": "manual-benchmark-spec",
+        "role": "foreground-gate-candidate",
+        "reason": "foreground validation completes before package/background artifacts"
+      }
+    },
+    {
+      "id": "package-log-artifact-heavy.package",
+      "stage": "PACKAGE_BACKGROUND",
+      "cmd": "python3 tools/workloads/harness_breadth_workloads.py package-run --out \"$HRB_STAGE_OUT/package-log-artifact-heavy\" --files 240 --size-kb 10 --compresslevel 9 && python3 tools/workloads/harness_breadth_workloads.py package-validate --out \"$HRB_STAGE_OUT/package-log-artifact-heavy\"",
+      "cwd": ".",
+      "metadata": {
+        "benchmark_role": "package-heavy-background"
+      }
+    }
+  ]
+}

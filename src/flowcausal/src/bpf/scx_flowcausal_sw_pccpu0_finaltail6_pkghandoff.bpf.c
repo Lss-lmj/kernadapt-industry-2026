@@ -1,0 +1,55 @@
+// SPDX-License-Identifier: GPL-2.0
+/*
+ * FlowCausal-StageWidth-PCpu0-FinalTail6-PackageHandoff.
+ *
+ * Candidate:
+ *   - keep the current best package handoff mechanism;
+ *   - keep parent runner cleanup on CPU0;
+ *   - after both the C++ root and Python root have exited, treat the package
+ *     session as the last finisher and let package tail work use CPU0-5 as a
+ *     soft final-tail cpuset.  This is narrower than the previously tested
+ *     CPU0-7 final-tail version, so it preserves the current CPU0-2 handoff
+ *     while avoiding full-machine migration noise.
+ */
+#define FLOWCAUSAL_OPS_NAME "flowcausal_sw_pccpu0_finaltail6_pkghandoff"
+#define FLOWCAUSAL_DEFAULT_MODE_AWARE true
+#define FLOWCAUSAL_DEFAULT_BPF_AUTO_FRONTIER true
+#define FLOWCAUSAL_DEFAULT_CONTROL_EVENT_MASK (1U << FLOW_EVT_EXEC)
+#define FLOWCAUSAL_DEFAULT_RESPECT_C_ASSIST true
+#define FLOWCAUSAL_DEFAULT_CONVERGE false
+#define FLOWCAUSAL_DEFAULT_SESSION_FRONTIER_DSQ false
+#define FLOWCAUSAL_DEFAULT_ADAPTIVE_WIDTH true
+#define FLOWCAUSAL_DEFAULT_DEADLINE_VTIME false
+#define FLOWCAUSAL_DEFAULT_CONVERGE_TAIL_DSQ false
+#define FLOWCAUSAL_DEFAULT_FRONTIER_LOCAL_DSQ true
+#define FLOWCAUSAL_DEFAULT_PACKAGE_RESCUE_AFTER_CXX_ROOT true
+#define FLOWCAUSAL_DEFAULT_PACKAGE_RESCUE_NS 1000000000ULL
+#define FLOWCAUSAL_DEFAULT_PACKAGE_RESCUE_CXX_CPUSET true
+#define FLOWCAUSAL_DEFAULT_PACKAGE_FINAL_TAIL_AFTER_CXX_PY_ROOT true
+#define FLOWCAUSAL_DEFAULT_PACKAGE_FINAL_TAIL_NS 1000000000ULL
+#define FLOWCAUSAL_DEFAULT_PACKAGE_FINAL_TAIL_ANCHOR_CPU 0
+#define FLOWCAUSAL_DEFAULT_PACKAGE_FINAL_TAIL_SPAN 6U
+#define FLOWCAUSAL_DEFAULT_PARENT_EXIT_LATENCY true
+#define FLOWCAUSAL_DEFAULT_PARENT_EXIT_LATENCY_SLICE_NS 0ULL
+#define FLOWCAUSAL_DEFAULT_PARENT_EXIT_CLEANUP true
+#define FLOWCAUSAL_DEFAULT_PARENT_EXIT_CLEANUP_NS 1000000000ULL
+#define FLOWCAUSAL_DEFAULT_PARENT_EXIT_CLEANUP_CPU 0
+#define FLOWCAUSAL_DEFAULT_PARENT_EXIT_CLEANUP_CXX_ONLY true
+
+#define flowcausal_ops flowcausal_sw_pccpu0_finaltail6_pkghandoff_ops
+#define flowcausal_select_cpu flowcausal_sw_pccpu0_finaltail6_pkghandoff_select_cpu
+#define flowcausal_enqueue flowcausal_sw_pccpu0_finaltail6_pkghandoff_enqueue
+#define flowcausal_dispatch flowcausal_sw_pccpu0_finaltail6_pkghandoff_dispatch
+#define flowcausal_running flowcausal_sw_pccpu0_finaltail6_pkghandoff_running
+#define flowcausal_stopping flowcausal_sw_pccpu0_finaltail6_pkghandoff_stopping
+#define flowcausal_enable flowcausal_sw_pccpu0_finaltail6_pkghandoff_enable
+#define flowcausal_init flowcausal_sw_pccpu0_finaltail6_pkghandoff_init
+#define flowcausal_exit flowcausal_sw_pccpu0_finaltail6_pkghandoff_exit
+#define flowcausal_on_fork flowcausal_sw_pccpu0_finaltail6_pkghandoff_on_fork
+#define flowcausal_on_exec flowcausal_sw_pccpu0_finaltail6_pkghandoff_on_exec
+#define flowcausal_on_exit flowcausal_sw_pccpu0_finaltail6_pkghandoff_on_exit
+#define flowcausal_on_free flowcausal_sw_pccpu0_finaltail6_pkghandoff_on_free
+#define flowcausal_on_wakeup flowcausal_sw_pccpu0_finaltail6_pkghandoff_on_wakeup
+#define flowcausal_on_wakeup_new flowcausal_sw_pccpu0_finaltail6_pkghandoff_on_wakeup_new
+
+#include "scx_flowcausal.bpf.c"

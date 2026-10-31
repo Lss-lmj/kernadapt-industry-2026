@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://harness-replaybench.local/schemas/repo-stage-spec.schema.json",
+  "title": "HarnessReplayBench repo-stage spec",
+  "type": "object",
+  "required": ["schema", "id", "commands"],
+  "properties": {
+    "schema": {
+      "const": "harness_replaybench.repo_stage_spec.v1"
+    },
+    "id": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "commands": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "stage", "cmd", "cwd"],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "stage": {
+            "type": "string"
+          },
+          "cmd": {
+            "type": "string"
+          },
+          "cwd": {
+            "type": "string"
+          },
+          "critical": {
+            "type": "boolean"
+          },
+          "frontier_label": {
+            "type": "object"
+          },
+          "metadata": {
+            "type": "object"
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

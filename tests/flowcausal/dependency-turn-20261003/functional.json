@@ -1,0 +1,17 @@
+[
+  {
+    "test": "parallel_width",
+    "returncode": 0
+  },
+  {
+    "test": "automatic_weight",
+    "returncode": 0
+  },
+  {
+    "test": "quota_after_workers_ready",
+    "returncode": 0,
+    "worker_startup_sec": [
+      0.10096991097088903
+    ]
+  }
+]

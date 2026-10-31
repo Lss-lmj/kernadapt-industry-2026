@@ -1,0 +1,423 @@
+{
+  "purpose": "Predeclared three rotated repetitions of changing real waitpid dependencies, plus a zero-wait-stage control and CPU capacity checks. Full fixed CPU work and all child joins included; preparation excluded for every profile. Tests prototype reclassification and optional virtual-time reset.",
+  "profiles": {
+    "linux": {},
+    "linux_nice": {
+      "background_nice": 10
+    },
+    "retained": {
+      "binary": "<workspace>/FlowCausal/experiments/results/flowcausal-ready-workflow-20261002/candidate/scx_flowcausal_v2",
+      "flags": [
+        "--sustained-tool-weight"
+      ]
+    },
+    "aggregate": {
+      "binary": "<workspace>/FlowCausal/experiments/results/flowcausal-ready-workflow-20261002/candidate-background/scx_flowcausal_v2",
+      "flags": [
+        "--aggregate-background",
+        "--sustained-tool-weight"
+      ]
+    },
+    "rebase": {
+      "binary": "<workspace>/FlowCausal/experiments/results/flowcausal-dependency-turn-20261003/candidate/scx_flowcausal_v2",
+      "flags": [
+        "--aggregate-background",
+        "--rebase-background-dependency",
+        "--sustained-tool-weight"
+      ]
+    }
+  },
+  "runs": [
+    {
+      "profile": "linux",
+      "trial": 1,
+      "cpus": "0-3",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "changing-dependency"
+    },
+    {
+      "profile": "linux_nice",
+      "trial": 1,
+      "cpus": "0-3",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "changing-dependency"
+    },
+    {
+      "profile": "retained",
+      "trial": 1,
+      "cpus": "0-3",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "changing-dependency"
+    },
+    {
+      "profile": "aggregate",
+      "trial": 1,
+      "cpus": "0-3",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "changing-dependency"
+    },
+    {
+      "profile": "rebase",
+      "trial": 1,
+      "cpus": "0-3",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "changing-dependency"
+    },
+    {
+      "profile": "linux_nice",
+      "trial": 2,
+      "cpus": "0-3",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "changing-dependency"
+    },
+    {
+      "profile": "retained",
+      "trial": 2,
+      "cpus": "0-3",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "changing-dependency"
+    },
+    {
+      "profile": "aggregate",
+      "trial": 2,
+      "cpus": "0-3",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "changing-dependency"
+    },
+    {
+      "profile": "rebase",
+      "trial": 2,
+      "cpus": "0-3",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "changing-dependency"
+    },
+    {
+      "profile": "linux",
+      "trial": 2,
+      "cpus": "0-3",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "changing-dependency"
+    },
+    {
+      "profile": "retained",
+      "trial": 3,
+      "cpus": "0-3",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "changing-dependency"
+    },
+    {
+      "profile": "aggregate",
+      "trial": 3,
+      "cpus": "0-3",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "changing-dependency"
+    },
+    {
+      "profile": "rebase",
+      "trial": 3,
+      "cpus": "0-3",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "changing-dependency"
+    },
+    {
+      "profile": "linux",
+      "trial": 3,
+      "cpus": "0-3",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "changing-dependency"
+    },
+    {
+      "profile": "linux_nice",
+      "trial": 3,
+      "cpus": "0-3",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "changing-dependency"
+    },
+    {
+      "profile": "linux",
+      "trial": 1,
+      "cpus": "0-3",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 0,
+      "scene": "all-cpu-work"
+    },
+    {
+      "profile": "aggregate",
+      "trial": 1,
+      "cpus": "0-3",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 0,
+      "scene": "all-cpu-work"
+    },
+    {
+      "profile": "rebase",
+      "trial": 1,
+      "cpus": "0-3",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 0,
+      "scene": "all-cpu-work"
+    },
+    {
+      "profile": "linux",
+      "trial": 2,
+      "cpus": "0-3",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 0,
+      "scene": "all-cpu-work"
+    },
+    {
+      "profile": "aggregate",
+      "trial": 2,
+      "cpus": "0-3",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 0,
+      "scene": "all-cpu-work"
+    },
+    {
+      "profile": "rebase",
+      "trial": 2,
+      "cpus": "0-3",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 0,
+      "scene": "all-cpu-work"
+    },
+    {
+      "profile": "linux",
+      "trial": 3,
+      "cpus": "0-3",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 0,
+      "scene": "all-cpu-work"
+    },
+    {
+      "profile": "aggregate",
+      "trial": 3,
+      "cpus": "0-3",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 0,
+      "scene": "all-cpu-work"
+    },
+    {
+      "profile": "rebase",
+      "trial": 3,
+      "cpus": "0-3",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 0,
+      "scene": "all-cpu-work"
+    },
+    {
+      "profile": "linux",
+      "trial": 1,
+      "cpus": "0-1",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "cpu-capacity"
+    },
+    {
+      "profile": "aggregate",
+      "trial": 1,
+      "cpus": "0-1",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "cpu-capacity"
+    },
+    {
+      "profile": "rebase",
+      "trial": 1,
+      "cpus": "0-1",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "cpu-capacity"
+    },
+    {
+      "profile": "aggregate",
+      "trial": 2,
+      "cpus": "0-1",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "cpu-capacity"
+    },
+    {
+      "profile": "rebase",
+      "trial": 2,
+      "cpus": "0-1",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "cpu-capacity"
+    },
+    {
+      "profile": "linux",
+      "trial": 2,
+      "cpus": "0-1",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "cpu-capacity"
+    },
+    {
+      "profile": "rebase",
+      "trial": 3,
+      "cpus": "0-1",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "cpu-capacity"
+    },
+    {
+      "profile": "linux",
+      "trial": 3,
+      "cpus": "0-1",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "cpu-capacity"
+    },
+    {
+      "profile": "aggregate",
+      "trial": 3,
+      "cpus": "0-1",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "cpu-capacity"
+    },
+    {
+      "profile": "linux",
+      "trial": 1,
+      "cpus": "0-7",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "cpu-capacity"
+    },
+    {
+      "profile": "aggregate",
+      "trial": 1,
+      "cpus": "0-7",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "cpu-capacity"
+    },
+    {
+      "profile": "rebase",
+      "trial": 1,
+      "cpus": "0-7",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "cpu-capacity"
+    },
+    {
+      "profile": "aggregate",
+      "trial": 2,
+      "cpus": "0-7",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "cpu-capacity"
+    },
+    {
+      "profile": "rebase",
+      "trial": 2,
+      "cpus": "0-7",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "cpu-capacity"
+    },
+    {
+      "profile": "linux",
+      "trial": 2,
+      "cpus": "0-7",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "cpu-capacity"
+    },
+    {
+      "profile": "rebase",
+      "trial": 3,
+      "cpus": "0-7",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "cpu-capacity"
+    },
+    {
+      "profile": "linux",
+      "trial": 3,
+      "cpus": "0-7",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "cpu-capacity"
+    },
+    {
+      "profile": "aggregate",
+      "trial": 3,
+      "cpus": "0-7",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "cpu-capacity"
+    }
+  ],
+  "workload": "<workspace>/FlowCausal/experiments/results/flowcausal-dependency-turn-20261003/dependency-turn",
+  "flowd": "<workspace>/FlowCausal/experiments/results/flowcausal-ready-workflow-20261002/candidate-background/flowd_v2",
+  "input_sha256": {
+    "<workspace>/FlowCausal/experiments/test_flowcausal_v2_dependency_turn.py": "d0a34f086f3982c814b1de20d61a6e614f877ec10cbb0eee72ab3160a1e22fe7",
+    "<workspace>/FlowCausal/src/tests/flowcausal_v2_dependency_turn.c": "1d8355f3c22671537d2cedbb6c5bb74af254b6bc87b7acb3674bd87b5da0058d",
+    "<workspace>/FlowCausal/experiments/results/flowcausal-dependency-turn-20261003/dependency-turn": "8a37e8d92b14c843aa88c0064c274e42a83f206a54f151a9f27cf3db0a610ba0",
+    "<workspace>/FlowCausal/experiments/results/flowcausal-ready-workflow-20261002/candidate-background/flowd_v2": "f91520d32334ebd3fd720f43ecf51eba792b64608a68fad0a542dc70cd38dc5a",
+    "<workspace>/FlowCausal/experiments/results/flowcausal-ready-workflow-20261002/candidate/scx_flowcausal_v2": "efeb95e14d6668915615d33092a17bac9c88234628cd839da757943d3472fd11",
+    "<workspace>/FlowCausal/experiments/results/flowcausal-ready-workflow-20261002/candidate-background/scx_flowcausal_v2": "c3e916376db271a19830078e48239c55f8fda853e316321c937ca3fa39999c82",
+    "<workspace>/FlowCausal/experiments/results/flowcausal-dependency-turn-20261003/candidate/scx_flowcausal_v2": "4e4b0f28b2c93db7ada7743565bd0bdefd48602df029f934d1d3c2e21c675b3d",
+    "<workspace>/FlowCausal/experiments/results/flowcausal-dependency-turn-20261003/candidate-source/scx_flowcausal_v2.bpf.c": "625b2dab32253ade403ac64fec6e61d4d71981160b99803beaf2bf3f72f45c92",
+    "<workspace>/FlowCausal/experiments/results/flowcausal-dependency-turn-20261003/candidate-source/scx_flowcausal_v2.c": "15ffa1c55722f16617f5db5c7ab01e4290f04f7d9b9d4a65106249f9549929e5"
+  }
+}

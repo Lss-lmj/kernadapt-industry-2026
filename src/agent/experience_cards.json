@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "purpose": "Evidence cards for LLM-based scheduler selection. These are observations, not hard-coded routing rules.",
+  "cards": [
+    {
+      "id": "mariadb_oltp_lock_nest_positive",
+      "workload": "MariaDB Sysbench OLTP",
+      "observation": "At 256 threads, Linux default delivered 137.8 TPS while scx_lockcoop delivered 4692.7 TPS and reduced p95 latency from 5512.9 ms to 112.7 ms.",
+      "interpretation": "Concentrated lock contention with NUMA-sensitive handoff can benefit from per-lock Lock Nest placement.",
+      "risks": ["Check fairness and zero-progress threads before committing a strong affinity policy."]
+    },
+    {
+      "id": "mysql8_contention_positive",
+      "workload": "MySQL 8 Sysbench",
+      "observation": "At 256 threads, Linux default delivered 1899.7 TPS, scx_lockboost delivered 6007.2 TPS, scx_simple delivered 5773.4 TPS, and scx_lockcoop delivered 5102.1 TPS.",
+      "interpretation": "Owner progress and generic sched_ext behavior can dominate strong lock affinity for some database engines.",
+      "risks": ["Do not assume all OLTP workloads prefer scx_lockcoop."]
+    },
+    {
+      "id": "postgresql_weak_lock_boundary",
+      "workload": "PostgreSQL pgbench",
+      "observation": "At 256 clients, Linux default delivered 46854.5 TPS, scx_simple delivered 54132.8 TPS, scx_lockboost delivered 52414.0 TPS, and scx_lockcoop delivered 52406.2 TPS.",
+      "interpretation": "Some database workloads show modest gains and may not justify strong lock-specific intervention.",
+      "risks": ["Avoid overfitting the paper story to MariaDB."]
+    },
+    {
+      "id": "rocksdb_affinity_regression",
+      "workload": "RocksDB CFL",
+      "observation": "In readwhilewriting at 128 threads, Linux default delivered about 2.76M ops/s while scx_lockcoop delivered about 0.62M ops/s. In readrandomwriterandom at 128 threads, scx_lockcoop was about 0.34x of default.",
+      "interpretation": "Many short-held locks and diverse lock addresses can make strong Lock Nest placement harmful.",
+      "risks": ["The agent must explicitly guard against affinity-induced parallelism collapse."]
+    },
+    {
+      "id": "rocksdb_contention_cfl_positive",
+      "workload": "RocksDB CFL updaterandom",
+      "observation": "In updaterandom, scx_lockboost and scx_cfl improved throughput over Linux default in multiple configurations.",
+      "interpretation": "For write-heavy KV workloads, owner progress or lock occupation fairness may be safer than per-lock affinity.",
+      "risks": ["Validate p999 latency because throughput gains can hide tail regressions."]
+    },
+    {
+      "id": "futex_ring_cfl_positive",
+      "workload": "futex ring microbenchmark",
+      "observation": "At 256 threads cs0, Linux default delivered 18.9K ops/s, scx_lockcoop delivered 263.9K ops/s, and scx_cfl delivered 334.7K ops/s with Jain fairness near 1.",
+      "interpretation": "Synchronous futex handoff chains can benefit from fairness-aware lock occupation control.",
+      "risks": ["Do not extrapolate futex ring behavior to all mutex workloads."]
+    },
+    {
+      "id": "micro_jitter_foundation",
+      "workload": "lock-monitor futex/mutex observations",
+      "observation": "eBPF lock-monitor can introduce small timing perturbations on futex and wakeup paths; in extreme synchronized contention this may reduce useless wakeup, failed reacquire, and sleep cycles.",
+      "interpretation": "Micro-jitter is a monitor-layer phenomenon and a possible controlled policy only for high synchronized recontention.",
+      "risks": ["Jitter is not a default optimization. It can be pure overhead outside short critical-section synchronized contention."]
+    }
+  ]
+}

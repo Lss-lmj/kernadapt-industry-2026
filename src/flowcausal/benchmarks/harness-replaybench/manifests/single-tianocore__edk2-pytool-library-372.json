@@ -1,0 +1,15 @@
+{
+  "schema": "harness_replaybench.manifest.v1",
+  "suite_id": "HRB-single-tianocore__edk2-pytool-library-372",
+  "description": "Single-case HarnessReplayBench manifest split from formal-mix-8harness.json.",
+  "path_base": "benchmark_root",
+  "cases": [
+    {
+      "instance_id": "tianocore__edk2-pytool-library-372",
+      "trace_file": "traces/upstream/tianocore__edk2-pytool-library-372.openhands-upstream.hrb-trace.json",
+      "repo_dir": "repos/tianocore__edk2-pytool-library-372",
+      "start_offset_ms": 0,
+      "container_image": "swerebench/sweb.eval.x86_64.tianocore_1776_edk2-pytool-library-372"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+#!/usr/bin/env sh
+HARNESS_PY="flowcausal/experiments/results/real-agent-harness/.venv/bin/python"
+SHIM_DIR="$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)"
+if [ -n "$SHIM_DIR" ]; then
+  if [ -n "$PYTHONPATH" ]; then
+    export PYTHONPATH="$SHIM_DIR:$PYTHONPATH"
+  else
+    export PYTHONPATH="$SHIM_DIR"
+  fi
+fi
+if [ -n "$FLOWCAUSAL_WORK_DIR" ]; then
+  if [ -n "$PYTHONPATH" ]; then
+    export PYTHONPATH="$FLOWCAUSAL_WORK_DIR:$PYTHONPATH"
+  else
+    export PYTHONPATH="$FLOWCAUSAL_WORK_DIR"
+  fi
+fi
+if [ -x "$HARNESS_PY" ]; then
+  exec "$HARNESS_PY" "$@"
+fi
+exec python3 "$@"

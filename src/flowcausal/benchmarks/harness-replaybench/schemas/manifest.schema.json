@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://harness-replaybench.local/schemas/manifest.schema.json",
+  "title": "HarnessReplayBench manifest",
+  "type": "object",
+  "required": ["schema", "suite_id", "path_base", "cases"],
+  "properties": {
+    "schema": {
+      "const": "harness_replaybench.manifest.v1"
+    },
+    "suite_id": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "path_base": {
+      "const": "benchmark_root"
+    },
+    "cases": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["instance_id", "trace_file", "repo_dir", "start_offset_ms"],
+        "properties": {
+          "instance_id": {
+            "type": "string"
+          },
+          "trace_file": {
+            "type": "string"
+          },
+          "repo_dir": {
+            "type": "string"
+          },
+          "container_image": {
+            "type": "string"
+          },
+          "start_offset_ms": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "work_dir_aliases": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}

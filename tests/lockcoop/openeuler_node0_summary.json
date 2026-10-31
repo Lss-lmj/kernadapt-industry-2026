@@ -1,0 +1,223 @@
+{
+  "evidence_type": "samples_transcribed_from_archived_experiment_report",
+  "source": "tests/lockcoop/records/arm_openeulerpaper53_node0all_no_nest_runs5_results_20260801.md",
+  "source_sha256": "efbd4b443e9451feb1ad095aca359dc6e9766c91bc9799b57900b7161449898a",
+  "environment": {
+    "os": "openEuler 24.03 LTS",
+    "kernel": "6.17.0-lockcoop-scx617",
+    "architecture": "aarch64",
+    "cpus": "0-127",
+    "warmup_seconds": 10,
+    "measurement_seconds": 60,
+    "runs": 5
+  },
+  "sample_count": 140,
+  "cases": [
+    {
+      "scheduler": "default",
+      "threads": 64,
+      "runs": 5,
+      "tps_mean": 5441.44,
+      "p95_ms_mean": 28.12
+    },
+    {
+      "scheduler": "default",
+      "threads": 128,
+      "runs": 5,
+      "tps_mean": 2221.0,
+      "p95_ms_mean": 150.7
+    },
+    {
+      "scheduler": "default",
+      "threads": 192,
+      "runs": 5,
+      "tps_mean": 1171.82,
+      "p95_ms_mean": 424.13
+    },
+    {
+      "scheduler": "default",
+      "threads": 256,
+      "runs": 5,
+      "tps_mean": 883.42,
+      "p95_ms_mean": 738.61
+    },
+    {
+      "scheduler": "scx_simple",
+      "threads": 64,
+      "runs": 5,
+      "tps_mean": 5237.62,
+      "p95_ms_mean": 29.31
+    },
+    {
+      "scheduler": "scx_simple",
+      "threads": 128,
+      "runs": 5,
+      "tps_mean": 2379.05,
+      "p95_ms_mean": 138.5
+    },
+    {
+      "scheduler": "scx_simple",
+      "threads": 192,
+      "runs": 5,
+      "tps_mean": 1257.58,
+      "p95_ms_mean": 384.95
+    },
+    {
+      "scheduler": "scx_simple",
+      "threads": 256,
+      "runs": 5,
+      "tps_mean": 892.73,
+      "p95_ms_mean": 754.8
+    },
+    {
+      "scheduler": "scx_lcas",
+      "threads": 64,
+      "runs": 5,
+      "tps_mean": 5122.49,
+      "p95_ms_mean": 31.05
+    },
+    {
+      "scheduler": "scx_lcas",
+      "threads": 128,
+      "runs": 5,
+      "tps_mean": 2034.18,
+      "p95_ms_mean": 164.0
+    },
+    {
+      "scheduler": "scx_lcas",
+      "threads": 192,
+      "runs": 5,
+      "tps_mean": 1202.85,
+      "p95_ms_mean": 420.16
+    },
+    {
+      "scheduler": "scx_lcas",
+      "threads": 256,
+      "runs": 5,
+      "tps_mean": 917.15,
+      "p95_ms_mean": 730.43
+    },
+    {
+      "scheduler": "scx_cfl",
+      "threads": 64,
+      "runs": 5,
+      "tps_mean": 5316.02,
+      "p95_ms_mean": 27.96
+    },
+    {
+      "scheduler": "scx_cfl",
+      "threads": 128,
+      "runs": 5,
+      "tps_mean": 2171.62,
+      "p95_ms_mean": 151.06
+    },
+    {
+      "scheduler": "scx_cfl",
+      "threads": 192,
+      "runs": 5,
+      "tps_mean": 1317.9,
+      "p95_ms_mean": 367.18
+    },
+    {
+      "scheduler": "scx_cfl",
+      "threads": 256,
+      "runs": 5,
+      "tps_mean": 884.55,
+      "p95_ms_mean": 728.24
+    },
+    {
+      "scheduler": "scx_lockboost",
+      "threads": 64,
+      "runs": 5,
+      "tps_mean": 5143.08,
+      "p95_ms_mean": 29.51
+    },
+    {
+      "scheduler": "scx_lockboost",
+      "threads": 128,
+      "runs": 5,
+      "tps_mean": 2700.02,
+      "p95_ms_mean": 117.68
+    },
+    {
+      "scheduler": "scx_lockboost",
+      "threads": 192,
+      "runs": 5,
+      "tps_mean": 1948.41,
+      "p95_ms_mean": 236.67
+    },
+    {
+      "scheduler": "scx_lockboost",
+      "threads": 256,
+      "runs": 5,
+      "tps_mean": 1512.74,
+      "p95_ms_mean": 400.75
+    },
+    {
+      "scheduler": "scx_locknest",
+      "threads": 64,
+      "runs": 5,
+      "tps_mean": 5510.5,
+      "p95_ms_mean": 23.87
+    },
+    {
+      "scheduler": "scx_locknest",
+      "threads": 128,
+      "runs": 5,
+      "tps_mean": 4243.19,
+      "p95_ms_mean": 78.94
+    },
+    {
+      "scheduler": "scx_locknest",
+      "threads": 192,
+      "runs": 5,
+      "tps_mean": 4304.39,
+      "p95_ms_mean": 98.27
+    },
+    {
+      "scheduler": "scx_locknest",
+      "threads": 256,
+      "runs": 5,
+      "tps_mean": 3454.38,
+      "p95_ms_mean": 262.6
+    },
+    {
+      "scheduler": "scx_lockcoop",
+      "threads": 64,
+      "runs": 5,
+      "tps_mean": 5468.94,
+      "p95_ms_mean": 22.14
+    },
+    {
+      "scheduler": "scx_lockcoop",
+      "threads": 128,
+      "runs": 5,
+      "tps_mean": 5015.37,
+      "p95_ms_mean": 54.22
+    },
+    {
+      "scheduler": "scx_lockcoop",
+      "threads": 192,
+      "runs": 5,
+      "tps_mean": 4414.3,
+      "p95_ms_mean": 94.26
+    },
+    {
+      "scheduler": "scx_lockcoop",
+      "threads": 256,
+      "runs": 5,
+      "tps_mean": 4304.33,
+      "p95_ms_mean": 133.95
+    }
+  ],
+  "comparison_256_threads": {
+    "default": {
+      "throughput_ratio": 4.8723,
+      "p95_reduction_percent": 81.86
+    },
+    "scx_simple": {
+      "throughput_ratio": 4.8215,
+      "p95_reduction_percent": 82.25
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "schema": "harness_replaybench.manifest.v1",
+  "suite_id": "HRB-single-matplotlib__matplotlib-23314",
+  "description": "Single-case HarnessReplayBench manifest split from formal-mix-8harness.json.",
+  "path_base": "benchmark_root",
+  "cases": [
+    {
+      "instance_id": "matplotlib__matplotlib-23314",
+      "trace_file": "traces/local/matplotlib__matplotlib-23314.mini-swe-agent.hrb-trace.json",
+      "repo_dir": "repos/matplotlib__matplotlib-23314",
+      "start_offset_ms": 0,
+      "container_image": "swebench/sweb.eval.x86_64.matplotlib_1776_matplotlib-23314:latest"
+    }
+  ]
+}

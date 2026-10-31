@@ -1,0 +1,14 @@
+{
+  "schema": "harness_replaybench.manifest.v1",
+  "suite_id": "HRB-single-package-log-artifact-heavy",
+  "description": "Single-case HarnessReplayBench manifest split from formal-mix-8harness.json.",
+  "path_base": "benchmark_root",
+  "cases": [
+    {
+      "instance_id": "package-log-artifact-heavy",
+      "trace_file": "traces/repo-stage/package-log-artifact-heavy.repo-stage.hrb-trace.json",
+      "repo_dir": ".",
+      "start_offset_ms": 0
+    }
+  ]
+}

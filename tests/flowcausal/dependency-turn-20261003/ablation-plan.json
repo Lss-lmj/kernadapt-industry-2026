@@ -1,0 +1,258 @@
+{
+  "purpose": "Same-binary ablation: disable only cross-generation dependency links, keeping process counts, source identities, background share normalization, width and accounting the same. Both traces run to completion; fixed-work checks mandatory.",
+  "profiles": {
+    "linux": {},
+    "complete": {
+      "binary": "<workspace>/FlowCausal/experiments/results/flowcausal-dependency-turn-20261003/ablation/scx_flowcausal_v2",
+      "flags": [
+        "--aggregate-background",
+        "--rebase-background-dependency",
+        "--sustained-tool-weight"
+      ]
+    },
+    "without_cross_generation": {
+      "binary": "<workspace>/FlowCausal/experiments/results/flowcausal-dependency-turn-20261003/ablation/scx_flowcausal_v2",
+      "flags": [
+        "--aggregate-background",
+        "--rebase-background-dependency",
+        "--sustained-tool-weight",
+        "--ignore-cross-generation-dependency"
+      ]
+    },
+    "without_aggregate": {
+      "binary": "<workspace>/FlowCausal/experiments/results/flowcausal-dependency-turn-20261003/ablation/scx_flowcausal_v2",
+      "flags": [
+        "--sustained-tool-weight"
+      ]
+    }
+  },
+  "runs": [
+    {
+      "profile": "linux",
+      "trial": 1,
+      "cpus": "0-3",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "ablation"
+    },
+    {
+      "profile": "complete",
+      "trial": 1,
+      "cpus": "0-3",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "ablation"
+    },
+    {
+      "profile": "without_cross_generation",
+      "trial": 1,
+      "cpus": "0-3",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "ablation"
+    },
+    {
+      "profile": "without_aggregate",
+      "trial": 1,
+      "cpus": "0-3",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "ablation"
+    },
+    {
+      "profile": "complete",
+      "trial": 2,
+      "cpus": "0-3",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "ablation"
+    },
+    {
+      "profile": "without_cross_generation",
+      "trial": 2,
+      "cpus": "0-3",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "ablation"
+    },
+    {
+      "profile": "without_aggregate",
+      "trial": 2,
+      "cpus": "0-3",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "ablation"
+    },
+    {
+      "profile": "linux",
+      "trial": 2,
+      "cpus": "0-3",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "ablation"
+    },
+    {
+      "profile": "without_cross_generation",
+      "trial": 3,
+      "cpus": "0-3",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "ablation"
+    },
+    {
+      "profile": "without_aggregate",
+      "trial": 3,
+      "cpus": "0-3",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "ablation"
+    },
+    {
+      "profile": "linux",
+      "trial": 3,
+      "cpus": "0-3",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "ablation"
+    },
+    {
+      "profile": "complete",
+      "trial": 3,
+      "cpus": "0-3",
+      "background_count": 8,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "ablation"
+    },
+    {
+      "profile": "linux",
+      "trial": 1,
+      "cpus": "0-3",
+      "background_count": 2,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "background-count"
+    },
+    {
+      "profile": "complete",
+      "trial": 1,
+      "cpus": "0-3",
+      "background_count": 2,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "background-count"
+    },
+    {
+      "profile": "complete",
+      "trial": 2,
+      "cpus": "0-3",
+      "background_count": 2,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "background-count"
+    },
+    {
+      "profile": "linux",
+      "trial": 2,
+      "cpus": "0-3",
+      "background_count": 2,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "background-count"
+    },
+    {
+      "profile": "linux",
+      "trial": 3,
+      "cpus": "0-3",
+      "background_count": 2,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "background-count"
+    },
+    {
+      "profile": "complete",
+      "trial": 3,
+      "cpus": "0-3",
+      "background_count": 2,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "background-count"
+    },
+    {
+      "profile": "linux",
+      "trial": 1,
+      "cpus": "0-3",
+      "background_count": 16,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "background-count"
+    },
+    {
+      "profile": "complete",
+      "trial": 1,
+      "cpus": "0-3",
+      "background_count": 16,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "background-count"
+    },
+    {
+      "profile": "complete",
+      "trial": 2,
+      "cpus": "0-3",
+      "background_count": 16,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "background-count"
+    },
+    {
+      "profile": "linux",
+      "trial": 2,
+      "cpus": "0-3",
+      "background_count": 16,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "background-count"
+    },
+    {
+      "profile": "linux",
+      "trial": 3,
+      "cpus": "0-3",
+      "background_count": 16,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "background-count"
+    },
+    {
+      "profile": "complete",
+      "trial": 3,
+      "cpus": "0-3",
+      "background_count": 16,
+      "iterations": 500000000,
+      "block_ms": 2000,
+      "scene": "background-count"
+    }
+  ],
+  "workload": "<workspace>/FlowCausal/experiments/results/flowcausal-dependency-turn-20261003/dependency-turn",
+  "flowd": "<workspace>/FlowCausal/experiments/results/flowcausal-ready-workflow-20261002/candidate-background/flowd_v2",
+  "input_sha256": {
+    "<workspace>/FlowCausal/experiments/test_flowcausal_v2_dependency_turn.py": "d0a34f086f3982c814b1de20d61a6e614f877ec10cbb0eee72ab3160a1e22fe7",
+    "<workspace>/FlowCausal/src/tests/flowcausal_v2_dependency_turn.c": "1d8355f3c22671537d2cedbb6c5bb74af254b6bc87b7acb3674bd87b5da0058d",
+    "<workspace>/FlowCausal/experiments/results/flowcausal-dependency-turn-20261003/dependency-turn": "8a37e8d92b14c843aa88c0064c274e42a83f206a54f151a9f27cf3db0a610ba0",
+    "<workspace>/FlowCausal/experiments/results/flowcausal-ready-workflow-20261002/candidate-background/flowd_v2": "f91520d32334ebd3fd720f43ecf51eba792b64608a68fad0a542dc70cd38dc5a",
+    "<workspace>/FlowCausal/experiments/results/flowcausal-dependency-turn-20261003/ablation/scx_flowcausal_v2": "91ac980183221c85316a487be94e5bdc44157e759d50263b2390ceac6e898795",
+    "<workspace>/FlowCausal/experiments/results/flowcausal-dependency-turn-20261003/ablation-source/scx_flowcausal_v2.bpf.c": "cb955ae3ef6b90d88051b5610b0316e537bd2bb3882266548bc59dfa8baf9760",
+    "<workspace>/FlowCausal/experiments/results/flowcausal-dependency-turn-20261003/ablation-source/scx_flowcausal_v2.c": "dbdf2e7de8d4b7318198ce1715d98d84bf1bbe1ad282919890516419d2219b0b"
+  }
+}

@@ -1,0 +1,3180 @@
+{
+  "scope": "source file SPDX inventory; null means no explicit file-level SPDX marker",
+  "files": [
+    {
+      "path": "src/agent/agent_runtime.py",
+      "spdx": null,
+      "sha256": "d2a2d55ced43e997dcf0f93732ade85f45c30ffb0cb746e4fd105c5dff9274f6"
+    },
+    {
+      "path": "src/agent/agent_services.py",
+      "spdx": null,
+      "sha256": "d9124a485c174aa0a2ed5a3336561a1beb43632796d6590fb7c58acee80ea649"
+    },
+    {
+      "path": "src/agent/causal_attribution.py",
+      "spdx": null,
+      "sha256": "d6c4efdcee0a3439c95cf40ca3a86b0c8d182c21241bd41d9f33a85702272e22"
+    },
+    {
+      "path": "src/agent/counterfactual_executor.py",
+      "spdx": null,
+      "sha256": "09ee48a2a7b8d59a21eface918bc4092f4c64a29cc4170bedabea33b2bd93ecb"
+    },
+    {
+      "path": "src/agent/counterfactual_planner.py",
+      "spdx": null,
+      "sha256": "9436192d8dfc9c2dfbcc9978fd935db75f726ad009e4e66191f6d7b702ee3203"
+    },
+    {
+      "path": "src/agent/critic.py",
+      "spdx": null,
+      "sha256": "494784bd783eb119a85464658093c908f2bfc57f91da733f2864161e59741d98"
+    },
+    {
+      "path": "src/agent/environment_compatibility.py",
+      "spdx": null,
+      "sha256": "7086e9ceaf94b155e2c6753aa31026ef8db35dea361dbcf0640df2fc2c31f6db"
+    },
+    {
+      "path": "src/agent/framework_adapters.py",
+      "spdx": null,
+      "sha256": "0625d86667e293a291bb6bc18ad7980333b2001f3e6c997b6bde1dadf53f90e9"
+    },
+    {
+      "path": "src/agent/global_memory.py",
+      "spdx": null,
+      "sha256": "8528dfb7fadd52299afdd652a548bd639306c969ae1b545d73b679e62e6a4dd0"
+    },
+    {
+      "path": "src/agent/llm_policy_agent.py",
+      "spdx": null,
+      "sha256": "b7612ef56330cec13e6a4ec93e22ad9ec0fb869f0ea8fc563a7313c510c558b1"
+    },
+    {
+      "path": "src/agent/native_langgraph_backend.py",
+      "spdx": null,
+      "sha256": "61781bf27da10a5953979d86259ecc4b31f82e45ef0158f38ed2d8d0afd56ac9"
+    },
+    {
+      "path": "src/agent/policy_audit.py",
+      "spdx": null,
+      "sha256": "c214aad78cd12c71a6dd3ee37ab7f4e7cb4a836291210e745290f0943d6ce0e6"
+    },
+    {
+      "path": "src/agent/profile_builder.py",
+      "spdx": null,
+      "sha256": "120b47aa2caf9a377e83d15add3347efc716fb9c22ebe1db8e06c0da7f8a4bd5"
+    },
+    {
+      "path": "src/agent/provenance.py",
+      "spdx": null,
+      "sha256": "423f078428880c759fbeb674c240fd6b0dd72af649241c5d187f9505795e0a49"
+    },
+    {
+      "path": "src/agent/remote_worker.py",
+      "spdx": null,
+      "sha256": "84f1eff0af50bc618b43e071b6be47e4b569df2848cd6a9ca945ee53c2229c69"
+    },
+    {
+      "path": "src/agent/run_kernadapt_online.py",
+      "spdx": null,
+      "sha256": "086b4a6d0504d0fe0020e5f3484f4dfb33907f003e94d13b3e073bff0bbb7c62"
+    },
+    {
+      "path": "src/agent/run_lockagent_online.py",
+      "spdx": null,
+      "sha256": "b14c9f02feed9795cb7ece090e6f7b96f468d29ca17626c8de516fb613e0617b"
+    },
+    {
+      "path": "src/agent/run_mariadb_comparison.py",
+      "spdx": null,
+      "sha256": "28bc704ade9b5056bfe950872eb61a4b4e64cfe84f68c9acb6cb33313fe224b3"
+    },
+    {
+      "path": "src/agent/run_mariadb_sysbench.py",
+      "spdx": null,
+      "sha256": "507fffd890305e7b0e4cd7d048615e0e3a6cebfb4f4c4219dce7d7e5f1ec79a5"
+    },
+    {
+      "path": "src/agent/runtime_api_adapter.py",
+      "spdx": null,
+      "sha256": "523cae6807e0dc07f69550aa0b73bb0d0c40df6aac3450255a788ce585fe1de0"
+    },
+    {
+      "path": "src/agent/runtime_guard.py",
+      "spdx": null,
+      "sha256": "2bfd42644054fb2427ee395766cbc2f1c3b24d4e7518afba9a46f51f75bfd4e1"
+    },
+    {
+      "path": "src/agent/runtime_parity.py",
+      "spdx": null,
+      "sha256": "5d0cd4dbdcf35548a00477a1df4b76075f98faaf0fa747a1447c18db021bc1f5"
+    },
+    {
+      "path": "src/agent/runtime_service.py",
+      "spdx": null,
+      "sha256": "1a4f43d91cd444a5b6e2a5accf5f6b9d4a66843c779b99b5e658bed61a4998e2"
+    },
+    {
+      "path": "src/agent/same_batch_validator.py",
+      "spdx": null,
+      "sha256": "10045292a619a16e6a241cdf473f3dcc81424d91b476d6df47afc57dba96adaa"
+    },
+    {
+      "path": "src/agent/scx_executor.py",
+      "spdx": null,
+      "sha256": "88c0e1b0dfb20eadd8e1a06b4abb6d9fe4027708db5dcf2a6752c8b4ac8a1c12"
+    },
+    {
+      "path": "src/agent/self_evolution.py",
+      "spdx": null,
+      "sha256": "d8b16c73068f5e9c54f678a004150a5a4253c648ec7e51481aade04e3c60d6f5"
+    },
+    {
+      "path": "src/agent/skill_curator.py",
+      "spdx": null,
+      "sha256": "64633f14faf1f0acd766b3609f1242ecdc534a3df2c417a7950927559be2b776"
+    },
+    {
+      "path": "src/agent/state_ledger.py",
+      "spdx": null,
+      "sha256": "f34523e568fa713e7bff2529c01bd3f89699cec4cdd1b32d5579a623a5cacba9"
+    },
+    {
+      "path": "src/agent/sysbench_metrics.py",
+      "spdx": null,
+      "sha256": "37d53e46ddfb4d780b89a7fce18025094586d38cfc914350ca209660001a7adf"
+    },
+    {
+      "path": "src/agent/tests/test_agent_runtime.py",
+      "spdx": null,
+      "sha256": "db387adc607288dfa1dc8353e33bca7a5995d5f51fa34c5ee0eb5f54abfa57f9"
+    },
+    {
+      "path": "src/agent/tests/test_agent_services.py",
+      "spdx": null,
+      "sha256": "b530665823be0a8bf90ba61caf7c79e20458d19088bc89516731089b49d97f85"
+    },
+    {
+      "path": "src/agent/tests/test_causal_attribution.py",
+      "spdx": null,
+      "sha256": "c54059a572c6c526096cf9d63c0a22be2ceac5fda44ab54284168079128efecc"
+    },
+    {
+      "path": "src/agent/tests/test_counterfactual_executor.py",
+      "spdx": null,
+      "sha256": "aabc8d663eeccfa3f47030d6c44d26d63f9b1efe75f23c96b4237bd955253457"
+    },
+    {
+      "path": "src/agent/tests/test_counterfactual_planner.py",
+      "spdx": null,
+      "sha256": "e5254b5b03f29416bf4692cf86333b2c9f156c753f4dee2d1889f431fe2b4fe1"
+    },
+    {
+      "path": "src/agent/tests/test_critic.py",
+      "spdx": null,
+      "sha256": "fcc893726acb0dfa6187fc21df0322605b25849a55657ba411fce29efe752d69"
+    },
+    {
+      "path": "src/agent/tests/test_environment_compatibility.py",
+      "spdx": null,
+      "sha256": "dc5b59b40e5a807e70ddec2ee54cc2cfb66dad7ffda846ae211ccc7706122628"
+    },
+    {
+      "path": "src/agent/tests/test_evidence_bundle.py",
+      "spdx": null,
+      "sha256": "5393e1be784c46655429389ce195d8875b5fca3c47b2887d18b12bbffa267859"
+    },
+    {
+      "path": "src/agent/tests/test_framework_adapters.py",
+      "spdx": null,
+      "sha256": "a1800954551d76862f802f3ece52fa785e82c751b61b6d1563acd653963df6db"
+    },
+    {
+      "path": "src/agent/tests/test_global_memory.py",
+      "spdx": null,
+      "sha256": "de92f14380b502f9a22d3f5dccc3b57b6b05fda71336a84148e4f3814efb8471"
+    },
+    {
+      "path": "src/agent/tests/test_mariadb_comparison_runner.py",
+      "spdx": null,
+      "sha256": "eb7e5d8c0bea1cfdc0ac4869e0377ec53463d2d40f074792d19d2781b19f4c44"
+    },
+    {
+      "path": "src/agent/tests/test_native_langgraph_backend.py",
+      "spdx": null,
+      "sha256": "29e534be6c1d087688925b0d13f3fd4894ad2bfbc679f583c88b8f9b97b0072b"
+    },
+    {
+      "path": "src/agent/tests/test_online_runner_fallback_artifacts.py",
+      "spdx": null,
+      "sha256": "212fad065e1d66f94361e59db5341fafda6e815213753fd5cc0a1ccac8c4348f"
+    },
+    {
+      "path": "src/agent/tests/test_online_runner_hitl.py",
+      "spdx": null,
+      "sha256": "0d5c27bf966393a5f7fd7858af9cc5a26cbccd58511a046f3da60214890acb5a"
+    },
+    {
+      "path": "src/agent/tests/test_online_runner_policy_engine.py",
+      "spdx": null,
+      "sha256": "5033f56701d8c9f07d0dc17a07ace79b0e2a0662729258606c7a2ee9eee8746f"
+    },
+    {
+      "path": "src/agent/tests/test_policy_audit.py",
+      "spdx": null,
+      "sha256": "57ea1f930d363d473691da8dec54d476432b7b7cbaf8e8dba0ed692f65ee54bc"
+    },
+    {
+      "path": "src/agent/tests/test_process_evaluation.py",
+      "spdx": null,
+      "sha256": "afddbd76f9d3d355047e2413d73e673a9ab204930cd1da421f5e68d26198d318"
+    },
+    {
+      "path": "src/agent/tests/test_profile_builder.py",
+      "spdx": null,
+      "sha256": "70326b1d77e7131a56bbf74dec6e7578f45d1a6b3934243f417cf21153d8f2e3"
+    },
+    {
+      "path": "src/agent/tests/test_provenance_graph.py",
+      "spdx": null,
+      "sha256": "85ae09ea5dd1ebab768b8637033b77ab39d8cb62d9e82d0cbe913dd63c43caa9"
+    },
+    {
+      "path": "src/agent/tests/test_runtime_api_adapter.py",
+      "spdx": null,
+      "sha256": "c74e17755b06693bd59a1eaae4fbc1f9631a507b01957f6dac1c82f95733dfc5"
+    },
+    {
+      "path": "src/agent/tests/test_runtime_guard.py",
+      "spdx": null,
+      "sha256": "bd2847ce98a44007f7b88d925b938a96948bba4ba78331a0804fdef351004ab3"
+    },
+    {
+      "path": "src/agent/tests/test_runtime_parity.py",
+      "spdx": null,
+      "sha256": "adf8ead164033685363a911e61f36b88f36746fd245ad880533c93a96e22678e"
+    },
+    {
+      "path": "src/agent/tests/test_runtime_service.py",
+      "spdx": null,
+      "sha256": "6940e6272ca93f64ddd2cd6ea74a6e7efa3665aaf30de84abe4a9f8dbe4b8d3a"
+    },
+    {
+      "path": "src/agent/tests/test_same_batch_validator.py",
+      "spdx": null,
+      "sha256": "80988c68489519c118183e86de899019363c908442b6ec2e76c2aceadbffcee6"
+    },
+    {
+      "path": "src/agent/tests/test_scx_executor_policy.py",
+      "spdx": null,
+      "sha256": "8286c70d5478bd3e66a02c842c1d9bad64ad18f2ad5c340a8e00962848192e2f"
+    },
+    {
+      "path": "src/agent/tests/test_self_evolution.py",
+      "spdx": null,
+      "sha256": "03a5b338d87c7cf6529e3f272ec2999ad390b638dcb02956b8f8968350c0f4aa"
+    },
+    {
+      "path": "src/agent/tests/test_skill_curator.py",
+      "spdx": null,
+      "sha256": "c93b85b99fe95a2ab4eedc5e3acd320de6ea6d5bb472715e98cdd97a15100258"
+    },
+    {
+      "path": "src/agent/tests/test_systemic_override_application.py",
+      "spdx": null,
+      "sha256": "f1f6115a05418b4425e041ce3822c48971bc6e093355a89fe92f5bb04763059c"
+    },
+    {
+      "path": "src/agent/tests/test_validate_decision.py",
+      "spdx": null,
+      "sha256": "eb6de3684eb6d26d90c25d8c41c5407f6628e27461b3e63b23777b6f8e756595"
+    },
+    {
+      "path": "src/analysis/batch_summary.py",
+      "spdx": null,
+      "sha256": "5a8c510d314d54ae545f55d113cb19f10996684e8713ae3fca389f1eaf28ce52"
+    },
+    {
+      "path": "src/analysis/evidence_bundle.py",
+      "spdx": null,
+      "sha256": "7733dc2ad792f0e6031f44519874c7eaf1633af5ece3c80bccd512a9f0755b46"
+    },
+    {
+      "path": "src/analysis/lock_monitor_summary.py",
+      "spdx": null,
+      "sha256": "5afa3fe22f18f09fa1e3ff799df31449120977ade936966a89a56a2d7b44cea2"
+    },
+    {
+      "path": "src/analysis/online_summary.py",
+      "spdx": null,
+      "sha256": "95534e0c5c7e6611b8e3a8637cb2fe1479a3d3cf86cdfd3c712f2b146d4e3e3c"
+    },
+    {
+      "path": "src/analysis/oracle_best.py",
+      "spdx": null,
+      "sha256": "905305213d2a54f01b920682810ab33c9224c18a8a04dc48f838af4be7493255"
+    },
+    {
+      "path": "src/analysis/process_evaluation.py",
+      "spdx": null,
+      "sha256": "d50904ce4c03c37fd2fcaa0a3e7d89e872acfe5294c42c053eb93b52b02bf8ef"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/adapters/run_scheduler.py",
+      "spdx": null,
+      "sha256": "68f9837b6a8b16d4f635d7fe231bb2105931cfd3aca59724681c41fa86d8c335"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/runners/replay_case.py",
+      "spdx": null,
+      "sha256": "7c870560f7b710757aa2b647846ddcb4c4323d1d37d8831fd291457ac3b7250c"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/runners/run_cfdm_tests.py",
+      "spdx": null,
+      "sha256": "5b22d79b243d30e8baed5313228b56f2ea38266b1afad1ce0dda289f8c99a2ad"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/runners/run_suite.py",
+      "spdx": null,
+      "sha256": "e2058bcb7d068420ec32f29de0961e2710eb8818e0a2c65bc4832d66c37e4291"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/runners/work_observation.py",
+      "spdx": null,
+      "sha256": "b324f29a0dab885264a1af57e5158264a37d2dc5e2a23164655f4ea049fdf9a4"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/tests/test_behavior_profiles.py",
+      "spdx": null,
+      "sha256": "1ac78e1d75135725bdcf22993481c13223f5b2723c5d2b420026f498d33e7c1f"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/tests/test_capture_summary.py",
+      "spdx": null,
+      "sha256": "f5cf96eb3c3a1d22423188dd4dd6c556ae1a6f3b14d59d79b6eed149b4adda42"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/tests/test_install_version_observation.py",
+      "spdx": null,
+      "sha256": "068c0bbdd0f0c53e666694a3e9acd956dcfa75dad727f47683556158f5c1ac3c"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/tests/test_profile_provenance.py",
+      "spdx": null,
+      "sha256": "e52270fa59709c251398a5954e85e062367b5db4e188f11226a9d2de12f26704"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/tests/test_reference_baselines.py",
+      "spdx": null,
+      "sha256": "fd31a5da8bb28858c80e78dd96d8e0cd54353867523151879899fa458513f074"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/tests/test_reference_launch_script.py",
+      "spdx": null,
+      "sha256": "69bb27973942bfa101498dce2ff21ccb5e7c28af5f4e7a542e2ef3fddc02584c"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/tests/test_reference_result_identity.py",
+      "spdx": null,
+      "sha256": "b50625c6c719d356dbd9f25bca15e8f7b95c32400209f306209a40978779de77"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/tests/test_return_recognition.py",
+      "spdx": null,
+      "sha256": "8777e683985b72a5d676efc3a901b371b99d312e5b522bec45a53cb66b18c312"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/tests/test_scheduler_lifetime.py",
+      "spdx": null,
+      "sha256": "f95147da6b2880dad54525d42f3179bb0c9359c2eae95dcf4e9528f28c04ab8d"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/tests/test_scheduling_opportunities.py",
+      "spdx": null,
+      "sha256": "2d0334b60babc42fa3fabe88552c3c45d78b882874b5b33a4390dec2d4b9d5a5"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/tests/test_source_environment_repairs.py",
+      "spdx": null,
+      "sha256": "74dd87f42746276215413b5ee6cfeaa3f8fff9998ea1cd3a72e5aa62e2ad7e08"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/tests/test_suite_composition.py",
+      "spdx": null,
+      "sha256": "2d7d4bd4fe3016db1fd2c3fe84b6cfb533d976300fc8438ea6caaf3f8cdf7956"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/tests/test_trace_stabilization.py",
+      "spdx": null,
+      "sha256": "5e2c6ba0a7a3cc188cad06e1f714d547e62f76ff1718110cec6c2b9c59ff36eb"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/tests/test_v1.py",
+      "spdx": null,
+      "sha256": "2844c81df519c51d479c2340e034b135d0aae9bd3994fb6c00cffb7d50e6304f"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/tests/test_work_observation.py",
+      "spdx": null,
+      "sha256": "42a480e574bd911b7bfe589c82441fe13532f505d358f767a751c3db182da30c"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/tools/analyze_behavior_profiles.py",
+      "spdx": null,
+      "sha256": "35b423092d4e6db06c0042e03b04937da8aa0c483eed35a0fe7d17a29ba7435d"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/tools/analyze_concurrent_cross_tool.py",
+      "spdx": null,
+      "sha256": "4be72b2e7f3831644f9ce4071041a34ac41ad5ed8369e8c91ac9cefe3cfcb22d"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/tools/analyze_return_recognition.py",
+      "spdx": null,
+      "sha256": "9a78211a164b049ac11b1bde55ac4b853d5597185fa809724c1a8ce6bfcfa24c"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/tools/analyze_scheduling_opportunities.py",
+      "spdx": null,
+      "sha256": "cb3f2e1f3434c16b4147c3ebe5140d3affa8e693aec06730ecfef432968f3c6a"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/tools/audit_scheduler_identity.py",
+      "spdx": null,
+      "sha256": "7beb3c158128af8df67e42cca7ab67ce9649a7d66f6a3dcbe5b5f0abcd376365"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/tools/build_annotations.py",
+      "spdx": null,
+      "sha256": "5e9a3b868db7388a8f098d513f510b50a2c0388f8d6f08e7cf314ac54928214e"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/tools/build_behavior_suites.py",
+      "spdx": null,
+      "sha256": "a8967b478612576eff99705af9c70d952f13961b0f5a437e4c2961518104f2fd"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/tools/build_cross_tool_competition_suites.py",
+      "spdx": null,
+      "sha256": "2b3b3f91a75aaf6314ea9f312583f098d38bec283144b2d24728b764ecd011a2"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/tools/build_cross_tool_scaling_suites.py",
+      "spdx": null,
+      "sha256": "4257139b116bbb3d40da77a23d95266306096c72b049dc3895d74054ffdaef5c"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/tools/build_dataset_index.py",
+      "spdx": null,
+      "sha256": "d1053fc9d9e454c7d9c9f18349342efb40fbfc561454b2579d4f9fc70ea34a65"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/tools/build_source_tasks.py",
+      "spdx": null,
+      "sha256": "34c2b44ea8fd6ff91f95c15818816711a3a8400dfd8745f09548e30d28014061"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/tools/build_synchronous_return_suites.py",
+      "spdx": null,
+      "sha256": "fe7c5411e64b7068e99df28a7f2d31180531075f3b4b730f2dfcf6c502224337"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/tools/build_trace_v2.py",
+      "spdx": null,
+      "sha256": "4107981f8217b28ec5f42262f39167889308a4133e8a9ae2ac4592c8b5507ad0"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/tools/build_v1_suites.py",
+      "spdx": null,
+      "sha256": "fb22cc7a2a824ad7491404a16daea272fd617fe2b8294cb2b85b43e0338f947d"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/tools/check_network_retries.py",
+      "spdx": null,
+      "sha256": "09949f76d2b6ac8745d7aa5afdf4fbd6cde893ca7bfdb2ddf3837ed2b3f85d15"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/tools/compare_work.py",
+      "spdx": null,
+      "sha256": "a91912486eba761db0497120d16f8bf29055b4d2ac7bd7e92b93166787675431"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/tools/import_hf_agent_traces.py",
+      "spdx": null,
+      "sha256": "89590ad59c1dc32e8075b6b6609a52e842bdfc573d2213c2ab05e835854ec9c2"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/tools/prepare_dask_5510_wheelhouse.py",
+      "spdx": null,
+      "sha256": "3fcdcdbe8d3e959ee854017471710ac27b7287e14efcf6d274a541bd9b4f39cf"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/tools/rebuild_formal_traces.py",
+      "spdx": null,
+      "sha256": "9575697d0bda95ef757df02955c87cb2a62682fdf30f14af2b00f17c2579c8d8"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/tools/run_reference_baselines.py",
+      "spdx": null,
+      "sha256": "a2eb6bdd6db5dd7c9d7390305ed5cc976a5a058828779edd960fdaef44698f4b"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/tools/summarize_execution_relation_results.py",
+      "spdx": null,
+      "sha256": "8b03b87a3de14447848aab8ab07b11f84466442bd84b69505651b9c38e2a4ee8"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/tools/summarize_opportunity_campaign.py",
+      "spdx": null,
+      "sha256": "041e6523cc9a20da3b6809eb6fd1a2af41f8fe2e9490af2d846f559cefcadfef"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/tools/summarize_reference_campaign.py",
+      "spdx": null,
+      "sha256": "6384642d11c5318be7189813041e49ddfc8658754cf812668200f87d0935a9d2"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/tools/sync_source_execution_environment.py",
+      "spdx": null,
+      "sha256": "33c2df8cb2bac44e562dc2fca36dcd0c76622650952c1cb666eead60be12c6ba"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/tools/update_package_manifest.py",
+      "spdx": null,
+      "sha256": "8598f4002bb00f28b985fe17b1c982e68e04b55fbc86151d2fd2cc69df83c66e"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/tools/upgrade_cross_framework_traces.py",
+      "spdx": null,
+      "sha256": "2b19897349b339541f3d2de90ac8764e70e3fb29a54b0bf7a1e3666a0d740919"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/tools/upgrade_public_traces.py",
+      "spdx": null,
+      "sha256": "fc0cc47de8918f6e15fec8b3c361f9827562db1e63517e3e6ece18de955e5edd"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/tools/validate_package.py",
+      "spdx": null,
+      "sha256": "3f6419cb3cf16d756fb3b6634463d31a06281a0e52d9484ea792ada84ad37986"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/tools/validate_runnable_tasks.py",
+      "spdx": null,
+      "sha256": "68c2fd92bdfde516949fad6a10881765ea5ed72b3135266d91c67eae2d468f8b"
+    },
+    {
+      "path": "src/flowcausal/benchmarks/harness-replaybench/tools/workloads/harness_breadth_workloads.py",
+      "spdx": null,
+      "sha256": "7cc1f6caaa8a4d7d493afb296a0ded19baf2c265f135b2c2327c83e43ad53525"
+    },
+    {
+      "path": "src/flowcausal/experiments/analyze_flowcausal_v2_final_matrix.py",
+      "spdx": null,
+      "sha256": "3fc5aab02df2aa594fb41dee779cae5c939b606784b29bb70d05177647bf46e5"
+    },
+    {
+      "path": "src/flowcausal/experiments/analyze_flowcausal_v2_paired.py",
+      "spdx": null,
+      "sha256": "f8f9a9383f21392dc92676f47bfc1337f595bda9a7d91b71cf86bdf4ba04627b"
+    },
+    {
+      "path": "src/flowcausal/experiments/analyze_flowcausal_v2_workflows.py",
+      "spdx": null,
+      "sha256": "2e8731e6aff550eed6e0dccd1a99d50a84a70d0d0a5d5acd3887e035aec28b05"
+    },
+    {
+      "path": "src/flowcausal/experiments/analyze_v2_all_workflow_competition_initial.py",
+      "spdx": null,
+      "sha256": "31ceb7b4ccc8f9d6f24ba51bdefae629fe07a8126fc4be77b68ce3179da22dfe"
+    },
+    {
+      "path": "src/flowcausal/experiments/analyze_v2_latest_all_workflows.py",
+      "spdx": null,
+      "sha256": "566de1a8fd6a21211a4f8b71ad11085c7cc15c7b3fe4b47799350ab097ef588d"
+    },
+    {
+      "path": "src/flowcausal/experiments/analyze_v2_sleeping_descendant_route.py",
+      "spdx": null,
+      "sha256": "51597c7ae5b7f076d959a91c10c5c409121fe3914b1812426a107e04b9c03cdb"
+    },
+    {
+      "path": "src/flowcausal/experiments/analyze_v2_wait_relay_focus.py",
+      "spdx": null,
+      "sha256": "19cef2f9531bb922802be4b4550f4edc81af714780ba7e62b31f6145d53134b1"
+    },
+    {
+      "path": "src/flowcausal/experiments/analyze_v2_workflow_signals.py",
+      "spdx": null,
+      "sha256": "b086b87b553f3b455d0c046fca0f8a94887235b0a8b49e7c888c61014d04ab57"
+    },
+    {
+      "path": "src/flowcausal/experiments/annotate_frontier_labels.py",
+      "spdx": null,
+      "sha256": "706032bb5c17e535206cca9d70286a7fefedd10d31170197e16d5be6cd97e4b5"
+    },
+    {
+      "path": "src/flowcausal/experiments/audit_agent_trace_bundle.py",
+      "spdx": null,
+      "sha256": "e5fb007ce635a72afb55661923d323da2857bf453c9c010e546c095792d0fd01"
+    },
+    {
+      "path": "src/flowcausal/experiments/audit_bundle_collection.py",
+      "spdx": null,
+      "sha256": "a8b9649e5fe0c921790dd36d85d50495168feee6b022cc2c890cab7f87428cf6"
+    },
+    {
+      "path": "src/flowcausal/experiments/audit_claim_gate.py",
+      "spdx": null,
+      "sha256": "b7d208a0bbbe044bf463061d6829a07cf26c56fd0ff9f87364d03c17955976c0"
+    },
+    {
+      "path": "src/flowcausal/experiments/audit_flowcausal_v2_all_workflows.py",
+      "spdx": null,
+      "sha256": "350fabec5e923fdfc23db56f344fcc9bf4f0fa9959e66002bfdaa675fe59fd4b"
+    },
+    {
+      "path": "src/flowcausal/experiments/audit_harness_replay_fidelity.py",
+      "spdx": null,
+      "sha256": "696b6248a32e75045a60e4e815dcd4d50e536441a3cfd8542300ee28a3f511b3"
+    },
+    {
+      "path": "src/flowcausal/experiments/audit_harness_replay_mechanism.py",
+      "spdx": null,
+      "sha256": "d48ea427e731a2c271090cb77011fe42a49133aefdaaa4fbbb459f6b04e984e2"
+    },
+    {
+      "path": "src/flowcausal/experiments/audit_harness_replay_system_fidelity.py",
+      "spdx": null,
+      "sha256": "9e0ab6c283fca015c2656de153797f0e200f98ddd92593924fa78233dc69f877"
+    },
+    {
+      "path": "src/flowcausal/experiments/audit_real_agent_harness_matrix.py",
+      "spdx": null,
+      "sha256": "423ed97ae493586fe0c399c8f8512d92f00b80b21d5bfb1ad1cb671ad53e8eab"
+    },
+    {
+      "path": "src/flowcausal/experiments/bootstrap_real_agent_harness.py",
+      "spdx": null,
+      "sha256": "b6a1042cfe9e887d71f084f92da9a2e5450e4bddfdece685120e600a0e674948"
+    },
+    {
+      "path": "src/flowcausal/experiments/build_flowcausal_v2_manual_suite.py",
+      "spdx": null,
+      "sha256": "ecafc8ec34b0ec65f2b40e0f00f5b9550dd893f0c1659b69e90c890ad75b29af"
+    },
+    {
+      "path": "src/flowcausal/experiments/build_real_agent_manifest.py",
+      "spdx": null,
+      "sha256": "e185a678635a9fe8e953b8f8513e92b24551d0b95347b26edc0b8293d60c25bd"
+    },
+    {
+      "path": "src/flowcausal/experiments/capture_real_agent_run.py",
+      "spdx": null,
+      "sha256": "a7518d6c053f977579ada77caeed039551e6161bffcae41b84e6d6e87a774409"
+    },
+    {
+      "path": "src/flowcausal/experiments/check_real_agent_readiness.py",
+      "spdx": null,
+      "sha256": "f5d3470a6ce6b8cbc1da2accdbf321f298a0f3f389754ccb1f3fe49604919185"
+    },
+    {
+      "path": "src/flowcausal/experiments/compact_harness_replay_results.py",
+      "spdx": null,
+      "sha256": "75513ed7544bb4f9d8a585e862c4c0012a9441e7d386eb763a1188821818e4af"
+    },
+    {
+      "path": "src/flowcausal/experiments/compare_flowcausal_v2_all_workflows.py",
+      "spdx": null,
+      "sha256": "28abf2f19c9107a57c22fb8d617bb2314e05a9fdb3bf7263719302f044104d99"
+    },
+    {
+      "path": "src/flowcausal/experiments/compare_flowcausal_v2_matrices.py",
+      "spdx": null,
+      "sha256": "afd2d62203c63a9d20048b98ff748b0c21651858d33483eb3ed6aac884e83c6f"
+    },
+    {
+      "path": "src/flowcausal/experiments/consolidate_flowcausal_v2_results.py",
+      "spdx": null,
+      "sha256": "f17fa9c77b6d0db0ab289e1cee7d4f88da154450679be82ccaf683b511ea2824"
+    },
+    {
+      "path": "src/flowcausal/experiments/export_harness_matrix_bundle_manifest.py",
+      "spdx": null,
+      "sha256": "3f77647d31ffd8b54a8af8a4d9ad05e8597d96f1693ca40775f7e51c5464da08"
+    },
+    {
+      "path": "src/flowcausal/experiments/flowbench/flowbench.c",
+      "spdx": "MIT",
+      "sha256": "c80d5a73ad5dae2dde0685913a541080311f7d879bd3829036007c879a4bee22"
+    },
+    {
+      "path": "src/flowcausal/experiments/flowbench/run_flowbench.py",
+      "spdx": null,
+      "sha256": "9a09e5776c0a7f21374959ffbe587ece1f67b1491bb828c1e5d1832acf02c796"
+    },
+    {
+      "path": "src/flowcausal/experiments/generate_frontier_annotation_template.py",
+      "spdx": null,
+      "sha256": "39adacfb74a5378096b45633ac40df37609d41c55514898ae19074cf7f833aa2"
+    },
+    {
+      "path": "src/flowcausal/experiments/generate_harness_replay_trace_from_stage_spec.py",
+      "spdx": null,
+      "sha256": "84b6e6040b055ee34be1590e616878b04475b94601da8dee26e80c2952d90223"
+    },
+    {
+      "path": "src/flowcausal/experiments/harness_replay_cleanup.py",
+      "spdx": null,
+      "sha256": "fa910fa1150a1c50143c7c906717d9f10d4d125e837d972f858b608c454549ab"
+    },
+    {
+      "path": "src/flowcausal/experiments/harness_replay_system_profile.py",
+      "spdx": null,
+      "sha256": "2a028ed601adb25582eef4ca08ed5a0392a64f55dd0f338ba1b77979cc0aeae2"
+    },
+    {
+      "path": "src/flowcausal/experiments/import_real_agent_harness_matrix.py",
+      "spdx": null,
+      "sha256": "8bce673e5ba9124c6b64722d6ac86a319d85cb1a7948435d5585fad2b07f1ff8"
+    },
+    {
+      "path": "src/flowcausal/experiments/mini_swe_agent_flowcausal_v2.py",
+      "spdx": null,
+      "sha256": "5f691372924102c5d62f51e03b614a78571b4ae08dd7cc51b259af807bc11b56"
+    },
+    {
+      "path": "src/flowcausal/experiments/normalize_agent_trace.py",
+      "spdx": null,
+      "sha256": "c0654eb8acd10cfe7208f7a34fe37d1aab38a3534f1d1ad54dcd23f30b72f551"
+    },
+    {
+      "path": "src/flowcausal/experiments/normalize_full_harness_result.py",
+      "spdx": null,
+      "sha256": "6eddb0ce7376aaa30ce974c8dfdb136e772ac35cdca97be954bce5a07a99d042"
+    },
+    {
+      "path": "src/flowcausal/experiments/plan_real_agent_harness_matrices.py",
+      "spdx": null,
+      "sha256": "4d27a3b0cc1c43ad9e5682a2bc16df99df09f1f5556b8f1c1eb6741da64d85a1"
+    },
+    {
+      "path": "src/flowcausal/experiments/plan_real_agent_instances.py",
+      "spdx": null,
+      "sha256": "293ea1e6263a59ddd511bb90c6c645d9ef946204d5b9ec5085f69e2a35e23ce4"
+    },
+    {
+      "path": "src/flowcausal/experiments/plot_flowbench_matrix.py",
+      "spdx": null,
+      "sha256": "0d297e13fb7e96b3c594ba6aa7fda74b706b776699cd476a11bdf950c0bac58e"
+    },
+    {
+      "path": "src/flowcausal/experiments/preflight_real_agent_capture_plan.py",
+      "spdx": null,
+      "sha256": "e53a0e3b041d55d0d4a19cbe7b43ba804f8b28dedbc404f4f5a1c3fe3b90e514"
+    },
+    {
+      "path": "src/flowcausal/experiments/preflight_real_agent_harness_matrix_runbooks.py",
+      "spdx": null,
+      "sha256": "4e9bf1fb0a72b3b8522ad5ed613f6fcd995c4a6005e20e9b7f42660acd6840b6"
+    },
+    {
+      "path": "src/flowcausal/experiments/prepare_agent_trace_bundle.py",
+      "spdx": null,
+      "sha256": "34f0c58a7995c2ee02f94a1c061d4ae88d24737129a40f279014e55ec168b6a3"
+    },
+    {
+      "path": "src/flowcausal/experiments/prepare_bundle_collection.py",
+      "spdx": null,
+      "sha256": "c22b2b11396ed215a1efcaf55e45ed5b6953458d2415128a905cb43d0b3e19a1"
+    },
+    {
+      "path": "src/flowcausal/experiments/prepare_real_agent_repos.py",
+      "spdx": null,
+      "sha256": "ffbc715ef3fff951d01be0037b9bef581ed4c62897d2e583c99f284788d4bd87"
+    },
+    {
+      "path": "src/flowcausal/experiments/prototypes/dependency-turn-20261003/scx_flowcausal_v2.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "cb955ae3ef6b90d88051b5610b0316e537bd2bb3882266548bc59dfa8baf9760"
+    },
+    {
+      "path": "src/flowcausal/experiments/prototypes/dependency-turn-20261003/scx_flowcausal_v2.c",
+      "spdx": "GPL-2.0",
+      "sha256": "dbdf2e7de8d4b7318198ce1715d98d84bf1bbe1ad282919890516419d2219b0b"
+    },
+    {
+      "path": "src/flowcausal/experiments/rank_harness_replay_variants.py",
+      "spdx": null,
+      "sha256": "bf6f341f9238327d3c31dcb874761f676b749d10bee8abce941aac1981569fa2"
+    },
+    {
+      "path": "src/flowcausal/experiments/render_characterization_table.py",
+      "spdx": null,
+      "sha256": "8cb7f1638866cd4e2c2eaffd7e10c44d897029bd621cf1c1210817648a464092"
+    },
+    {
+      "path": "src/flowcausal/experiments/run_buildtest_matrix.py",
+      "spdx": null,
+      "sha256": "f2eab768bee64f1acb6e3aeffe48c7be28426bfb0dc9ab9ee30290d16ff1279c"
+    },
+    {
+      "path": "src/flowcausal/experiments/run_characterize_sandbox.py",
+      "spdx": null,
+      "sha256": "718925ed434d9555daf85bb620b2fbec7bb5edeecaf52ed8a0f55af7f1091ad3"
+    },
+    {
+      "path": "src/flowcausal/experiments/run_external_scx_sandbox.py",
+      "spdx": null,
+      "sha256": "4815ea46e346df698042706c298ec1e24a752fce7b408d64600d842d1ef59637"
+    },
+    {
+      "path": "src/flowcausal/experiments/run_flowbench_matrix.py",
+      "spdx": null,
+      "sha256": "ad6f80f2b9345c5c9d06e2097b42589a9eb8990ee776419fb637c0eb4c8d3406"
+    },
+    {
+      "path": "src/flowcausal/experiments/run_flowcausal_v2_all_workflows.py",
+      "spdx": null,
+      "sha256": "f652bc802c19a6db0cd10ca5f29a6587b1f7e28bb99745783d95ec028a013f8a"
+    },
+    {
+      "path": "src/flowcausal/experiments/run_flowcausal_v2_mechanism_tests.py",
+      "spdx": null,
+      "sha256": "29e32b8109445ac6d6770735f7a7ec4417c314fbc748930eb181087d14b591df"
+    },
+    {
+      "path": "src/flowcausal/experiments/run_harness_replay_matrix.py",
+      "spdx": null,
+      "sha256": "e5e5954395e02c18d6a8c66be2592c1a176b8853cc0f805e08fe395ded08645d"
+    },
+    {
+      "path": "src/flowcausal/experiments/run_harness_replay_mix.py",
+      "spdx": null,
+      "sha256": "35f4aad0424d19afec26d7257f6890567a85545a6354c01c201d7f3a80047eed"
+    },
+    {
+      "path": "src/flowcausal/experiments/run_live_flowbench.py",
+      "spdx": null,
+      "sha256": "e403d05b10ba30892e8bdb1ac39386602870c1a72ada74b646743285ebcffd49"
+    },
+    {
+      "path": "src/flowcausal/experiments/run_live_sandbox.py",
+      "spdx": null,
+      "sha256": "cabc70f7df499bacf90187cf66a9162319b6c9be9980ee0a5a3a44172f4c0577"
+    },
+    {
+      "path": "src/flowcausal/experiments/run_mini_swebench_single_capture.py",
+      "spdx": null,
+      "sha256": "247a482e87895031ef86ed8be508347c6595a415edc0cc8eb0325bbee48ddbce"
+    },
+    {
+      "path": "src/flowcausal/experiments/run_oracle_frontier_driver.py",
+      "spdx": null,
+      "sha256": "fc2c0a5c5733859c4c5b691b4aa5ab762fd6fbd434cdbda00c670623e28a84fa"
+    },
+    {
+      "path": "src/flowcausal/experiments/run_real_agent_harness_matrix.py",
+      "spdx": null,
+      "sha256": "be4ed9029b0acae7d0aa70d7df125e2c0284b5009fdaeb4ad7bdcb12bfe0dd9f"
+    },
+    {
+      "path": "src/flowcausal/experiments/run_real_agent_postcapture_pipeline.py",
+      "spdx": null,
+      "sha256": "a11408b8b781cb595972ae7693ba949713ede656225f74f9152f9e0623fd8ffa"
+    },
+    {
+      "path": "src/flowcausal/experiments/run_real_agent_postmatrix_pipeline.py",
+      "spdx": null,
+      "sha256": "3a15bbbf352b23d366297c752868ae96bfa6d195bc546c59fc57aa6e8177c85e"
+    },
+    {
+      "path": "src/flowcausal/experiments/run_repo_ci_matrix.py",
+      "spdx": null,
+      "sha256": "3fa5a8cb31c2fe64245d59f54bbeb491a26dac3b4ad690fbac4aa7e732293e7a"
+    },
+    {
+      "path": "src/flowcausal/experiments/run_static_cgroup.py",
+      "spdx": null,
+      "sha256": "1db5a577a0a66ea8198e7ce7c287add81065fe11792fd8851771cd3cc940e759"
+    },
+    {
+      "path": "src/flowcausal/experiments/run_test16_agent_matrix.py",
+      "spdx": null,
+      "sha256": "e471bb4ac21ebe06f0723f22aa233f9a70439dc363f2d47ce23db197c9fc7d66"
+    },
+    {
+      "path": "src/flowcausal/experiments/summarize_flowcausal_dependency_turn.py",
+      "spdx": null,
+      "sha256": "b1f17153564fc596406b253888feb69eab58d5c2a5a2de2010a55734bd9c620b"
+    },
+    {
+      "path": "src/flowcausal/experiments/summarize_flowcausal_v2_closure.py",
+      "spdx": null,
+      "sha256": "fb5af97e233026b19a5edaefee31a4773ae0134db2eccd58693af7ae972451f2"
+    },
+    {
+      "path": "src/flowcausal/experiments/summarize_flowcausal_v2_goal.py",
+      "spdx": null,
+      "sha256": "e89cf40953723848af2d2bd6ba62c1794849b372297d07a2b2d88870d9ad43dd"
+    },
+    {
+      "path": "src/flowcausal/experiments/summarize_flowcausal_v2_overhead.py",
+      "spdx": null,
+      "sha256": "3b5cdf4f08f3a259d631d862ed2acc5f4c195c82475f782d7849ca9f749b165a"
+    },
+    {
+      "path": "src/flowcausal/experiments/summarize_harness_replay_profiles.py",
+      "spdx": null,
+      "sha256": "9ba5c465e6440b77b24383a06e34803bb8f321a2686b77849c127859f8a2b4a5"
+    },
+    {
+      "path": "src/flowcausal/experiments/summarize_harness_replaybench.py",
+      "spdx": null,
+      "sha256": "5d8626b8a9c6d48ca56a02460e380ae050bb5005f23c0ef55df8051c130b43c2"
+    },
+    {
+      "path": "src/flowcausal/experiments/summarize_real_agent_evidence.py",
+      "spdx": null,
+      "sha256": "2d399e033a20a9be64becea0ce719b24f07aa59d488124a4a44c5876a45d27f7"
+    },
+    {
+      "path": "src/flowcausal/experiments/summarize_victim_logs.py",
+      "spdx": null,
+      "sha256": "5e6033d17800620ce3451d3649bc598ae669ef3fbd05c2160d141128ac2ef696"
+    },
+    {
+      "path": "src/flowcausal/experiments/swe_agent_flowcausal_v2.py",
+      "spdx": null,
+      "sha256": "5d7b1e3cf4a6b4fa7886c8931160a89e0246b365de9911fda10a9915da78e61e"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_agent_trace_bundle_audit.py",
+      "spdx": null,
+      "sha256": "9b84a2be34da6d4fd248652afa69289af510324e65c238383e10675ee704f52c"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_agent_trace_workflow.py",
+      "spdx": null,
+      "sha256": "9b091cabe5f08ecf94d393fcfa1e202ce6b0e8b5f87d21a20cc02bad3f5f9a47"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_annotate_frontier_labels.py",
+      "spdx": null,
+      "sha256": "c8b3c6b6bc96aa69c36013944194fd81acc239c58423a6a3bc5016191ab02844"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_audit_harness_replay_fidelity.py",
+      "spdx": null,
+      "sha256": "59766704ce9a6d6bedfa2f39c003e65476f5a9a63f134360264dd6620bdab905"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_audit_harness_replay_mechanism.py",
+      "spdx": null,
+      "sha256": "07270964e51c82adc5dfd7928aa0a3d661aee8f54f5d7d6ffe0ee03292dcca59"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_audit_harness_replay_system_fidelity.py",
+      "spdx": null,
+      "sha256": "714f71e29a7581d4751321aa05c6bacf7d486a54efffe1c5dd7c9cf97faaebe1"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_audit_real_agent_harness_matrix.py",
+      "spdx": null,
+      "sha256": "91abc743abfcd917fd9ea8b895b86d33634f7c29bc8a2ec7b67cc179995b8f06"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_bootstrap_real_agent_harness.py",
+      "spdx": null,
+      "sha256": "058c4e6c026d42e3793914761572b9137150070d8d5537733c90b58140c24556"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_build_real_agent_manifest.py",
+      "spdx": null,
+      "sha256": "4ac02798a09b2cea260c6346aeaa98ab571724ea4a76bc7a85b33ee43c2c7b89"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_buildtest_matrix.py",
+      "spdx": null,
+      "sha256": "e95672e743756894ede262ae31de6990a067cdf32735f819570db5e504190dcd"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_bundle_collection_audit.py",
+      "spdx": null,
+      "sha256": "73d9bbaaf0e05c9bfa9f027572a0d898987d9f871f0c42c1ada7c2042fe10ff7"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_capture_real_agent_run.py",
+      "spdx": null,
+      "sha256": "4281708bc489c8c16ea2fda32bd273b6020555e8e01ca19b2fd26d62d3134f8b"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_check_real_agent_readiness.py",
+      "spdx": null,
+      "sha256": "abb2f210ef534a6725c5d08d153cef37c9e0e7f56943b3d58d4ab433ff0f0885"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_claim_gate_audit.py",
+      "spdx": null,
+      "sha256": "8a2d5de80512dfb0e322227223bdf657f1185096a8566993ccb9b1199936e1ab"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_compare_flowcausal_v2_matrices.py",
+      "spdx": null,
+      "sha256": "fdd19b5824af5eeea5bcc01cf5147daf61b9196947d75834f421d643acb7a20e"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_export_harness_matrix_bundle_manifest.py",
+      "spdx": null,
+      "sha256": "d987b6752089357cd897f92626f1e928e8ed389868e73e1d3d3bae3e6294327d"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_flowcausal_v2_automatic_weight.py",
+      "spdx": null,
+      "sha256": "9dd6ff81623b6fe85061970706a44e88408c57ccc809906dd0d858f8d77ab63a"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_flowcausal_v2_background.py",
+      "spdx": null,
+      "sha256": "47d27b5dc938aa262ca445fb6065a41043b45db89b62cd63ab557d2d82f03ab8"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_flowcausal_v2_capacity.py",
+      "spdx": null,
+      "sha256": "d5dc2c1e0dab40b87e77512306a55f5d8a0dd54c0d6c960ad8d4a8028c22ea1f"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_flowcausal_v2_dependency_turn.py",
+      "spdx": null,
+      "sha256": "d0a34f086f3982c814b1de20d61a6e614f877ec10cbb0eee72ab3160a1e22fe7"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_flowcausal_v2_dynamic_weight.py",
+      "spdx": null,
+      "sha256": "eafa51584ba82ddcee17f0f6d438ce8ff1460396c112194cfa744469a17f80b0"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_flowcausal_v2_latency.py",
+      "spdx": null,
+      "sha256": "22c6aaf3f98763849bc237e6fd8ddc64471b521d4d2234f5200b40aad0f456b9"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_flowcausal_v2_lifecycle.py",
+      "spdx": null,
+      "sha256": "86812f0a764a7389d62e15461a95fd4e7d89a6be9d1a9ec906bd461ffcc76891"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_flowcausal_v2_local_futex.py",
+      "spdx": null,
+      "sha256": "34aba5fbf3b3caaf2df97393d01d4f81c4a9470bdff84ff212c2b1713ab18766"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_flowcausal_v2_nested_wait.py",
+      "spdx": null,
+      "sha256": "590b7f7a1702b47121738581781bb8db734deb55a8b5359dc17261beb656ea38"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_flowcausal_v2_normal.py",
+      "spdx": null,
+      "sha256": "48c0619ce7fb00b311ec5e91d4c1946713f9fc2f80488384f02571f73530da35"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_flowcausal_v2_parallel_width.py",
+      "spdx": null,
+      "sha256": "319008680a7003556c18ff570ed975444a2544121c639b43eb6c436ed08fbc09"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_flowcausal_v2_protocol.py",
+      "spdx": null,
+      "sha256": "c40a4c078b26595315c6380799c4e96196887bf78c0ddd55427fae036649ba41"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_flowcausal_v2_quota.py",
+      "spdx": null,
+      "sha256": "e15086d3e820028bc4d3c73bed917bfe8aa598e04be604648b5fe931045453cc"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_flowcausal_v2_resources.py",
+      "spdx": null,
+      "sha256": "dd6f25ebf8adbdff0a960c727e03ffbf87abae49e1728cdb92fb25e0892613f9"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_flowcausal_v2_roles.py",
+      "spdx": null,
+      "sha256": "65ac36ff9f1ad6043e7ca2aaa3ae03c0a9fa99d7538c6a65f2d52fb4dc44fb4d"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_flowcausal_v2_sleeping_descendant.py",
+      "spdx": null,
+      "sha256": "93f22489657660583eda87dc7eb693b3656dcec60df562e7f8f7982171287788"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_flowcausal_v2_wakeup_credit.py",
+      "spdx": null,
+      "sha256": "da3c15cc7a820ea10ea3a634269102a980d0b51cd1a8e370e51b37885c6c9995"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_flowcausal_v2_yield.py",
+      "spdx": null,
+      "sha256": "7cc32c2dd7b4afa70a1785cd5546a4133a14ddfa7739d038bae3a78b733aa036"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_flowevent_v2.py",
+      "spdx": null,
+      "sha256": "205817f1724ef1fde91f2ce6040427daba5c97205e3f50cfd2ea175420048e83"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_generate_frontier_annotation_template.py",
+      "spdx": null,
+      "sha256": "1c0598abe721058b761edea4923a3c88721a5204a49be524f03ef0f53b5845c0"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_generate_harness_replay_trace_from_stage_spec.py",
+      "spdx": null,
+      "sha256": "164a76c25bf30dc49b237acd5a1fbc0b38a1bbb7b48df80c5cf91fbcef0f6f1b"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_harness_replay_system_profile.py",
+      "spdx": null,
+      "sha256": "183468aed25605728fedb705bbb1ac9e7026a01bba33e54b0610eb9cbf344024"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_import_real_agent_harness_matrix.py",
+      "spdx": null,
+      "sha256": "49fd6ee2802057acbc068817a409073bcc32fc9e417b7b36b6f27b1f1a6ff838"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_normalize_agent_trace.py",
+      "spdx": null,
+      "sha256": "b2e02e4ba19a346c161ceca9ed6564ee89c4f47fe9d0ddd76f1afe8beaef94f9"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_normalize_full_harness_result.py",
+      "spdx": null,
+      "sha256": "3d6b2fd472dfedafe96e738268965862bc5e75d929569498b0917affd67f134b"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_oracle_frontier_driver.py",
+      "spdx": null,
+      "sha256": "e64061b38ca2363a21f0d0c3fc5676ce55e8e4705df80be8991f4a0ecb8c171c"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_plan_real_agent_harness_matrices.py",
+      "spdx": null,
+      "sha256": "d0acfba98549146a5cf60d9d7dcdc974b7462633aaa703c039c35bd6655549b6"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_plan_real_agent_instances.py",
+      "spdx": null,
+      "sha256": "cef098b25a37695c4512665b772ad2d97f9b9d3bcf8c9f8ab70fbbfb41b0443a"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_preflight_real_agent_capture_plan.py",
+      "spdx": null,
+      "sha256": "803c9bfb90849414ab3932476d6055f8eb0c7a6e54e0a9d49a84a7a15150311c"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_preflight_real_agent_harness_matrix_runbooks.py",
+      "spdx": null,
+      "sha256": "6ec987eea7ffe69e1dc62ba133b66ae5bd8e00884dd48d3ba1161911763f651e"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_prepare_agent_trace_bundle.py",
+      "spdx": null,
+      "sha256": "ce77fd17a15cf0da24cbd5a679ec81192e6cb8e4d37fa5bbf15bc594f21ecb3b"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_prepare_bundle_collection.py",
+      "spdx": null,
+      "sha256": "14fe1fb00141a5b3e5ddc630e9c43f27b3eb0573767a662ad61830c91a70b05d"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_prepare_real_agent_repos.py",
+      "spdx": null,
+      "sha256": "339df328630b7385578ec2350ff6c1928d0562d56e20b8438a7f791c0394a5a5"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_real_agent_harness_matrix.py",
+      "spdx": null,
+      "sha256": "6d559f98714f9ffb4cdfb148b10cfc0cc96f21ac440f465ba308c4f956adccb1"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_repo_ci_matrix.py",
+      "spdx": null,
+      "sha256": "6e0a5212162a87f1baed3875c38cf1696f5d8bf171360b133b5f616ebc944d45"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_repo_stage_workflow.py",
+      "spdx": null,
+      "sha256": "1cc16aa1dfe17a7d273d712666f12e540a254087ced71fadf582933f0ecf3e30"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_run_external_scx_sandbox.py",
+      "spdx": null,
+      "sha256": "0b4c0a118591234896f3ad88edfa51c739ed25609e55836475fa73516365a5c4"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_run_harness_replay_matrix.py",
+      "spdx": null,
+      "sha256": "af2443f01de6f75930f8534e308de2bfa6924fc9d48903726af8e1ae79bdc79c"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_run_harness_replay_mix.py",
+      "spdx": null,
+      "sha256": "ca0a3ce9e167e2041bfdc0cfc9daf51917ce2cb00447c001ca07bfc6913d1a68"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_run_live_sandbox.py",
+      "spdx": null,
+      "sha256": "adb2e32f2dfe396313e15c28992a2038e04dd7ed38e9582363d5017d0fa1cbc2"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_run_mini_swebench_single_capture.py",
+      "spdx": null,
+      "sha256": "698e18ed37d0e6c865f9a852375c6ec9ef3e06beb6b4c2d138832f30a09b6c8a"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_run_real_agent_postcapture_pipeline.py",
+      "spdx": null,
+      "sha256": "7671e32d37a6ca03d341fe4c1f2a123469a263c8e4a7f1e24411582edcbb7eae"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_run_real_agent_postmatrix_pipeline.py",
+      "spdx": null,
+      "sha256": "89f1e5be6b76ee2396c7fbe0ffe6bcf2603d1436f7c59126098f605548a57392"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_summarize_harness_replay_profiles.py",
+      "spdx": null,
+      "sha256": "8ecb7bbb470173d98e9356f506f6633cde803fdd08c71d58953a5c040588da74"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_summarize_harness_replaybench.py",
+      "spdx": null,
+      "sha256": "3ec19e1927a22b7654cc0bdb3bcdff4dec93809b1ba02f6cbf6d351ab3c62eb8"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_summarize_real_agent_evidence.py",
+      "spdx": null,
+      "sha256": "617a6b440d6e3699f9a23fad55f77f1affb1a6bb79d51c0fb72f9748de5eeedb"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_summarize_victim_logs.py",
+      "spdx": null,
+      "sha256": "aac02f29159826909753a15710de55512c68e9c84dc2f2d938dcdc44f627d61e"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_swe_agent_flowcausal_v2.py",
+      "spdx": null,
+      "sha256": "4a2dd9c9defb1625b271a977adb8ce4f04b2d55f1357642cc4258fccefa05010"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_test16_agent_matrix.py",
+      "spdx": null,
+      "sha256": "5d9f1a56547e305ee6e36bec5d34ba31ec510defe1aedb91886a65078be1594a"
+    },
+    {
+      "path": "src/flowcausal/experiments/test_validate_bundle_collection_manifest.py",
+      "spdx": null,
+      "sha256": "41c797cc624a4bb181b31e6964f1b4e231d53ec49e9749a057777b6c469565ae"
+    },
+    {
+      "path": "src/flowcausal/experiments/validate_bundle_collection_manifest.py",
+      "spdx": null,
+      "sha256": "435ceecaedde4073a698410fe2bed0909e6703b7cce7ed52eb9ebb507256d52f"
+    },
+    {
+      "path": "src/flowcausal/experiments/verify_flowcausal_v2_identification.py",
+      "spdx": null,
+      "sha256": "2a7d33f47c6e1c915a57a62a334f4088702f6413b0aed2c422bd5319e66377a1"
+    },
+    {
+      "path": "src/flowcausal/experiments/workloads/agent_trace_workflow.py",
+      "spdx": null,
+      "sha256": "aa2c9785bd0487e43b1ad1e889db3f0c776bf7fb07d2e95de71a34b8fdad516d"
+    },
+    {
+      "path": "src/flowcausal/experiments/workloads/agent_workflow_replay.py",
+      "spdx": null,
+      "sha256": "3b313d03db0b1ba246bcc9ba7e2eb196a6d65e42b836414256d4adacf781eb97"
+    },
+    {
+      "path": "src/flowcausal/experiments/workloads/buildtest_sandbox.py",
+      "spdx": null,
+      "sha256": "d7e4e7148dd3b75a784044bb1dbe2c09e9a3ca338e4310dfa6d8dffc22ac3e93"
+    },
+    {
+      "path": "src/flowcausal/experiments/workloads/cpu_victim.py",
+      "spdx": null,
+      "sha256": "8e3453ec8674319fe7118021ffd3bcc533f2aab3c5cb6fa2117aadcf28e79dc2"
+    },
+    {
+      "path": "src/flowcausal/experiments/workloads/harness_breadth_workloads.py",
+      "spdx": null,
+      "sha256": "091fa1e522752e4cec72de22f24cce03061da13e8e04bb986cda8413f7cc97ff"
+    },
+    {
+      "path": "src/flowcausal/experiments/workloads/repo_stage_workflow.py",
+      "spdx": null,
+      "sha256": "6a9a02000a201dcaf30942f2f0dc29cb3597665c4810d3e1ab236c54f27424c0"
+    },
+    {
+      "path": "src/flowcausal/experiments/workloads/tool_shims/sitecustomize.py",
+      "spdx": null,
+      "sha256": "711315a1d14abc3694a2f2f6819ca0aa030edfb526c90b75274fa07db4fcbebb"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "ae5e202d03282d51e49c2740798d2f353eabf4ac42bc6080553ad8e91a169566"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal2.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "2fb976b0dff5963649630e3d3e2bc249f8d556645e00dbeea4708d4063b45b62"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal2_bpf.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "c1e380b4c0e3261159532d64fe979162d11ec01e8a441eaf575aef2c0acb05a3"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal3_bpf.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "698a40a24e831546dff70a560dd0061e199fcd2226cf0f877ad701f3032d5e3d"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_bpf.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "a4df85d5ac840f49cd631d19c2f9eb6ce21ef8dc667590e628d4c70c2a610322"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_converge.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "108f340ef116c8c7ec629deedb871920740b2b32d4db7b46b9ab4da0ba37b000"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_stagewidth.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "eed3921a43a313ed1a97e39c53aac9f86785aee3d997565f5f8e92412584e7f3"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_stagewidth_chainboost.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "dc8addc14af84c437094c6a3df4d240cd5252130642b4d8b056283de9c9060bc"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_stagewidth_chainlocal.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "edd177f592ceadd78a151b5b6d1061cb3bd0a089ecfbfee59e9bc9aca303d64b"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_stagewidth_cxx_budget20.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "2cb631758e1b336f3728c850a2cbbe3b6bc110ff181c87cf49e2b4539cc76336"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_stagewidth_cxx_unbudget.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "baa7175cc881b7088bcdfbda25d03957621925d4de5de30848dff6c636c1d586"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_stagewidth_cxxfirst500.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "58b1033028312caefc14a1698c433f60676d194fbb6d8a288c6e603036b3336f"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_stagewidth_cxxfirst500_cpu7.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "6368737ad92ed1c5e4aff41969849b998cafd5432fb2d2977a9ab36c6849308f"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_stagewidth_cxxspan2.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "b4d530fed7ac2e9a22a05db8b81c9db3a29df486784bf4c81b0cbf94e26fdeed"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_stagewidth_packdelay500_cpu7.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "4d69eafc2a17090ff9a0e631c8d5f270ae721b05cdaf88d5b300ceb69803b9d0"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_stagewidth_parentboost.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "4d2166e59338477a1ca98065189e2613ba3db5df8412d076c6288976f8f27e7a"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_stagewidth_parentboost200.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "94ea83b7ba6a2876794c1cf3cdcbcecf95fafe133a93625e376d9084d6996706"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_stagewidth_parentcleanup.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "f8ccd542e2de61c0b81a5e2d7777d7a131c2b34c442a746185208a659dbe4be2"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_stagewidth_parentcleanup_cpu0.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "932b88e5c7c035c16a960db8a5455563d02ea4fcd0213241921bd586d8b00867"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_stagewidth_parentcleanup_cxxonly_cpu0.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "02a0e086371cd218346681e1789706b1ae9f2e1d82b9096dbb876c2926b19efc"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_stagewidth_parentcleanup_cxxonly_cpu0_200ms.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "529059bad698b082e27fa6db79e3874526b772ca6ba2d33a7ccca68afdd28ff3"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_stagewidth_parentcleanup_cxxonly_cpu0_packunbudget.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "e2c32d3584c9846d02eeb254195c7f4557a140e375a515e5fd345cea7f41b28c"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_stagewidth_parentcleanup_nopack_cpu0.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "05b6ce14811564baaa2563b6a1a9237b53171559ec5b3d6bd63a7ae13220932c"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_stagewidth_parentlatency.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "42a3bec8d797976d52960343f47ceda14612cfc37fe0093336a953fd5016ad64"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_stagewidth_parentlatency_dfl.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "49e0523339154480a4128aaef4e8d5af854bfa0084bdf49e209deb99c89377cf"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_stagewidth_spanidle.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "1fa18776217e1e15ff167d4fd19050a907e35dcea18f572272a858da4e4f9ffd"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_bgcopy1s_cxxlocal.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "95912ee877c6a4ff75b7bc3cbf8092e90459d13de8b09246a838cb98e83a1791"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_bgcopy1s_cxxspan4_pkgspan3.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "af4f8ed1c1f9dd418fbcbbe5fe479707707c4aa5d3d6a4b9554abb1b85409dd0"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_bgcopy1s_pkgtestlocal.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "16a65e00f0b894fb7be1f2813edbb36574629655d52b6af925d69c1c72fa75e5"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_bgcopy1s_pyprotect.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "1c09bdff3f88645fdf18b44d0c56543a5b1983f5feb0e8197d107f140e27f94f"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_bgrootcopy1500.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "f4a1ad24510f171866face4090e36740502338ecc30985c8bd60ba70881f3eb8"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_cpusetfast_pkghandoff.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "b694e2712f64383b302f0cff9e3f4b9a8dffc72ce49ac8c1a3ad55a045cef4db"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_cpusetlane_pkghandoff.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "adccf890faa4181280496ae89931a83b83da7d4ddd8960df1a05c2bb62dfe1fa"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_cxx1_pkghandoff1_rootlane.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "f666314a90e6e9ee95c220f9db32b1731653bfa99899dd687110ca439467ef81"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_cxxprep_bgcopy.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "00d33583254ef6a45fcab3f1cb9f9497074ba0a2043ad07629202dda9725f762"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_copylocal_pkghandoff.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "8003df9ebbc300d91a96e511208947d52db5218375a7a7d9d7b5c36b1312b1c1"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_copyshared_handoff.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "5594ae0d69473c3ec991ac8a64abb7542680693c84c5fea5de8091839c4b921e"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_cxxcopylocal_pkghandoff.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "9297cd28637813e5e06c8c2f441e2bc80d72161004f869ace540181e3d7f419f"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_cxxrootwake_pkghandoff.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "e35f6acdd594a5322636de52a8e45a7b8339ac01102d40bef86e0846d1c593f1"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_finaltail6_fbpcpu_pkghandoff.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "e65604eee6f4eff7ded3e4715f010045ba67f7af7adb67f3cd6bde0f38e2253f"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_finaltail6_pkghandoff.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "9e9e48f6d662a6328d2b207b3f919fa27104d7b41c43d8c350d9537808216bab"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_finaltail8_pkghandoff.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "3e77bec83e968fb655be430bc1893a3b637da090e81b2bb31db62c3601db1119"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pack7_pkghandoff.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "017587753e985baa4c876d6a84d07da35b1a45a411f5e70cf6aaae0ad0d23240"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_packfirst250_pkghandoff.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "33c2a6027abe054522b706d7065577d15ae6de1d3f008d31b063d1cd005a5cd9"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_packfirst500_pkghandoff.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "3c6d26dffb11a008f2515f140328f7679a37cf34d7a842bb47b8334a7698680f"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_packub.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "f90ec78248b3a2b4f2459648ef1351b5e23c0c5710ed5e30f6bd8fc153665f0b"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkgbgpulse.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "cf85fe169e2be22dad6601df6e1f53deeea2a0b3039f216c6d9fff7d332e7240"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkgbuildhandoff.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "1f4d2a5170336bb754c6157fcab592fc4c34e140e5dd0cdc4cc2cc370b472cb0"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkgcopylocal_pkghandoff.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "9cdb4422b10c70dc9a562a472865b8fa97ea73570054f032913c398dbcbc7625"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkgcopyshared_handoff.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "1f5a2b12ec6e37120039c909bdb1831779ee6495c5536df27d571c95d4513c3a"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkgfinalcleanup.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "34d1fe99ad09666963d6032d050908900d3d90d2e15d5cc9e0888e0fdb3a9ec6"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "0024fb55dd40a122897bf62c38c76efcf310e7f73391695770bfb79abd5977da"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff5.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "062e4de8478dcad8fac7786e065b61a57bab242c6894742d7edefd351687f132"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff700.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "209d8271cf73dd72163d8ff96ec813ab3b96f56ac2745f2939068057863d7a11"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_alllocal.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "8c2f17fcd72ad417238cdffee9f4753e62ea8831589a2a04b6801e3e40531977"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_bg.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "45572051e5c5ddc0f191a2f1d07adbe417f78d8310eb62c06f250ff56a5d853b"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_budgeted.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "93877abb78ae50958147574c614bbe69063e0590604f5693ac763e94b03e3991"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_cleanup500.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "7758604a4fa10d0b82bf8a17cffb9a6184dfead0c12d883dd58008562ed5a995"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_cleanupdsq.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "7b1567c373effd745fa9ac1bcf087664f1c0d5c1dd9c9976ffca76a0e314a6dc"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_critfrontpreempt.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "d56a8b6b514d5335ad6fd45edbe8ad9adf43711c039c65718f034bebe333b36d"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_critprefix.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "9f2833d3f7bca07cc64d6ba839c1b46176582c02c8fdc7a67f61cb1a4b8a3172"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_critrelay.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "dcd75503fe14121ad81f3a7689b085119ebe21755d1d40ca4e47ccee7ec6ebaf"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_crittailrelease.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "0abcbb34e5dcc0cafe3e0d56d8cf5b97996bece94fea1f1ec17069a6ed2259d6"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_crittailslice50.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "b21b8a126a5ec61757ea6c61441b5106aad28139d40f932eff995aa2cbd05609"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_critwaitbypass.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "41c54741b98f967d7f21a19890079fea3ab7de0685083913276bcdac7eee683d"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_critwaithead.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "e35fcfd9a2a901d31ca8e4d2891cc9c97676ff2437b1c9c16b5e5516477f07e2"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_cxxchainslice.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "3cb1878791f35d9ff656b7c5fe0011e2db99817bed9a694b07ea32936b796eab"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_cxxfirst_bgrootcopy1000.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "ad9bf21ea1521c4e612107858bb1d9ef5df51df94bd14cebdbc519160e8b15ef"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_cxxfirst_rootcopy1500.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "92886b96bf3cdd931cd20f55db1dac8e36da0c11dbfb83bd2459a7a577063a81"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_cxxonlyfix.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "943b389a1d0d463505c6d3e0e393b789a9e911abc3b4851f7c573ba77be5192d"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_cxxtesthandoff.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "470dea5c44a08b801ac2f7124592dd9fcba2e64b7a7819c5194d7e6d098e8bda"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_cxxwaithead.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "91130f4bee7d7b00dadfab7b1278bd98c16b4340b2777e6879bf390f33ad80b7"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_fast.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "9e7cea68a4f2633b0842450061542c8f017bbb2bb8dc093875841344fc1074e0"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_globfront.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "2317f177f5690593f24775989687360fc3a918ed685950cb9f5f890009eb6e09"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_nopycleanup.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "e42e8142dfcf59d71f12d3e37d9155b04aa5baef308f077f6f3f2782a6ec6988"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_packchild_pyshared.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "2dddea690407de3d82fd789872a6a542fd0469af0a8d3b261e6e2fbf257ab0a1"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_packchilddelay250.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "ca377ca3ffabddf99c889af27a9af16a1eb40e53d4d9495b58e4ff6ea98f9ffc"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_packchilddelay500.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "47b9ebe1dbe45345558b6cd99a29237e084f50ee5a4c8a8b01d88b6561ead2cf"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_packcopydelay500.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "9a6b17e7f0bcc309beba73e9d637f4bc435b1b82ecfe009195ac6881ab96e6d0"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_packdelay250.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "e35c30eeeef0b45e88d112c698eba7911b895ac99dca6edd5ef118b36843638f"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_packdelay500.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "0660d0cdc8cf075ce51ee499a3254df94dfa8d2fef73c54b1c63254a53137f24"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_parentchildcpu.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "9469a50924c4915b6939697bf2f46fe93c612fe1feb4dac3b7a818330a4d78fc"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_parentnopreempt.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "a5823905853e4caa1bca7b97163f75270649239acfb55672ae7672c50cde580c"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_parentrescueonly.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "2d89d00759296e07d26fda02d22522ea41b84056d1b7c873d090019feb32770f"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_parentslice1ms.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "05d5e11b24de37874cb275cdd368b608b3ae3cb205c87cc019548b6316ef3589"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_pkgavoidpy100.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "a70bdb77fd22ac037800e04b1334268af569ad4b6eb75709a47958c0c4846847"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_pkgbgcpu5.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "a110cae2c3598b8e5fdc82e292bef7c5d5e7d5577d7278ecb86c24c287a7155a"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_pkgbglongslice.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "3fd8416b45b246eeb58291ae29eb7731a3f5f9ff4f37b3bc977ec6e2f513c49e"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_pkgbgslice50.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "d35dd8e380af698f9b72baf6f4aae03aeac22c2e88e8be152bbf497d15ce7c8a"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_pkgchildfbpcpu.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "ecb39774c063909b1c96339dab1f887a2aa986eff12688b936f0c85825559196"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_pkgcopybudget20.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "5f5686fef070d66f017c3411c3f8eb5e9373019cd58baa3756ce869aa59e5731"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_pkgcopylat1ms.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "09c97325a75edd2b78bd26384d44cee59bc3830a1fcf5750ee36c6f3ef6b28bb"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_pkgcopywake1ms.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "f792eb5c8d9515ddf1ea985200988b4e6ea7151fc20d8df117316de4514f8b86"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_pkgfb35.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "5f93dfd8fa342c27aa29621998a52469d945bfe44b4e1fde61264bdd6d70e0e1"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_pkgfbpcpu.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "b21def3d563be740b3f61488e228f6789e99f8bbaac2e16a22db8df48ce7fa83"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_pkgpostcritcleanup.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "5408f3dac24385d9da4a4abaf1753a370f78e137b5b8c76fabbbe22ebdab3709"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_pkgpostcritcleanup300.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "23f1f09e86d5416edb680466723d38b5b76f1154f815af010aa7b767f319c5b9"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_pkgpostcritoncecleanup.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "f8aa8ae9bd5ef6d81fa6e005e5dce4f72b7db27794fbdbbd43fb6c9ac37d4be8"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_pkgroot300.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "616ac09ee274106f2f65b28381bf2cd15eaeaed1d5c944d1403b62ff440730c9"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_pkgrootcopyfbpcpu.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "b8ad584c16ace36a6e5c5ecbb3cbceb4d3f2baeb5d9f60ef039ac3460f857119"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_pkgrootfb35.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "ac94aa0fec880c4240140085427ecf2b4bc78d1e0d6d633127a2de4e067bee6c"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_pkgrootnofront.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "ce997d02a5fdd93744419971a3b2fa7ac5c7ca508dc0d160638f275e5c4dadc3"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_pkgrootslice1ms.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "445487ff00f6aead261f962c272ca84d8739f21fa50c6596f22c7faf0f6b4007"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_pkgseqstage.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "6cbc6cf02690a2f608f684e22b3b0abaa9633ebacaab6e05509d8e4769ff9d29"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_pulse2cleanup.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "8357d4caf7f19dd576f436d0528806ef3267928148b98fda2c3e536aa8558c6c"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_pulsecleanup.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "52e2fdc1718ce67172631dabbf751306cfd172c9ec09b9f1df38c3aa30469484"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_pycleanupguard100.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "4f13a895b1def0d876fe89cc59e6011a0f8c840e3649dc7b1b944cbd9a6622a1"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_pycritcleanupguard.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "6bd16832b2b1d8f8f1825084ab3bde54cc448d9d99761b59af0605bd6ce30cd4"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_pyidlepick.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "ca3cfeeec4353f00df833fed459c16a75baad73807ad85f2a705b5b38da27d6e"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_pyremembered.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "23ae8a0102cdddef62751418b966b9f310e064296b05d17fe750eaf3657aa493"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_pytail.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "09fcd10c6cdb7f3670118253e48035b2d0da464193198e5d63a6887538649bcd"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_pytail100local20.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "164b46a79d8f0303cdf2959fd5a263b8cbebe1d289f0561dcc4b114d3c07ef1f"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_pytailboost.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "427033bde5c862c725dc27867c9a3aeb8dab63f5f8991d4a205a92ef1bbb060e"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_pytailborrow.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "6eb896c5d281f25469f444e9a45c264f5c6500c9eb5602a043ef94d0f0a6ae46"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_pytaillocal.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "8baef4655fd97c3865c3f587f95d02fdc51b64c072e4c745342c5843e626a365"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_pytailpostpkgborrow.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "7baff9b21258c3fab4e1fb6080e535918230f6eb37edeb3489f3ec7d8e9ca275"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_pytestburst150.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "ce31ec2dca79ce29f887356c9b19d7b209a6abdf594fec08275f0863f70c7480"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_pytestnofront.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "35b7a79961fd482aac0fc39725e8a2852309d1116b7141d79938dc60900ecf8c"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_pytesttail.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "f63d82986229c3fb57c8ccff98f7a36ae2d1fc4bdda9aeac0483533c278505d1"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_q2.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "f23c8f3ee0965d6fc63e41c0d28e0c31054550382a55a6c77a2aa00a14edc7e4"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_q8.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "579a7567a269c8be892babc28d1520c2b53de70359cd4f38e0823b12257815e2"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_rescueglobal.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "f9f7470a57705a50bca2a5a32a185b3da9cdf17d3aa82eba018d71a3de1f9220"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_rescueprobe.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "f846e43fee660bdfd165a1c41b67789bd514a1018b2fa0112c5fb72fb5de49a6"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_rescueprobe2.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "b76c5867ab30f17eef92a15c24fcbfc6f9371e2af929c52c7a301cc8938bf962"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_rootdirect_pkgallcleanup.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "1945c472e24a612d5aebf27987c1da4771d26dfc71a79d032f0734db16e1425e"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_rootdirect_pkgfbpcpu.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "d72bf57113c7ba0096d0c4c0968b74aea5efb7286d94b2dc9f9d8da68b699a88"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_rootdirect_pkgpulse2cleanup.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "909a06296b5749e456f6ddfbf5a45c9a1cc53508f7678e7f3a6ec745af33d7cf"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_rootdirect_pkgpulsecleanup.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "136e591106bee91b1c9dd6c60a86e3ac13720ef1a3bf36c156c8b522e86b0759"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_rootdirect_pkgpulsefbpcpu.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "7eccec943735090491238c2db479ff6f3a356e58297e14ac3b33beea5444c2e7"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_rootdirectcleanup.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "47a55b54fd56fa97209ea9c5ce0510c4effdecb4f6abe0b100167a378f65b0a8"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_selbgcleanup.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "d9000ebcc3a2c1677bfa716dff199ea3f9b6f23d00bb8962dc83dc4c5b4c529d"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_seqstage.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "a273894c435ecb0bf2f8be0782de725a89b35dd10290d4c346582d88e19fd2a8"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_seqstage_packdelay500.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "38d579b5622dbef0307f8638e7a6a339c290be1d2c68ca2feb5bb013224c6dc3"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_sessionfront.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "15a1b7c296f6693c16f7616fa97a68cce1bd487790d52a8f18dee3fe4560f886"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_sessionfront_nolocal.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "1fb37b30c5a7fac152c69c883a01daf776d3a529ff3b80d77f6512bafe6122b9"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_span2.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "e017b84795a628f33aaf08a31b5a71d0614e4970c2f51a2912cabc11b073b0ad"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkghandoff_span4.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "5775ef0004801516b7445a591d6e32cd65f7b63735f36392f5275bd6798c775e"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkgiso12.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "421045f5218d39f72354194014f034c2bbbfa84685222cb57258766865192689"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkgrescue.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "6045ba0770802964d9182f93ad0dd64cd1bd9d5e89e8d1abfc76092def8884d6"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkgrescue15.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "2becf591be49720006f5b6aab85f9c16c6f21f97182ba5d3d95c3932b596150b"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkgrootcleanup.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "e55bb0216d1b0f68b03705d709d05ebe03957f2ec0e2f288f77e2e85824f2d0f"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkgrootcopyunbudget_pkghandoff.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "4a528882e14fbbeb3ea8e91c93d780287957468122f949e39bc85829352bc41a"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkgrootcpu6_pkghandoff.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "e4adcff45fabba9605b08ad0e3847f42a9d2a8e8e47ebeab5024730cb567e96c"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkgspan2_pkghandoff.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "bb213e3957ea92b52692e151592fb6b4bd8c9beb5786692db568f4ff43ec5319"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pkgstart300_handoff.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "9ff4d8520b9e529f12d39951ac1b8f003ebef0e105edce6cd3ed7c998cf9a96a"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_py34_pkghandoff.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "326467c7205d421d37863247d08056fadff1e8fd55811327c96670318f4f6f24"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_py36_pack7_pkghandoff.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "8daaba58e7b5e4dbd9a595e61ff3802e23c1b561070a802654525bd775bc337a"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_pyprotect_pkghandoff.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "bb355dd4b83bfa54b62534af3598fd413665da4eb790be3a207c3148c9fe57de"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_rootcopy2gate_pkghandoff.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "d7f250a55f19625ba89c4dc044ebc1e9d7e95acd81d167930f241b40419967f8"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_rootcopygate_pkghandoff.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "77984e12003862309d386f705f98d2cb360cda4546d53b9eb32d40c3d76dfb11"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_rootcopyq2_pkghandoff.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "7277f97fd7e5288b7b1f4cc1873af95b617b54be3ae1ef9992350b65f2afb702"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_rootcopyslice2ms_pkghandoff.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "a4d6b380c760d9259ccbb1856cc8d4952a064047b79500828143f13a310c8805"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_rootcopyunbudget_pkghandoff.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "56d49e132f0a77be96b837bab3a702ceacff59928250d368fb41ace437a241f1"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_rootcopywake1ms_pkghandoff.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "ff121641b4d5993f7582777a7135bf07661f33728328d756e7d5edc4172142c1"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_rootpart.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "383e1124780c0f81174c11eefba29927e61fa616d377e29666bd067e6abf3393"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_rootwake_nopreempt_pkghandoff.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "109895199b304885dc32dccc532d0682b16e89e6e7e3079274ba5b7e0fb7549d"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_rootwake_pkghandoff.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "39758519eae0f3bfb097d4f9b24799d6381cc710aee39e543b285e3b71124109"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_sw_pccpu0_zerowake_pkghandoff.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "68a5ffd5fdc24fdfa6487e633aeccdb1f563bad43ef21cf72887030467c48f03"
+    },
+    {
+      "path": "src/flowcausal/src/bpf/scx_flowcausal_v2.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "1d37b32028031ab4501c71427d38ac95605857e7749665d3a9adc983f9b61d17"
+    },
+    {
+      "path": "src/flowcausal/src/controller/flowctl.py",
+      "spdx": null,
+      "sha256": "84de3e417fc0faa605d4809425c56dcca3b643f488ab02a2e31e1e6f911e9310"
+    },
+    {
+      "path": "src/flowcausal/src/controller/test_flowctl.py",
+      "spdx": null,
+      "sha256": "63934a01275edb20ec67d622b73b1d5145af991a58252fbb1ff08809ff9b61c1"
+    },
+    {
+      "path": "src/flowcausal/src/include/flowcausal.h",
+      "spdx": "GPL-2.0",
+      "sha256": "e681631d65554b1148613c5285958aca3452d757307ef7890da532b3c8be1db5"
+    },
+    {
+      "path": "src/flowcausal/src/include/flowcausal_v2.h",
+      "spdx": "GPL-2.0",
+      "sha256": "eac1c633fb4b89e10d706cec3a218a6ee08a25d6d55872f1abace2c1892521d0"
+    },
+    {
+      "path": "src/flowcausal/src/tests/flowcausal_v2_active_tools_test.c",
+      "spdx": null,
+      "sha256": "21af063a29234edc7949e2ec76aceb8bead45c90e7cd63f8bade610ad749b16b"
+    },
+    {
+      "path": "src/flowcausal/src/tests/flowcausal_v2_cpu_workload.c",
+      "spdx": "GPL-2.0",
+      "sha256": "c60c802855f8bb52a3bc72ba8ddd170ce69565601bc75c9b86b8c6a5b8befb2b"
+    },
+    {
+      "path": "src/flowcausal/src/tests/flowcausal_v2_dependency_turn.c",
+      "spdx": null,
+      "sha256": "1d8355f3c22671537d2cedbb6c5bb74af254b6bc87b7acb3674bd87b5da0058d"
+    },
+    {
+      "path": "src/flowcausal/src/tests/flowcausal_v2_latency_workload.c",
+      "spdx": "GPL-2.0",
+      "sha256": "30505a70ca49fa118665ecea6bbb4e3b3ff3a981e19a5c258a410c8c6fdf787a"
+    },
+    {
+      "path": "src/flowcausal/src/tests/flowcausal_v2_normal_workload.c",
+      "spdx": "GPL-2.0",
+      "sha256": "798a8b5b7a168d67d9f6a98d54d967d196ca73ed208e16b64415d9679cd34014"
+    },
+    {
+      "path": "src/flowcausal/src/tests/flowcausal_v2_pipe_workload.c",
+      "spdx": "GPL-2.0",
+      "sha256": "f8a23b40cbafa88fcff02647f0123ffccaa5ff3e68a20fc6951ed37eb8e63793"
+    },
+    {
+      "path": "src/flowcausal/src/tests/flowcausal_v2_pipeline_workload.c",
+      "spdx": null,
+      "sha256": "d24418738f26f33f651ff76c908c575f7e2c9601cc0b561f1e928b61c6f190b3"
+    },
+    {
+      "path": "src/flowcausal/src/tests/flowcausal_v2_test_helper.c",
+      "spdx": "GPL-2.0",
+      "sha256": "dbf65090e50fe42d454aa25ae604757ec1e8600b45e9c032cd6d405babf927c8"
+    },
+    {
+      "path": "src/flowcausal/src/user/flowd.c",
+      "spdx": "GPL-2.0",
+      "sha256": "da9222bc3e610470bb8609c46a351169b3b15c3d62a74dc0a32783aa9daa778a"
+    },
+    {
+      "path": "src/flowcausal/src/user/flowd_v2.c",
+      "spdx": "GPL-2.0",
+      "sha256": "f60d0507522edc6e42bf4e46ce991ba00bb5c2455a6892c0ebc88f69415c2002"
+    },
+    {
+      "path": "src/flowcausal/src/user/flowevent_v2.c",
+      "spdx": "GPL-2.0",
+      "sha256": "3091e5cc36e3fea378f6d513af363661aaed948b2b3a876fd4e6b8dc383d6a17"
+    },
+    {
+      "path": "src/flowcausal/src/user/flowmon.c",
+      "spdx": "GPL-2.0",
+      "sha256": "e36b134e3be9a43c1d9a1a3aa84fbf4f900585a0b3edfb2166261b9f5195519e"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal.c",
+      "spdx": "GPL-2.0",
+      "sha256": "0aa062f5fdd0f219e4b6233aadb63be00467deabe2129a494e84b88e2fe19b4d"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal2.c",
+      "spdx": "GPL-2.0",
+      "sha256": "5348740578b76eb677652a57fdf05e723ef0b1d1e8ce53ba9898332c5057427b"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal2_bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "bcc4efee4e2320219d1c78f7c9d424719942639827773689fed51fa10c324a49"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal3_bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "69bb0ac5b6ac124447bdafc81c3d3c1a5acec28c297a10e26fdf6b8a0ece3bf7"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "2366a5e0f8d48c552bb24fab382e000b4454493952fa4c4a9259509c07f89df6"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_converge.c",
+      "spdx": "GPL-2.0",
+      "sha256": "3df43edf39c11dc6f7a47fd44faed5937c0c858fac9c795dee7b80ae881418aa"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_stagewidth.c",
+      "spdx": "GPL-2.0",
+      "sha256": "447ef1ca36397d6210dd28068fbc01f4bc094f4cac155c9d6f090daffd789273"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_stagewidth_chainboost.c",
+      "spdx": "GPL-2.0",
+      "sha256": "6d25f1cb4e00c7f204e119424c2c514d10e326f66a6497a42a92d33e5d3a5c57"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_stagewidth_chainlocal.c",
+      "spdx": "GPL-2.0",
+      "sha256": "22ac998768bf489fa5376ecc589d9afe5a9f97c67897ac837e9afb6f0ce64249"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_stagewidth_cxx_budget20.c",
+      "spdx": "GPL-2.0",
+      "sha256": "da91fa0d7492cf582315e172aeb5f5b2f37a31e61b16af03bc58ffe231d53a83"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_stagewidth_cxx_unbudget.c",
+      "spdx": "GPL-2.0",
+      "sha256": "e5a7c2e84b0db46e27bfa8f397d19630a23e538bc630aac7001ad1fcd19244e4"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_stagewidth_cxxfirst500.c",
+      "spdx": "GPL-2.0",
+      "sha256": "b3aee53b59e855eb4fded1b8dc1c1325169615c5a6af587bf1e653f33dbc4646"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_stagewidth_cxxfirst500_cpu7.c",
+      "spdx": "GPL-2.0",
+      "sha256": "6f2698a18ccb1912ab6188954f3af1a6a45779abc8bc69d159c266387ce998df"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_stagewidth_cxxspan2.c",
+      "spdx": "GPL-2.0",
+      "sha256": "764187b0b224e2e08bb250555ea4ec1069f7ee42d48afa070316f9b60bbd1472"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_stagewidth_packdelay500_cpu7.c",
+      "spdx": "GPL-2.0",
+      "sha256": "453699d82e77e0cdac722f2fc9dac4b91277685b4894286863ca3db1c1fee149"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_stagewidth_parentboost.c",
+      "spdx": "GPL-2.0",
+      "sha256": "854d1747ba3d189f87845679b6b18e26c727323225e490cdb9c5e7a5f137ba0a"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_stagewidth_parentboost200.c",
+      "spdx": "GPL-2.0",
+      "sha256": "98bb6f1db491766444781cc6f1cc73730df1b88887566f5ef5e2ad757140f2cb"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_stagewidth_parentcleanup.c",
+      "spdx": "GPL-2.0",
+      "sha256": "c93dec72a18ef855268e1de22865de52869c8269c22c6303d31dcec1d3b48a69"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_stagewidth_parentcleanup_cpu0.c",
+      "spdx": "GPL-2.0",
+      "sha256": "84a136817b65be1237953177e73819f6d62d79c2bd1f43e1584d73ebcc25752f"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_stagewidth_parentcleanup_cxxonly_cpu0.c",
+      "spdx": "GPL-2.0",
+      "sha256": "6fd419827951c5f8a3efab5b575eb13a03d93b46d56025263a233b04e9702a6d"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_stagewidth_parentcleanup_cxxonly_cpu0_200ms.c",
+      "spdx": "GPL-2.0",
+      "sha256": "486a31ae59a93cf29fffc431cb961a20b3bba3687b34be6cc5838c908dde9af7"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_stagewidth_parentcleanup_cxxonly_cpu0_packunbudget.c",
+      "spdx": "GPL-2.0",
+      "sha256": "436b3af04e3fc9ed7b96da42e4897088a3c73ccee793b75130f22243ef7ab500"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_stagewidth_parentcleanup_nopack_cpu0.c",
+      "spdx": "GPL-2.0",
+      "sha256": "d337897590243a814cec8f677e18b93d0de686da78428e3a6b4020c64c3d105d"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_stagewidth_parentlatency.c",
+      "spdx": "GPL-2.0",
+      "sha256": "24080ab735e66938ca923c7db640e2c90251947309085c798812727c06cf8118"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_stagewidth_parentlatency_dfl.c",
+      "spdx": "GPL-2.0",
+      "sha256": "9328669e4e77697f3ccba05b898a83b7293659c8944f55226abc7aaeb617eec1"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_stagewidth_spanidle.c",
+      "spdx": "GPL-2.0",
+      "sha256": "7530ec0a464b66ec2cca17a3232fde13a5493f789854ab5631a5b2a30ef81ebf"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_bgcopy1s_cxxlocal.c",
+      "spdx": "GPL-2.0",
+      "sha256": "cf2dbda9d1e98321d85f7c63cb2b10c8f1c11e4e7de2599ddcbf1e4ceaf3452d"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_bgcopy1s_cxxspan4_pkgspan3.c",
+      "spdx": "GPL-2.0",
+      "sha256": "1ff906fe48806c6e280214d7686695ab0300670b855e1e49d955c4c7053b84ae"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_bgcopy1s_pkgtestlocal.c",
+      "spdx": "GPL-2.0",
+      "sha256": "3f559c42fb50151863bcd646dff68c0f36d1315d9e9601d06856cb13b0c53406"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_bgcopy1s_pyprotect.c",
+      "spdx": "GPL-2.0",
+      "sha256": "5bdb98b57249fd8261cc1d77a576d8b6c6a901616a32e09c89e9d2b5bd38781d"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_bgrootcopy1500.c",
+      "spdx": "GPL-2.0",
+      "sha256": "726db7aad9d91de93130fb3ae9540047fe542be3310c257a945ee21a25b6d9b2"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_cpusetfast_pkghandoff.c",
+      "spdx": "GPL-2.0",
+      "sha256": "ec02ec98ca877902b954b1f74b9db49d541231be6aeeed79f9484592a61208bd"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_cpusetlane_pkghandoff.c",
+      "spdx": "GPL-2.0",
+      "sha256": "9f4d32891292a06bac671499eddb3b8ceeb5280eeb74a23eb38ad5df3e34738e"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_cxx1_pkghandoff1_rootlane.c",
+      "spdx": "GPL-2.0",
+      "sha256": "a3b197990ebe5b2675701f67511b3637d52f3b3351976265cba72610cbcee632"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_cxxprep_bgcopy.c",
+      "spdx": "GPL-2.0",
+      "sha256": "1fcbeeb43e1c8f2bf6974705b403500f362bade89844cb9eb4e451776ff9de2f"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_copylocal_pkghandoff.c",
+      "spdx": "GPL-2.0",
+      "sha256": "a00076a1671c8e5cff71e37516d2a9f0849de47e7e0928d541063f7173827bfc"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_copyshared_handoff.c",
+      "spdx": "GPL-2.0",
+      "sha256": "827109ef0814639baf199c5ab3ea5e943920981a240611718a3ad63f3226267a"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_cxxcopylocal_pkghandoff.c",
+      "spdx": "GPL-2.0",
+      "sha256": "9c26a4289a89f7ae8dd3d0d695a44d359f65ce02c5523d4147b76c5e88a0cb5c"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_cxxrootwake_pkghandoff.c",
+      "spdx": "GPL-2.0",
+      "sha256": "95f3a1503e9009f7c8c9b53d723b185ae9e2b911fada1a48c2a97e8a271ad35b"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_finaltail6_fbpcpu_pkghandoff.c",
+      "spdx": "GPL-2.0",
+      "sha256": "8a81daca225293f643d25af036c179a07ae51f2ca61a2ce4532a74d344064362"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_finaltail6_pkghandoff.c",
+      "spdx": "GPL-2.0",
+      "sha256": "d247656788da189e818b7508eb9a5b7e157489c5fadc69672d5d8572d207a0a9"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_finaltail8_pkghandoff.c",
+      "spdx": "GPL-2.0",
+      "sha256": "b0b6371d75ff61fec082553b14f3229c5d1066fcabc84cc74bddaeb32cd96813"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pack7_pkghandoff.c",
+      "spdx": "GPL-2.0",
+      "sha256": "b9210b4f0bb62936c895ad70faff4c69bc81a4b98f1e18509936e679e28fa83b"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_packfirst250_pkghandoff.c",
+      "spdx": "GPL-2.0",
+      "sha256": "df9875def376ff3c45400a4f607df37e9db4c03bdea28965e7bacd69edacbe8f"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_packfirst500_pkghandoff.c",
+      "spdx": "GPL-2.0",
+      "sha256": "9ee9753d67ec63fdde804067091fbca68f3c213193ce90f9016ee26d67088ac7"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_packub.c",
+      "spdx": "GPL-2.0",
+      "sha256": "5e6af32b499aeaa0e56c5ec4386e2d748486e3ebd745d8f7959c17facd399578"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkgbgpulse.c",
+      "spdx": "GPL-2.0",
+      "sha256": "1d8576ba4467dde787a5459b7aed85452375f9e96f565f7357de0dbc09b4e7d2"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkgbuildhandoff.c",
+      "spdx": "GPL-2.0",
+      "sha256": "46b808bc9164235534d39952422467ee4b9764faf6c23cfa5da646d3863c77cb"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkgcopylocal_pkghandoff.c",
+      "spdx": "GPL-2.0",
+      "sha256": "75e10a5c24d4cc24071ea5332dc4b39e7cc20d619c7faecad60d48024c721062"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkgcopyshared_handoff.c",
+      "spdx": "GPL-2.0",
+      "sha256": "f3ec24adc68128fc638f8d7fb36dbb34c2ef1e5e68b01f2796ad8e6aec70ecfa"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkgfinalcleanup.c",
+      "spdx": "GPL-2.0",
+      "sha256": "30cb8c149aa86ba3b9c5c02c1d7e88d93b4282933fab012f1f86cf509ae3050d"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff.c",
+      "spdx": "GPL-2.0",
+      "sha256": "6db42960e0f12ebe186f268e690170338c7a812f5b11098f305f8259aa40a48a"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff5.c",
+      "spdx": "GPL-2.0",
+      "sha256": "afc1b64fbb875dc71cd60cca76517226ea912e9cca8d57d94279d8944c600c7c"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff700.c",
+      "spdx": "GPL-2.0",
+      "sha256": "07bc7edbab59b89cb61ad2813a9db8e75843912d92a16f3263b30b18a2538139"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_alllocal.c",
+      "spdx": "GPL-2.0",
+      "sha256": "8311c7b310aa7c599cc6f8afb376151c9044157b97ae69e01e9fd67db9897a1e"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_bg.c",
+      "spdx": "GPL-2.0",
+      "sha256": "bc540cae652e062aebe3770c6205c75527cca9c8465dd06c23c2e00ae71d8c8b"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_budgeted.c",
+      "spdx": "GPL-2.0",
+      "sha256": "5e2ce4bb67aac4a7c3e4b32e4bb5c874cba350881ee215a9e358e8fee1f68e87"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_cleanup500.c",
+      "spdx": "GPL-2.0",
+      "sha256": "587ac981d29ac173a9608e9c3d7d3e8ff3575de24aa1d77d0d9f16b49431979f"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_cleanupdsq.c",
+      "spdx": "GPL-2.0",
+      "sha256": "f34d629cdfe04b22be11dd70abccd519065992f5ee8c64b8141753d503f9e0cc"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_critfrontpreempt.c",
+      "spdx": "GPL-2.0",
+      "sha256": "9699bafb267ec6f8a7333fd59be7edf0f9f66dd65f1de3c65ab45165ced9000b"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_critprefix.c",
+      "spdx": "GPL-2.0",
+      "sha256": "43cd9df88fbc227ffb85d48aaa40608ee7c8089547335b3162158bf22115662b"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_critrelay.c",
+      "spdx": "GPL-2.0",
+      "sha256": "9f8375bf173e39096537c2f79570e94961a2ab8d2f6fc04aa4dc727100d172e1"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_crittailrelease.c",
+      "spdx": "GPL-2.0",
+      "sha256": "46fa468a814160896af95e91e72afa9e3fe8559335b5ce383321e95dae37bb5e"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_crittailslice50.c",
+      "spdx": "GPL-2.0",
+      "sha256": "6b685dc767705ee0913c9cd7d9f20ef5daf76a24d879aba93d5c884c5b6daf52"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_critwaitbypass.c",
+      "spdx": "GPL-2.0",
+      "sha256": "6682308f2102c96478b94cfce65959c183a4661d6d0408e3b18e8224e5f14603"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_critwaithead.c",
+      "spdx": "GPL-2.0",
+      "sha256": "9dc8749658e3755d06686999342aa8f7dd93e3a7144af01f03b8eed6448e194d"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_cxxchainslice.c",
+      "spdx": "GPL-2.0",
+      "sha256": "7f08d4d8995b96ab1292d9a447473600264a09e88df73ffa9b995828e6d1f88a"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_cxxfirst_bgrootcopy1000.c",
+      "spdx": "GPL-2.0",
+      "sha256": "a718c8108c6da4e21865145a5ef5fd4daa5d56061b00dd7e20eb2950dc1ce457"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_cxxfirst_rootcopy1500.c",
+      "spdx": "GPL-2.0",
+      "sha256": "996414780e02046cf8e99eeea248a29bc1bca84a7487d11be71552d39f697bfc"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_cxxonlyfix.c",
+      "spdx": "GPL-2.0",
+      "sha256": "4e8fb8f0ac94cd0138f08bdb9b8ac3e80c6af83ef742c762301718ffd1615284"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_cxxtesthandoff.c",
+      "spdx": "GPL-2.0",
+      "sha256": "9837ef644eeaf524905cd90d5610b73a3c2ad50d0a95a179b8b16ce99169278e"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_cxxwaithead.c",
+      "spdx": "GPL-2.0",
+      "sha256": "c9989cdff54dec3471e0cd227805769b2a49ad1e4c496c26378e9b23067771f9"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_fast.c",
+      "spdx": "GPL-2.0",
+      "sha256": "942e2d8b3dea1f520f17f221f727ae01cfa64b8e548e8069570fbbe27a71af54"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_globfront.c",
+      "spdx": "GPL-2.0",
+      "sha256": "bf0dac30526b7276a1d6c9757c872bdc43d6811c98824ad3d0328ebe9d100d08"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_nopycleanup.c",
+      "spdx": "GPL-2.0",
+      "sha256": "937567667bfe4bdda044db9a137c5ad4ef6126ceae561156f4338db6cf9342bf"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_packchild_pyshared.c",
+      "spdx": "GPL-2.0",
+      "sha256": "1d0b46659d72e6637c031f3a02cb95effceb84e664c793156cf1f70d74a467d2"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_packchilddelay250.c",
+      "spdx": "GPL-2.0",
+      "sha256": "60120f34518ba1300fd12066f84f24e97d10de0fbee5d874d7621f188d10545d"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_packchilddelay500.c",
+      "spdx": "GPL-2.0",
+      "sha256": "567bae844aeb6229a4b7723c7eb87391b127abb3a3e4ad83b9e51b3417490e17"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_packcopydelay500.c",
+      "spdx": "GPL-2.0",
+      "sha256": "190b70dc40d44ed2a8bb22d2f770a99e443464916a1a6f535e83bd4425de8578"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_packdelay250.c",
+      "spdx": "GPL-2.0",
+      "sha256": "f9e125f94b6ee6d18f6d33280d3c2e0e1df1861c008165ac15376ba839de8ee2"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_packdelay500.c",
+      "spdx": "GPL-2.0",
+      "sha256": "0794eb448ae8363188e6edc8e056593de6e8e9da9081a269847f27c8c461e6b0"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_parentchildcpu.c",
+      "spdx": "GPL-2.0",
+      "sha256": "934665243e5603f86ccd11e3095ff7dc4c787622c3a501b7b578769013acbed3"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_parentnopreempt.c",
+      "spdx": "GPL-2.0",
+      "sha256": "681a14e5aa528452fa8503cfcc2bcafed5e3fc3b851ad32f0241ff9c1cc8684c"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_parentrescueonly.c",
+      "spdx": "GPL-2.0",
+      "sha256": "1118e59b03aa7b4417679c571b882db847915a4b7464bf35e0de50314eef10b1"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_parentslice1ms.c",
+      "spdx": "GPL-2.0",
+      "sha256": "2182314f60529fa6c4d16d021440382a5e675887bea7838ce266f7bcce14668c"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_pkgavoidpy100.c",
+      "spdx": "GPL-2.0",
+      "sha256": "e2b9aeb03dc66e0596c745fde645d306104fa8df68055d6cddc907e513ebfa55"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_pkgbgcpu5.c",
+      "spdx": "GPL-2.0",
+      "sha256": "0bf4d3a3a9aefb3c37d6a82fbcf7c05ddc55e5a64b2290b3f399e65dde03d0cb"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_pkgbglongslice.c",
+      "spdx": "GPL-2.0",
+      "sha256": "afa71ad9446abff6190ff980d24c894ecbc73e11d049389f42f3f4e81cdb49b7"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_pkgbgslice50.c",
+      "spdx": "GPL-2.0",
+      "sha256": "4daa170d735efb6df899c52f7e6a34f3f2cc4993d3800f9d5db3982f06445880"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_pkgchildfbpcpu.c",
+      "spdx": "GPL-2.0",
+      "sha256": "d0e4de65b80441ef2c3ede92653903b09ae495da5dfa0aa3a5b30736d5beff14"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_pkgcopybudget20.c",
+      "spdx": "GPL-2.0",
+      "sha256": "41c58bf445569c7beca23bd66f927a780d11da6014733e1b75f1c44d3c129231"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_pkgcopylat1ms.c",
+      "spdx": "GPL-2.0",
+      "sha256": "3fdfa0d8b626ea17be066f9ebffc75d9021e9459ca14c0be30c832355bbefed9"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_pkgcopywake1ms.c",
+      "spdx": "GPL-2.0",
+      "sha256": "0f8f038c5108e1724557768dc8364bb9c7d69905af4004c25a1fec49c1b50342"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_pkgfb35.c",
+      "spdx": "GPL-2.0",
+      "sha256": "f91b37943dcea8e8e795149845ed9103549524bf354830df0addcd92e267a23f"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_pkgfbpcpu.c",
+      "spdx": "GPL-2.0",
+      "sha256": "38c5540e5a4a2692e7e86f34a5686478b7754eb106de0ea95d9e3e05911f8195"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_pkgpostcritcleanup.c",
+      "spdx": "GPL-2.0",
+      "sha256": "6963f597a51e7768081dea5bc67baacc20eaedfe554f43d20bd2d8b5e952aeb7"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_pkgpostcritcleanup300.c",
+      "spdx": "GPL-2.0",
+      "sha256": "9a0a7ff40ecbfde59e6242bfbc4f1b21cb70a2b35caee1e91569c61aed8109ef"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_pkgpostcritoncecleanup.c",
+      "spdx": "GPL-2.0",
+      "sha256": "3b1941ebe87a067f2fb545afc6ef061e9e03738df1302f9ce8d2f6059af35fb9"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_pkgroot300.c",
+      "spdx": "GPL-2.0",
+      "sha256": "2821803a309f05476fd8f2b96c7da4607e505d8fdb56b44672af7a4a3d588c1d"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_pkgrootcopyfbpcpu.c",
+      "spdx": "GPL-2.0",
+      "sha256": "5ccf00048df1de7139bb44ddc8a8be1c5d62d11ff032f8cbfc8ad61d18e7c8dd"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_pkgrootfb35.c",
+      "spdx": "GPL-2.0",
+      "sha256": "76cee89fa92ddc2112b2fc6325a8c8dd332a8760a64ee868b870ffe6cbc4033e"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_pkgrootnofront.c",
+      "spdx": "GPL-2.0",
+      "sha256": "ee567c6133463938221d8f8db796f426c5528c8e032d2bd3cdfad88d3c15f1ee"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_pkgrootslice1ms.c",
+      "spdx": "GPL-2.0",
+      "sha256": "fa868bf071ac64e7488083d06e5ab26a267e77a700001a0a4bae3617522ea332"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_pkgseqstage.c",
+      "spdx": "GPL-2.0",
+      "sha256": "74ee6ac7b3dab18e2eff6cda9da9d95e3564c1383301801cd4f7d28be7eb1c45"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_pulse2cleanup.c",
+      "spdx": "GPL-2.0",
+      "sha256": "5529c549a53d1ac41cc89cab8d45e427ad9fc5d4141f21ce61e865b7c05ae0ee"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_pulsecleanup.c",
+      "spdx": "GPL-2.0",
+      "sha256": "7bee1d83cf986c82d85055c9f1aaf44f104158a2e131e787332d596362fd8476"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_pycleanupguard100.c",
+      "spdx": "GPL-2.0",
+      "sha256": "6c294d3763a881cb6f4813ead0d27baee87df349d1af410bc08592069624d6d8"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_pycritcleanupguard.c",
+      "spdx": "GPL-2.0",
+      "sha256": "7b4942754f6ea29f43eaf06e741d1208e2dffea89783a32157e2ae1627c8991f"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_pyidlepick.c",
+      "spdx": "GPL-2.0",
+      "sha256": "492b90b196401889cf2ed7c94cd11e27e340daf92ee28acbbd9dd142387e8480"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_pyremembered.c",
+      "spdx": "GPL-2.0",
+      "sha256": "bdd0d8847a797429e7ba252467234e1f65849ccbb7f5edb96934b06221a48db8"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_pytail.c",
+      "spdx": "GPL-2.0",
+      "sha256": "bc07202d035bdad1097f616d82acbd8657257eda21d5791cdf5fcc4b095a5fd8"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_pytail100local20.c",
+      "spdx": "GPL-2.0",
+      "sha256": "86676e09453161afd4e5e254645b812d3310920801a062193815e953b6a46958"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_pytailboost.c",
+      "spdx": "GPL-2.0",
+      "sha256": "ff30db80e8deb85bd2b7e4bc995e4871c67d8e0c48e7736d30fd88968dfb3059"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_pytailborrow.c",
+      "spdx": "GPL-2.0",
+      "sha256": "0ddd4131c834b283b96b9688d91b24fbad81226ae8a1311ead2af2063e70d815"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_pytaillocal.c",
+      "spdx": "GPL-2.0",
+      "sha256": "62273a231ff6581e1ddd0c6187f6b663120beabf140d85e4cdb88e4616dad26c"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_pytailpostpkgborrow.c",
+      "spdx": "GPL-2.0",
+      "sha256": "19341189d2c2c3c9f4bd3f94687c196242d5932f28d3c42e9d8c039669fa7663"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_pytestburst150.c",
+      "spdx": "GPL-2.0",
+      "sha256": "c75ea7035a1d439425bf5970198ea759079fe1d9bd8b67ada8d0d438121c34b1"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_pytestnofront.c",
+      "spdx": "GPL-2.0",
+      "sha256": "9a1136393f815271e94c9e11c34b9b24cf17690acff555474a3d3123a7d5e72d"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_pytesttail.c",
+      "spdx": "GPL-2.0",
+      "sha256": "75164efe2e8bb8c1bf14e0aa32deb972ab790f6bd5ef93cbc0caee3f58c2ca5e"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_q2.c",
+      "spdx": "GPL-2.0",
+      "sha256": "9ff5f94e698333a537ccbae02086ea860c0fd6b51eb78dfd5cd509a0bfaaec80"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_q8.c",
+      "spdx": "GPL-2.0",
+      "sha256": "9c8eccc56076479f6a002495e6da8073b1dd5dfc84d357b8dc9e6846b6fbd046"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_rescueglobal.c",
+      "spdx": "GPL-2.0",
+      "sha256": "732e0e5a1a453a47db32409a5a8865a73bd492ab3f7e1d7f776328e9b4bc29c0"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_rescueprobe.c",
+      "spdx": "GPL-2.0",
+      "sha256": "ce35518e4fa6de9651ac3774a975c417b82135809cc50609042d24c73c14c79d"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_rescueprobe2.c",
+      "spdx": "GPL-2.0",
+      "sha256": "058fca187ef6c80e2e9167ba8e9db95098023ca7ec0583c00e3e809e08ab6728"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_rootdirect_pkgallcleanup.c",
+      "spdx": "GPL-2.0",
+      "sha256": "7a5f3c5c3f2e93d68db8b64a6ca2e17e73c0c421d55fd8103069d9eeb11c1f71"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_rootdirect_pkgfbpcpu.c",
+      "spdx": "GPL-2.0",
+      "sha256": "c9b27e1b322d86be5b036093dd03a5b7bf8d3fef69bc15c823b158c93d60fc5b"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_rootdirect_pkgpulse2cleanup.c",
+      "spdx": "GPL-2.0",
+      "sha256": "07f4c67ce31631008c7a5803867f037ec2f9db00837cc5b602d0daa7968a5f46"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_rootdirect_pkgpulsecleanup.c",
+      "spdx": "GPL-2.0",
+      "sha256": "ae2a297c6e6f01e13d7cc00d314ab3e9a375c3575cfd9c4dac0fd1269d2914de"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_rootdirect_pkgpulsefbpcpu.c",
+      "spdx": "GPL-2.0",
+      "sha256": "e0497380bb241fa04f674010700f550f232504f01bda51235cd2c30478708195"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_rootdirectcleanup.c",
+      "spdx": "GPL-2.0",
+      "sha256": "2b292de5b5fdc3d485013914417720ab03b3f333d11eb80622d3b5bf81b4c7a6"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_selbgcleanup.c",
+      "spdx": "GPL-2.0",
+      "sha256": "5177bcdb34e7aba9aa97f07f5b8c4b78b6951a44a4d1c42c72a43e4e98b826d9"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_seqstage.c",
+      "spdx": "GPL-2.0",
+      "sha256": "7b8d3d0ac0baec81cce6541e00b3f2a6a692698bc6ce9640ce27efcfab5cf11e"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_seqstage_packdelay500.c",
+      "spdx": "GPL-2.0",
+      "sha256": "dbe233a1fb3cb65ad804e4c4dba632c51e75dd795e3b29af8b26c95b3bc6a2c4"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_sessionfront.c",
+      "spdx": "GPL-2.0",
+      "sha256": "1b5c1dca3a447f2de86a0ae2eb6a47a2fa61e2bf855471bc9cf3dfa8bca206b8"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_sessionfront_nolocal.c",
+      "spdx": "GPL-2.0",
+      "sha256": "419147f443912239db523644d95619dfdcf0b80d9aa4161fd03d5e31a235e40e"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_span2.c",
+      "spdx": "GPL-2.0",
+      "sha256": "311b999950ec7ff848f1cf73e844644a4b47986e854b60bb81056e71ed27a67c"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkghandoff_span4.c",
+      "spdx": "GPL-2.0",
+      "sha256": "5a40ca792f787efa84607751789b7a233ffae1083373efb30bcc103db66a94bb"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkgiso12.c",
+      "spdx": "GPL-2.0",
+      "sha256": "fa46e0ed199ab1fb3b65c65d6ed406e00d3f92453a6b44e4ea687764c4482aaa"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkgrescue.c",
+      "spdx": "GPL-2.0",
+      "sha256": "8a46346e7b4745efbcbb2ac0e0044c06adb5fdba3a07f900ad313280d735a4ce"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkgrescue15.c",
+      "spdx": "GPL-2.0",
+      "sha256": "582d520b731926dfd0a8bdd65d70eef36b712bdfbb09be19f9a543005b026c50"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkgrootcleanup.c",
+      "spdx": "GPL-2.0",
+      "sha256": "f545b094122cb3e0fe77288a040fa2cbb39655a2aec3d0e3e7fe89715c35e9a7"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkgrootcopyunbudget_pkghandoff.c",
+      "spdx": "GPL-2.0",
+      "sha256": "872bb67ed32ea91896ce4380e75f559d396bdab284fb2f44caa67d5fd7faf897"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkgrootcpu6_pkghandoff.c",
+      "spdx": "GPL-2.0",
+      "sha256": "bc9bf10665a3c997d02c695ab9847c45290fe4f166d90b674bd77be840785089"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkgspan2_pkghandoff.c",
+      "spdx": "GPL-2.0",
+      "sha256": "6e889a33f20502001b801f8a3be40502ad2e0726a1187be0c5a4acb943384937"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pkgstart300_handoff.c",
+      "spdx": "GPL-2.0",
+      "sha256": "4e43b474f0d6ccf9feaa3617d9b119cae582bbde764bef28b6c11afd847f4ebe"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_py34_pkghandoff.c",
+      "spdx": "GPL-2.0",
+      "sha256": "bd2548d7de65bf1e240e36ab54740dc731f02f614d03a0b74101443170142286"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_py36_pack7_pkghandoff.c",
+      "spdx": "GPL-2.0",
+      "sha256": "469222c6d82305d71e1d8f11a629efdcc47987656c4929c9569836de381bb94b"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_pyprotect_pkghandoff.c",
+      "spdx": "GPL-2.0",
+      "sha256": "495e51984eb701de137f439843239c646d2c4bffd795c64969b086bda9d78a0d"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_rootcopy2gate_pkghandoff.c",
+      "spdx": "GPL-2.0",
+      "sha256": "5ff847e5c5161d3d758c47873dd93eadc3e3b48df8f3a2948bd6569d081ea322"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_rootcopygate_pkghandoff.c",
+      "spdx": "GPL-2.0",
+      "sha256": "1632c02ffebf43f5840660b8be5f49d0733f5c4b080ac22aa26f1cec5a2afa4d"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_rootcopyq2_pkghandoff.c",
+      "spdx": "GPL-2.0",
+      "sha256": "7f2e5f2c17d30f98794f470cb78f5a2e2490458678ce16227892db8e9b76a624"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_rootcopyslice2ms_pkghandoff.c",
+      "spdx": "GPL-2.0",
+      "sha256": "22f9a88f22f7bc17a238ec5b8c9bba2ba32fdbde23bff3373d264cb0a59a2cbd"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_rootcopyunbudget_pkghandoff.c",
+      "spdx": "GPL-2.0",
+      "sha256": "0f98781646d139a8429c6d818cebc011b7074b11ca6ac022af11f4aba35a21e3"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_rootcopywake1ms_pkghandoff.c",
+      "spdx": "GPL-2.0",
+      "sha256": "abb4e207eed78fffc1edfeefc7c9f4a94df52908f1326649d956cc253b1d1287"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_rootpart.c",
+      "spdx": "GPL-2.0",
+      "sha256": "5ccf2932becbe8c307154326eaec347e2da9376ffe0fe91e968a4d4da9087e0b"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_rootwake_nopreempt_pkghandoff.c",
+      "spdx": "GPL-2.0",
+      "sha256": "7338b21e2833dfca820610a2c1be3493cfa4de3f0f734d4ed40983895d3f0641"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_rootwake_pkghandoff.c",
+      "spdx": "GPL-2.0",
+      "sha256": "5b1372efc6f7d4c631c4f8d3ec034a8e1a8f86b6cf95502c2e15ae654c75d3fe"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_sw_pccpu0_zerowake_pkghandoff.c",
+      "spdx": "GPL-2.0",
+      "sha256": "915f967cb311b3b1457d6156e64da84da6269e8ee9746e3fe32e9d91861093c2"
+    },
+    {
+      "path": "src/flowcausal/src/user/scx_flowcausal_v2.c",
+      "spdx": "GPL-2.0",
+      "sha256": "6e1df197e4acdae27939cf771b39b14e4aa21adf18b28c8d7af219073cd498a4"
+    },
+    {
+      "path": "src/lockcoop/benchmarks/owner_progress_bench.c",
+      "spdx": "MIT",
+      "sha256": "0c7cf785be542c39c22a808b3f151edec9b9716c4b5382415183df471b526fb3"
+    },
+    {
+      "path": "src/lockcoop/scripts/futex_mutex/plot_mutex_monitor.py",
+      "spdx": null,
+      "sha256": "9e65fba93efd05cf179e5523b1a0dc423382b031f66bdbfc85ab4cdac947829d"
+    },
+    {
+      "path": "src/lockcoop/scripts/futex_mutex/plot_results_png.py",
+      "spdx": null,
+      "sha256": "1ff5ad2bc1d339e78fd0637b73539ddd0575bdcda6cf247245355e1027350498"
+    },
+    {
+      "path": "src/lockcoop/scripts/futex_mutex/run_mutex_monitor.py",
+      "spdx": null,
+      "sha256": "5fb69ad81464145b3737e59cdf2f98d97d41411750ab795bcb57c86b572dfc75"
+    },
+    {
+      "path": "src/lockcoop/scripts/futex_mutex/summarize_results.py",
+      "spdx": null,
+      "sha256": "07534a7bd5b4960e4853759db082d4b19f00a3417b672b5d21aec6bde7353725"
+    },
+    {
+      "path": "src/lockcoop/scripts/mariadb_oltp/build_experiment_ledger.py",
+      "spdx": null,
+      "sha256": "68ba5f408270250dea12e0403108a1eb3b9303866e61a51af77f254e2a6dd6a1"
+    },
+    {
+      "path": "src/lockcoop/scripts/mariadb_oltp/formal_mariadb_oltp.py",
+      "spdx": null,
+      "sha256": "e06ea0b9de287b1de89aa0e038fea09df81dbcf435777db6c30b12384c7ea457"
+    },
+    {
+      "path": "src/lockcoop/scripts/mariadb_oltp/handoff_mariadb_oltp.py",
+      "spdx": null,
+      "sha256": "3929a3468f065b1aedaedefd9127c729779db56a6168b6d607c0254a8a8373bf"
+    },
+    {
+      "path": "src/lockcoop/scripts/mariadb_oltp/import_historical_scx_nest.py",
+      "spdx": null,
+      "sha256": "6dbe6d8f4ba3eaf9da0f95a3ceb4d83c75f38097df0ea44f3f6a47a63ba99c03"
+    },
+    {
+      "path": "src/lockcoop/scripts/mariadb_oltp/owner_progress_mariadb_oltp.py",
+      "spdx": null,
+      "sha256": "a4b8cba281e2c5c31f9e688d4d159eb1e2618cd8dad3f8174f5ad163e9c6686c"
+    },
+    {
+      "path": "src/lockcoop/scripts/mariadb_oltp/plot_formal_mariadb_oltp.py",
+      "spdx": null,
+      "sha256": "bf771be1c309a4f08ae776eda2147432bb87be9a501b79ef54eccce79731f2b0"
+    },
+    {
+      "path": "src/lockcoop/scripts/mariadb_oltp/plot_metrics_png.py",
+      "spdx": null,
+      "sha256": "47c7226bc7b45f99e347c56dc605184194e8a75866512aba53641a22f33e787e"
+    },
+    {
+      "path": "src/lockcoop/scripts/mariadb_oltp/plot_results_png.py",
+      "spdx": null,
+      "sha256": "5729a5f00f660209e6530dbe06444c0cd7a0934eb7c65c91bd7054831ea2c6c0"
+    },
+    {
+      "path": "src/lockcoop/scripts/mariadb_oltp/plot_toponest_ablation_png.py",
+      "spdx": null,
+      "sha256": "b9c5ac239746e7d9f14c87361265794ce65349eeafd9fc51d3e6157fd7476304"
+    },
+    {
+      "path": "src/lockcoop/scripts/mariadb_oltp/summarize_metrics.py",
+      "spdx": null,
+      "sha256": "01d039b6d390a55d41772cda374f8aecbca6f550eee561df16b186fd80e0138d"
+    },
+    {
+      "path": "src/lockcoop/scripts/mariadb_oltp/summarize_results.py",
+      "spdx": null,
+      "sha256": "4e55724801de00d1353bc0fef44eb3bad64c7ad503be01ae12a79250674b0c1f"
+    },
+    {
+      "path": "src/lockcoop/scripts/owner_progress/plot_owner_progress.py",
+      "spdx": null,
+      "sha256": "31a189e88f0f690d2d9e3947a7e2ac12562426080ebe939c843686bbcd0425cc"
+    },
+    {
+      "path": "src/lockcoop/scripts/owner_progress/run_owner_progress_microbench.py",
+      "spdx": null,
+      "sha256": "987f2cec645fb8b56925871221dd92162e61478ddcd309577373973c0c2db732"
+    },
+    {
+      "path": "src/lockcoop/src/sched_ext/include/scx/lock_observe.bpf.h",
+      "spdx": "GPL-2.0",
+      "sha256": "908e5a43191f87016690807b24d2cb0c0f0b485cf1edf0484a968cb0e4899159"
+    },
+    {
+      "path": "src/lockcoop/src/sched_ext/include/scx/lockcoop_user_sync.h",
+      "spdx": "LGPL-2.1-or-later",
+      "sha256": "b0395e5227e9c5fd98ccbccda27958e97095838d990272ad71d80b0eac346af2"
+    },
+    {
+      "path": "src/lockcoop/src/sched_ext/lockcoop_user_sync.c",
+      "spdx": "LGPL-2.1-or-later",
+      "sha256": "1b49d8b50d3646d1a3db9eb2abc23a44ccb0f8f141603208db49efaaf8461c16"
+    },
+    {
+      "path": "src/lockcoop/src/sched_ext/scx_lockboost.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "31716a5df4e18dd3efd7e46e9bda428df255c96c408418bedfd8011ed169fef7"
+    },
+    {
+      "path": "src/lockcoop/src/sched_ext/scx_lockboost.c",
+      "spdx": "GPL-2.0",
+      "sha256": "797997fdfb31c9094ff61bda02b26ca6e8e95815975ab1e96577638e09e74e6f"
+    },
+    {
+      "path": "src/lockcoop/src/sched_ext/scx_lockboost5.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "3ddf685b9e5cf1cf657aa46a18e64f94a06dd91aa5a0f158bbc5861f60e9f632"
+    },
+    {
+      "path": "src/lockcoop/src/sched_ext/scx_lockboost5.c",
+      "spdx": "GPL-2.0",
+      "sha256": "3ddfb9bbc325849ebe7bc989fab7dd6e4130845964d6fff5feeb64a224f746c2"
+    },
+    {
+      "path": "src/lockcoop/src/sched_ext/scx_lockcoop.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "4e33155484f6cd965bd87d01b2b7324c070fc0a24b5454011cec17e61c825533"
+    },
+    {
+      "path": "src/lockcoop/src/sched_ext/scx_lockcoop.c",
+      "spdx": "GPL-2.0",
+      "sha256": "1a2435f9c3cbbbcb7028d0bba8269ac46552886e8ca09d2dd81506c48dc4fe97"
+    },
+    {
+      "path": "src/lockcoop/src/sched_ext/scx_locknest.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "099f0e7d27dc34058119bcbec3c0e1add507f3509062cdfe4e356a92bcef3db5"
+    },
+    {
+      "path": "src/lockcoop/src/sched_ext/scx_locknest.c",
+      "spdx": "GPL-2.0",
+      "sha256": "cd2c23e3d63b721465c70cca27353601224dc9188c709d616d12e6d1f53ed529"
+    },
+    {
+      "path": "src/lockcoop/tools/handoff-locality-monitor/src/bpf/common.h",
+      "spdx": null,
+      "sha256": "25f28728f904134d62eee34a5bec0932494be5fb2c6f2c6c3799781ea6247a87"
+    },
+    {
+      "path": "src/lockcoop/tools/handoff-locality-monitor/src/bpf/handoff_locality.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "c83b50ee682bcbbf33bc46776ae3670ac236bdda28a0c71616f746f233c3b9a1"
+    },
+    {
+      "path": "src/lockcoop/tools/handoff-locality-monitor/src/userspace/handoff_locality_monitor.c",
+      "spdx": "GPL-2.0",
+      "sha256": "be89568165a677693bc8dea0cf705e952367c2471e58e3c846aeef2b2b0d5b02"
+    },
+    {
+      "path": "src/lockcoop/tools/owner-progress-monitor/smoke/owner_progress_smoke.c",
+      "spdx": "GPL-2.0",
+      "sha256": "502d4ddbb0e20e102b000da35e20ed675b7903229efb2a2975f7fba78bce237f"
+    },
+    {
+      "path": "src/lockcoop/tools/owner-progress-monitor/src/bpf/common.h",
+      "spdx": null,
+      "sha256": "221c8bccca74519786613f0f657b90cfdeb3e5c0e4b21adee25ba379f28cebef"
+    },
+    {
+      "path": "src/lockcoop/tools/owner-progress-monitor/src/bpf/owner_progress.bpf.c",
+      "spdx": "GPL-2.0",
+      "sha256": "21f12ba0e95f8e969347a37d858bf50350ec47ea38547a7108c0d4254d497cd4"
+    },
+    {
+      "path": "src/lockcoop/tools/owner-progress-monitor/src/userspace/owner_progress_monitor.c",
+      "spdx": "GPL-2.0",
+      "sha256": "9423267285c8b774668aed4b3efb752df236a67d3c7a3204bd732f19ba7ac78c"
+    }
+  ]
+}
